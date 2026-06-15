@@ -1,0 +1,544 @@
+{
+  "entities": [
+    {
+      "type": "Brand",
+      "name": "FreshPlus",
+      "attributes": {},
+      "source_trace": {
+        "field": "brand",
+        "source_text_excerpt": "FreshPlus",
+        "confidence": 0.6,
+        "reasoning": "brand field"
+      }
+    },
+    {
+      "type": "ProductInnovation",
+      "name": "FreshPlus Herbal Cool",
+      "attributes": {},
+      "source_trace": {
+        "field": "product_name",
+        "source_text_excerpt": "FreshPlus Herbal Cool",
+        "confidence": 0.6,
+        "reasoning": "product field"
+      }
+    },
+    {
+      "type": "Category",
+      "name": "Ready-to-drink tea",
+      "attributes": {},
+      "source_trace": {
+        "field": "category",
+        "source_text_excerpt": "Ready-to-drink tea",
+        "confidence": 0.6,
+        "reasoning": "category field"
+      }
+    },
+    {
+      "type": "ConsumerSegment",
+      "name": "Urban office workers",
+      "attributes": {
+        "description": "Urban office workers, 22-35, health-leaning"
+      },
+      "source_trace": {
+        "field": "target_consumers",
+        "source_text_excerpt": "Urban office workers, 22-35, health-leaning",
+        "confidence": 0.6,
+        "reasoning": "target field"
+      }
+    },
+    {
+      "type": "FunctionalClaim",
+      "name": "50% less sugar than leading RTD teas",
+      "attributes": {},
+      "source_trace": {
+        "field": "functional_claims",
+        "source_text_excerpt": "50% less sugar than leading RTD teas",
+        "confidence": 0.8,
+        "reasoning": "from structured claim list"
+      }
+    },
+    {
+      "type": "FunctionalClaim",
+      "name": "Contains traditional cooling herbs (chrysanthemum, mulberry leaf)",
+      "attributes": {},
+      "source_trace": {
+        "field": "functional_claims",
+        "source_text_excerpt": "Contains traditional cooling herbs (chrysanthemum, mulberry leaf)",
+        "confidence": 0.8,
+        "reasoning": "from structured claim list"
+      }
+    },
+    {
+      "type": "FunctionalClaim",
+      "name": "No artificial flavors",
+      "attributes": {},
+      "source_trace": {
+        "field": "functional_claims",
+        "source_text_excerpt": "No artificial flavors",
+        "confidence": 0.8,
+        "reasoning": "from structured claim list"
+      }
+    },
+    {
+      "type": "EmotionalClaim",
+      "name": "A calm reset in the middle of a hot day",
+      "attributes": {},
+      "source_trace": {
+        "field": "emotional_claims",
+        "source_text_excerpt": "A calm reset in the middle of a hot day",
+        "confidence": 0.7,
+        "reasoning": "from structured list"
+      }
+    },
+    {
+      "type": "EmotionalClaim",
+      "name": "Modern take on a familiar herbal ritual",
+      "attributes": {},
+      "source_trace": {
+        "field": "emotional_claims",
+        "source_text_excerpt": "Modern take on a familiar herbal ritual",
+        "confidence": 0.7,
+        "reasoning": "from structured list"
+      }
+    },
+    {
+      "type": "ProductBenefit",
+      "name": "Refreshes the body naturally with less sugar guilt",
+      "attributes": {},
+      "source_trace": {
+        "field": "benefit",
+        "source_text_excerpt": "Refreshes the body naturally with less sugar guilt",
+        "confidence": 0.7,
+        "reasoning": "benefit field"
+      }
+    },
+    {
+      "type": "PricePoint",
+      "name": "Slightly premium (~15-20%) vs mainstream bottled teas",
+      "attributes": {},
+      "source_trace": {
+        "field": "price",
+        "source_text_excerpt": "Slightly premium (~15-20%) vs mainstream bottled teas",
+        "confidence": 0.7,
+        "reasoning": "price field"
+      }
+    },
+    {
+      "type": "PackSize",
+      "name": "450ml",
+      "attributes": {},
+      "source_trace": {
+        "field": "pack_size",
+        "source_text_excerpt": "450ml",
+        "confidence": 0.6,
+        "reasoning": "pack_size field"
+      }
+    },
+    {
+      "type": "PackagingSignal",
+      "name": "450ml PET bottle, frosted-look label, soft green + cream palette",
+      "attributes": {
+        "description": "450ml PET bottle, frosted-look label, soft green + cream palette"
+      },
+      "source_trace": {
+        "field": "packaging",
+        "source_text_excerpt": "450ml PET bottle, frosted-look label, soft green + cream palette",
+        "confidence": 0.6,
+        "reasoning": "packaging field"
+      }
+    },
+    {
+      "type": "Channel",
+      "name": "Convenience stores",
+      "attributes": {},
+      "source_trace": {
+        "field": "channels",
+        "source_text_excerpt": "Convenience stores",
+        "confidence": 0.6,
+        "reasoning": "channel field"
+      }
+    },
+    {
+      "type": "Channel",
+      "name": "Supermarkets",
+      "attributes": {},
+      "source_trace": {
+        "field": "channels",
+        "source_text_excerpt": "Supermarkets",
+        "confidence": 0.6,
+        "reasoning": "channel field"
+      }
+    },
+    {
+      "type": "Channel",
+      "name": "TikTok Shop",
+      "attributes": {},
+      "source_trace": {
+        "field": "channels",
+        "source_text_excerpt": "TikTok Shop",
+        "confidence": 0.6,
+        "reasoning": "channel field"
+      }
+    },
+    {
+      "type": "Channel",
+      "name": "E-commerce platforms",
+      "attributes": {},
+      "source_trace": {
+        "field": "channels",
+        "source_text_excerpt": "E-commerce platforms",
+        "confidence": 0.6,
+        "reasoning": "channel field"
+      }
+    },
+    {
+      "type": "UsageOccasion",
+      "name": "Mid-afternoon at work",
+      "attributes": {},
+      "source_trace": {
+        "field": "usage_occasions",
+        "source_text_excerpt": "Mid-afternoon at work",
+        "confidence": 0.6,
+        "reasoning": "occasion field"
+      }
+    },
+    {
+      "type": "UsageOccasion",
+      "name": "After lunch in summer",
+      "attributes": {},
+      "source_trace": {
+        "field": "usage_occasions",
+        "source_text_excerpt": "After lunch in summer",
+        "confidence": 0.6,
+        "reasoning": "occasion field"
+      }
+    },
+    {
+      "type": "UsageOccasion",
+      "name": "Quick refresh on commute",
+      "attributes": {},
+      "source_trace": {
+        "field": "usage_occasions",
+        "source_text_excerpt": "Quick refresh on commute",
+        "confidence": 0.6,
+        "reasoning": "occasion field"
+      }
+    },
+    {
+      "type": "CompetitorBrand",
+      "name": "Mainstream sweetened bottled teas",
+      "attributes": {},
+      "source_trace": {
+        "field": "competitors",
+        "source_text_excerpt": "Mainstream sweetened bottled teas",
+        "confidence": 0.6,
+        "reasoning": "competitors field"
+      }
+    },
+    {
+      "type": "CompetitorBrand",
+      "name": "Zero-sugar bottled teas",
+      "attributes": {},
+      "source_trace": {
+        "field": "competitors",
+        "source_text_excerpt": "Zero-sugar bottled teas",
+        "confidence": 0.6,
+        "reasoning": "competitors field"
+      }
+    },
+    {
+      "type": "CompetitorBrand",
+      "name": "Functional / herbal drinks",
+      "attributes": {},
+      "source_trace": {
+        "field": "competitors",
+        "source_text_excerpt": "Functional / herbal drinks",
+        "confidence": 0.6,
+        "reasoning": "competitors field"
+      }
+    },
+    {
+      "type": "CompetitorBrand",
+      "name": "Flavored bottled water",
+      "attributes": {},
+      "source_trace": {
+        "field": "competitors",
+        "source_text_excerpt": "Flavored bottled water",
+        "confidence": 0.6,
+        "reasoning": "competitors field"
+      }
+    },
+    {
+      "type": "PromotionMechanic",
+      "name": "Launch promotion",
+      "attributes": {
+        "description": "BOGO at convenience chains; 6-pack bundle on TikTok Shop"
+      },
+      "source_trace": {
+        "field": "promotion_plan",
+        "source_text_excerpt": "BOGO at convenience chains; 6-pack bundle on TikTok Shop",
+        "confidence": 0.6,
+        "reasoning": "promotion_plan field"
+      }
+    },
+    {
+      "type": "Touchpoint",
+      "name": "TikTok short video",
+      "attributes": {},
+      "source_trace": {
+        "field": "media_plan",
+        "source_text_excerpt": "tiktok",
+        "confidence": 0.6,
+        "reasoning": "media plan"
+      }
+    },
+    {
+      "type": "InfluencerOrReviewer",
+      "name": "KOL partnerships",
+      "attributes": {},
+      "source_trace": {
+        "field": "media_plan",
+        "source_text_excerpt": "kol",
+        "confidence": 0.6,
+        "reasoning": "media plan"
+      }
+    },
+    {
+      "type": "RiskSignal",
+      "name": "Consumers may not believe the natural cooling claim without education",
+      "attributes": {},
+      "source_trace": {
+        "field": "known_risks",
+        "source_text_excerpt": "Consumers may not believe the natural cooling claim without education",
+        "confidence": 0.6,
+        "reasoning": "known_risks field"
+      }
+    },
+    {
+      "type": "RiskSignal",
+      "name": "Premium price may suppress trial in value-seeking segment",
+      "attributes": {},
+      "source_trace": {
+        "field": "known_risks",
+        "source_text_excerpt": "Premium price may suppress trial in value-seeking segment",
+        "confidence": 0.6,
+        "reasoning": "known_risks field"
+      }
+    },
+    {
+      "type": "RiskSignal",
+      "name": "Herbal taste may be perceived as too medicinal",
+      "attributes": {},
+      "source_trace": {
+        "field": "known_risks",
+        "source_text_excerpt": "Herbal taste may be perceived as too medicinal",
+        "confidence": 0.6,
+        "reasoning": "known_risks field"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "FreshPlus Herbal Cool",
+      "to": "Urban office workers",
+      "type": "TARGETS",
+      "attributes": {}
+    },
+    {
+      "from": "FreshPlus Herbal Cool",
+      "to": "50% less sugar than leading RTD teas",
+      "type": "CLAIMS_TO_SOLVE",
+      "attributes": {}
+    },
+    {
+      "from": "FreshPlus Herbal Cool",
+      "to": "Contains traditional cooling herbs (chrysanthemum, mulberry leaf)",
+      "type": "CLAIMS_TO_SOLVE",
+      "attributes": {}
+    },
+    {
+      "from": "FreshPlus Herbal Cool",
+      "to": "No artificial flavors",
+      "type": "CLAIMS_TO_SOLVE",
+      "attributes": {}
+    },
+    {
+      "from": "FreshPlus Herbal Cool",
+      "to": "Convenience stores",
+      "type": "IS_SOLD_THROUGH",
+      "attributes": {}
+    },
+    {
+      "from": "FreshPlus Herbal Cool",
+      "to": "Supermarkets",
+      "type": "IS_SOLD_THROUGH",
+      "attributes": {}
+    },
+    {
+      "from": "FreshPlus Herbal Cool",
+      "to": "TikTok Shop",
+      "type": "IS_SOLD_THROUGH",
+      "attributes": {}
+    },
+    {
+      "from": "FreshPlus Herbal Cool",
+      "to": "E-commerce platforms",
+      "type": "IS_SOLD_THROUGH",
+      "attributes": {}
+    },
+    {
+      "from": "FreshPlus Herbal Cool",
+      "to": "Mid-afternoon at work",
+      "type": "USED_IN_OCCASION",
+      "attributes": {}
+    },
+    {
+      "from": "FreshPlus Herbal Cool",
+      "to": "After lunch in summer",
+      "type": "USED_IN_OCCASION",
+      "attributes": {}
+    },
+    {
+      "from": "FreshPlus Herbal Cool",
+      "to": "Quick refresh on commute",
+      "type": "USED_IN_OCCASION",
+      "attributes": {}
+    },
+    {
+      "from": "FreshPlus Herbal Cool",
+      "to": "Mainstream sweetened bottled teas",
+      "type": "COMPETES_WITH",
+      "attributes": {}
+    },
+    {
+      "from": "FreshPlus Herbal Cool",
+      "to": "Zero-sugar bottled teas",
+      "type": "COMPETES_WITH",
+      "attributes": {}
+    },
+    {
+      "from": "FreshPlus Herbal Cool",
+      "to": "Functional / herbal drinks",
+      "type": "COMPETES_WITH",
+      "attributes": {}
+    },
+    {
+      "from": "FreshPlus Herbal Cool",
+      "to": "Flavored bottled water",
+      "type": "COMPETES_WITH",
+      "attributes": {}
+    }
+  ],
+  "market_assumptions": [
+    "Target audience interpreted as: Urban office workers, 22-35, health-leaning",
+    "Launch market interpreted as: Vietnam"
+  ],
+  "missing_information": [],
+  "risk_signals": [
+    "Consumers may not believe the natural cooling claim without education",
+    "Premium price may suppress trial in value-seeking segment",
+    "Herbal taste may be perceived as too medicinal"
+  ],
+  "purchase_triggers": [
+    "Launch-month promotion lowers trial risk.",
+    "Sampling plan removes sensory risk for skeptical buyers.",
+    "KOL endorsement boosts credibility for skeptical segments.",
+    "Health-leaning claim ('less sugar', 'natural') resonates with health-conscious segment."
+  ],
+  "adoption_barriers": [
+    "Premium price vs mainstream alternatives",
+    "Price barrier flagged in brief.",
+    "Sensory acceptability risk (taste/texture)."
+  ],
+  "claim_analysis": [
+    {
+      "claim": "50% less sugar than leading RTD teas",
+      "clarity": "clear",
+      "credibility": "believable",
+      "differentiation": "differentiated",
+      "risks": [],
+      "recommended_rewrite": null
+    },
+    {
+      "claim": "Contains traditional cooling herbs (chrysanthemum, mulberry leaf)",
+      "clarity": "clear",
+      "credibility": "believable",
+      "differentiation": "differentiated",
+      "risks": [],
+      "recommended_rewrite": null
+    },
+    {
+      "claim": "No artificial flavors",
+      "clarity": "clear",
+      "credibility": "believable",
+      "differentiation": "differentiated",
+      "risks": [],
+      "recommended_rewrite": null
+    },
+    {
+      "claim": "A calm reset in the middle of a hot day",
+      "clarity": "clear",
+      "credibility": "believable",
+      "differentiation": "generic",
+      "risks": [],
+      "recommended_rewrite": null
+    },
+    {
+      "claim": "Modern take on a familiar herbal ritual",
+      "clarity": "clear",
+      "credibility": "believable",
+      "differentiation": "differentiated",
+      "risks": [],
+      "recommended_rewrite": null
+    }
+  ],
+  "channel_analysis": [
+    {
+      "channel": "Convenience stores",
+      "funnel_role": "trial",
+      "fit_score": 0.6,
+      "note": "Inferred funnel role: trial."
+    },
+    {
+      "channel": "Supermarkets",
+      "funnel_role": "trial",
+      "fit_score": 0.6,
+      "note": "Inferred funnel role: trial."
+    },
+    {
+      "channel": "TikTok Shop",
+      "funnel_role": "awareness",
+      "fit_score": 0.6,
+      "note": "Inferred funnel role: awareness."
+    },
+    {
+      "channel": "E-commerce platforms",
+      "funnel_role": "trial",
+      "fit_score": 0.6,
+      "note": "Inferred funnel role: trial."
+    }
+  ],
+  "claim_clarity_issues": [
+    "Claim credibility flagged by team itself."
+  ],
+  "claim_credibility_risks": [
+    "Consumers may not believe the natural cooling claim without education",
+    "Sensory expectation must be managed pre-trial."
+  ],
+  "price_value_concerns": [
+    "Premium positioning may suppress trial in value-seeking segment without strong RTB.",
+    "Premium price may suppress trial in value-seeking segment"
+  ],
+  "channel_fit_observations": [
+    "No diffusion channel (word-of-mouth, community)."
+  ],
+  "social_diffusion_potential": [
+    "TikTok creator content has high social-diffusion potential among 22–35 urban segment."
+  ],
+  "competitor_pressure_points": [
+    "Mainstream sweetened bottled teas: may respond with price/promo or comparative claim content.",
+    "Zero-sugar bottled teas: may respond with price/promo or comparative claim content.",
+    "Functional / herbal drinks: may respond with price/promo or comparative claim content.",
+    "Flavored bottled water: may respond with price/promo or comparative claim content."
+  ]
+}

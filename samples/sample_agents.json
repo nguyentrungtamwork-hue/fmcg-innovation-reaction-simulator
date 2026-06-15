@@ -1,0 +1,4326 @@
+{
+  "segment_distribution": {
+    "Early Adopter / Trend-Seeker": 7,
+    "Value-Seeking Practical Buyer": 10,
+    "Brand-Loyal Conservative Buyer": 7,
+    "Health/Safety-Conscious Buyer": 7,
+    "Convenience-Driven Busy Buyer": 7,
+    "Family Decision Maker": 4,
+    "Skeptical Reviewer-Dependent Buyer": 4,
+    "Promotion-Driven Trial Buyer": 4
+  },
+  "consumer_agents": [
+    {
+      "name": "Consumer-EAT-001",
+      "segment_name": "Early Adopter / Trend-Seeker",
+      "profile": {
+        "segment_description": "Curious, social-first buyer who actively seeks out new launches and shares discoveries.",
+        "age_range": "22-32",
+        "household_context": "single or sharing with roommates; urban",
+        "lifestyle_context": "active on social media; follows lifestyle and food creators",
+        "category_usage_frequency": "buys category 3-5x/week, often experimenting",
+        "current_brand_repertoire": [
+          "Mainstream sweetened bottled teas",
+          "Zero-sugar bottled teas"
+        ],
+        "current_purchase_channel": [
+          "E-commerce platforms",
+          "Convenience stores"
+        ],
+        "category_pain_points": [
+          "category feels stale",
+          "wants conversation-worthy products"
+        ],
+        "need_states": [
+          "Refreshes the body naturally with less sugar guilt"
+        ],
+        "usage_occasions": [
+          "Quick refresh on commute",
+          "Mid-afternoon at work"
+        ],
+        "price_sensitivity": 0.542,
+        "novelty_seeking_level": 0.756,
+        "brand_loyalty_level": 0.096,
+        "claim_skepticism_level": 0.317,
+        "health_safety_concern_level": 0.571,
+        "convenience_need_level": 0.553,
+        "taste_or_sensory_importance": 0.618,
+        "packaging_sensitivity": 0.68,
+        "promotion_sensitivity": 0.477,
+        "social_influence_sensitivity": 0.66,
+        "review_dependency_level": 0.077,
+        "channel_preference": [
+          "E-commerce platforms",
+          "Convenience stores"
+        ],
+        "media_touchpoints": [
+          "KOL partnerships",
+          "TikTok short video"
+        ],
+        "trust_drivers": [
+          "Creator hype",
+          "Limited drops",
+          "Distinctive pack",
+          "Launch-month promotion lowers trial risk."
+        ],
+        "trial_barriers": [
+          "Will lose interest if the launch feels derivative",
+          "Concerned about: Consumers may not believe the natural cooling claim without education",
+          "Premium price vs mainstream alternatives"
+        ],
+        "repeat_purchase_drivers": [
+          "new flavor drops",
+          "limited editions",
+          "creator buzz"
+        ],
+        "likely_objections": [
+          "if it feels like an old idea repackaged"
+        ],
+        "emotional_triggers": [
+          "being first to discover",
+          "shareable aesthetic"
+        ],
+        "initial_memory": [
+          "Aware of FreshPlus as a category brand at low salience.",
+          "Currently buys Mainstream sweetened bottled teas as a default in the category.",
+          "Belongs to segment: Early Adopter / Trend-Seeker."
+        ],
+        "grounding_sources": [
+          "FunctionalClaim: 50% less sugar than leading RTD teas",
+          "CompetitorBrand: Mainstream sweetened bottled teas",
+          "Channel: E-commerce platforms",
+          "RiskSignal: Consumers may not believe the natural cooling claim without education",
+          "UsageOccasion: Quick refresh on commute"
+        ]
+      }
+    },
+    {
+      "name": "Consumer-EAT-002",
+      "segment_name": "Early Adopter / Trend-Seeker",
+      "profile": {
+        "segment_description": "Curious, social-first buyer who actively seeks out new launches and shares discoveries.",
+        "age_range": "22-32",
+        "household_context": "single or sharing with roommates; urban",
+        "lifestyle_context": "active on social media; follows lifestyle and food creators",
+        "category_usage_frequency": "buys category 3-5x/week, often experimenting",
+        "current_brand_repertoire": [
+          "Mainstream sweetened bottled teas",
+          "Zero-sugar bottled teas"
+        ],
+        "current_purchase_channel": [
+          "Convenience stores",
+          "Supermarkets"
+        ],
+        "category_pain_points": [
+          "category feels stale",
+          "wants conversation-worthy products"
+        ],
+        "need_states": [
+          "Refreshes the body naturally with less sugar guilt"
+        ],
+        "usage_occasions": [
+          "Quick refresh on commute",
+          "After lunch in summer"
+        ],
+        "price_sensitivity": 0.352,
+        "novelty_seeking_level": 0.951,
+        "brand_loyalty_level": 0.244,
+        "claim_skepticism_level": 0.352,
+        "health_safety_concern_level": 0.397,
+        "convenience_need_level": 0.637,
+        "taste_or_sensory_importance": 0.451,
+        "packaging_sensitivity": 0.682,
+        "promotion_sensitivity": 0.379,
+        "social_influence_sensitivity": 0.947,
+        "review_dependency_level": 0.211,
+        "channel_preference": [
+          "Convenience stores",
+          "Supermarkets"
+        ],
+        "media_touchpoints": [
+          "TikTok short video",
+          "KOL partnerships"
+        ],
+        "trust_drivers": [
+          "Creator hype",
+          "Limited drops",
+          "Distinctive pack",
+          "Launch-month promotion lowers trial risk."
+        ],
+        "trial_barriers": [
+          "Will lose interest if the launch feels derivative",
+          "Concerned about: Consumers may not believe the natural cooling claim without education",
+          "Premium price vs mainstream alternatives"
+        ],
+        "repeat_purchase_drivers": [
+          "new flavor drops",
+          "limited editions",
+          "creator buzz"
+        ],
+        "likely_objections": [
+          "if it feels like an old idea repackaged"
+        ],
+        "emotional_triggers": [
+          "being first to discover",
+          "shareable aesthetic"
+        ],
+        "initial_memory": [
+          "Aware of FreshPlus as a category brand at low salience.",
+          "Currently buys Mainstream sweetened bottled teas as a default in the category.",
+          "Belongs to segment: Early Adopter / Trend-Seeker."
+        ],
+        "grounding_sources": [
+          "FunctionalClaim: 50% less sugar than leading RTD teas",
+          "CompetitorBrand: Mainstream sweetened bottled teas",
+          "Channel: Convenience stores",
+          "RiskSignal: Consumers may not believe the natural cooling claim without education",
+          "UsageOccasion: Quick refresh on commute"
+        ]
+      }
+    },
+    {
+      "name": "Consumer-EAT-003",
+      "segment_name": "Early Adopter / Trend-Seeker",
+      "profile": {
+        "segment_description": "Curious, social-first buyer who actively seeks out new launches and shares discoveries.",
+        "age_range": "22-32",
+        "household_context": "single or sharing with roommates; urban",
+        "lifestyle_context": "active on social media; follows lifestyle and food creators",
+        "category_usage_frequency": "buys category 3-5x/week, often experimenting",
+        "current_brand_repertoire": [
+          "Mainstream sweetened bottled teas",
+          "Zero-sugar bottled teas"
+        ],
+        "current_purchase_channel": [
+          "TikTok Shop",
+          "Convenience stores"
+        ],
+        "category_pain_points": [
+          "category feels stale",
+          "wants conversation-worthy products"
+        ],
+        "need_states": [
+          "Refreshes the body naturally with less sugar guilt"
+        ],
+        "usage_occasions": [
+          "Mid-afternoon at work",
+          "After lunch in summer"
+        ],
+        "price_sensitivity": 0.536,
+        "novelty_seeking_level": 0.965,
+        "brand_loyalty_level": 0.202,
+        "claim_skepticism_level": 0.461,
+        "health_safety_concern_level": 0.364,
+        "convenience_need_level": 0.418,
+        "taste_or_sensory_importance": 0.437,
+        "packaging_sensitivity": 0.678,
+        "promotion_sensitivity": 0.42,
+        "social_influence_sensitivity": 0.685,
+        "review_dependency_level": 0.097,
+        "channel_preference": [
+          "TikTok Shop",
+          "Convenience stores"
+        ],
+        "media_touchpoints": [
+          "KOL partnerships",
+          "TikTok short video"
+        ],
+        "trust_drivers": [
+          "Creator hype",
+          "Limited drops",
+          "Distinctive pack",
+          "Launch-month promotion lowers trial risk."
+        ],
+        "trial_barriers": [
+          "Will lose interest if the launch feels derivative",
+          "Concerned about: Consumers may not believe the natural cooling claim without education",
+          "Premium price vs mainstream alternatives"
+        ],
+        "repeat_purchase_drivers": [
+          "new flavor drops",
+          "limited editions",
+          "creator buzz"
+        ],
+        "likely_objections": [
+          "if it feels like an old idea repackaged"
+        ],
+        "emotional_triggers": [
+          "being first to discover",
+          "shareable aesthetic"
+        ],
+        "initial_memory": [
+          "Aware of FreshPlus as a category brand at low salience.",
+          "Currently buys Mainstream sweetened bottled teas as a default in the category.",
+          "Belongs to segment: Early Adopter / Trend-Seeker."
+        ],
+        "grounding_sources": [
+          "FunctionalClaim: 50% less sugar than leading RTD teas",
+          "CompetitorBrand: Mainstream sweetened bottled teas",
+          "Channel: TikTok Shop",
+          "RiskSignal: Consumers may not believe the natural cooling claim without education",
+          "UsageOccasion: Mid-afternoon at work"
+        ]
+      }
+    },
+    {
+      "name": "Consumer-EAT-004",
+      "segment_name": "Early Adopter / Trend-Seeker",
+      "profile": {
+        "segment_description": "Curious, social-first buyer who actively seeks out new launches and shares discoveries.",
+        "age_range": "22-32",
+        "household_context": "single or sharing with roommates; urban",
+        "lifestyle_context": "active on social media; follows lifestyle and food creators",
+        "category_usage_frequency": "buys category 3-5x/week, often experimenting",
+        "current_brand_repertoire": [
+          "Mainstream sweetened bottled teas",
+          "Zero-sugar bottled teas"
+        ],
+        "current_purchase_channel": [
+          "TikTok Shop",
+          "Convenience stores"
+        ],
+        "category_pain_points": [
+          "category feels stale",
+          "wants conversation-worthy products"
+        ],
+        "need_states": [
+          "Refreshes the body naturally with less sugar guilt"
+        ],
+        "usage_occasions": [
+          "After lunch in summer",
+          "Quick refresh on commute"
+        ],
+        "price_sensitivity": 0.401,
+        "novelty_seeking_level": 0.932,
+        "brand_loyalty_level": 0.057,
+        "claim_skepticism_level": 0.364,
+        "health_safety_concern_level": 0.647,
+        "convenience_need_level": 0.542,
+        "taste_or_sensory_importance": 0.517,
+        "packaging_sensitivity": 0.89,
+        "promotion_sensitivity": 0.603,
+        "social_influence_sensitivity": 0.922,
+        "review_dependency_level": 0.08,
+        "channel_preference": [
+          "TikTok Shop",
+          "Convenience stores"
+        ],
+        "media_touchpoints": [
+          "TikTok short video",
+          "KOL partnerships"
+        ],
+        "trust_drivers": [
+          "Creator hype",
+          "Limited drops",
+          "Distinctive pack",
+          "Launch-month promotion lowers trial risk."
+        ],
+        "trial_barriers": [
+          "Will lose interest if the launch feels derivative",
+          "Concerned about: Consumers may not believe the natural cooling claim without education",
+          "Premium price vs mainstream alternatives"
+        ],
+        "repeat_purchase_drivers": [
+          "new flavor drops",
+          "limited editions",
+          "creator buzz"
+        ],
+        "likely_objections": [
+          "if it feels like an old idea repackaged"
+        ],
+        "emotional_triggers": [
+          "being first to discover",
+          "shareable aesthetic"
+        ],
+        "initial_memory": [
+          "Aware of FreshPlus as a category brand at low salience.",
+          "Currently buys Mainstream sweetened bottled teas as a default in the category.",
+          "Belongs to segment: Early Adopter / Trend-Seeker."
+        ],
+        "grounding_sources": [
+          "FunctionalClaim: 50% less sugar than leading RTD teas",
+          "CompetitorBrand: Mainstream sweetened bottled teas",
+          "Channel: TikTok Shop",
+          "RiskSignal: Consumers may not believe the natural cooling claim without education",
+          "UsageOccasion: After lunch in summer"
+        ]
+      }
+    },
+    {
+      "name": "Consumer-EAT-005",
+      "segment_name": "Early Adopter / Trend-Seeker",
+      "profile": {
+        "segment_description": "Curious, social-first buyer who actively seeks out new launches and shares discoveries.",
+        "age_range": "22-32",
+        "household_context": "single or sharing with roommates; urban",
+        "lifestyle_context": "active on social media; follows lifestyle and food creators",
+        "category_usage_frequency": "buys category 3-5x/week, often experimenting",
+        "current_brand_repertoire": [
+          "Mainstream sweetened bottled teas",
+          "Zero-sugar bottled teas"
+        ],
+        "current_purchase_channel": [
+          "Convenience stores",
+          "E-commerce platforms"
+        ],
+        "category_pain_points": [
+          "category feels stale",
+          "wants conversation-worthy products"
+        ],
+        "need_states": [
+          "Refreshes the body naturally with less sugar guilt"
+        ],
+        "usage_occasions": [
+          "Quick refresh on commute",
+          "After lunch in summer"
+        ],
+        "price_sensitivity": 0.5,
+        "novelty_seeking_level": 0.971,
+        "brand_loyalty_level": 0.225,
+        "claim_skepticism_level": 0.293,
+        "health_safety_concern_level": 0.392,
+        "convenience_need_level": 0.573,
+        "taste_or_sensory_importance": 0.512,
+        "packaging_sensitivity": 0.911,
+        "promotion_sensitivity": 0.479,
+        "social_influence_sensitivity": 0.854,
+        "review_dependency_level": 0.127,
+        "channel_preference": [
+          "Convenience stores",
+          "E-commerce platforms"
+        ],
+        "media_touchpoints": [
+          "TikTok short video",
+          "KOL partnerships"
+        ],
+        "trust_drivers": [
+          "Creator hype",
+          "Limited drops",
+          "Distinctive pack",
+          "Launch-month promotion lowers trial risk."
+        ],
+        "trial_barriers": [
+          "Will lose interest if the launch feels derivative",
+          "Concerned about: Consumers may not believe the natural cooling claim without education",
+          "Premium price vs mainstream alternatives"
+        ],
+        "repeat_purchase_drivers": [
+          "new flavor drops",
+          "limited editions",
+          "creator buzz"
+        ],
+        "likely_objections": [
+          "if it feels like an old idea repackaged"
+        ],
+        "emotional_triggers": [
+          "being first to discover",
+          "shareable aesthetic"
+        ],
+        "initial_memory": [
+          "Aware of FreshPlus as a category brand at low salience.",
+          "Currently buys Mainstream sweetened bottled teas as a default in the category.",
+          "Belongs to segment: Early Adopter / Trend-Seeker."
+        ],
+        "grounding_sources": [
+          "FunctionalClaim: 50% less sugar than leading RTD teas",
+          "CompetitorBrand: Mainstream sweetened bottled teas",
+          "Channel: Convenience stores",
+          "RiskSignal: Consumers may not believe the natural cooling claim without education",
+          "UsageOccasion: Quick refresh on commute"
+        ]
+      }
+    },
+    {
+      "name": "Consumer-EAT-006",
+      "segment_name": "Early Adopter / Trend-Seeker",
+      "profile": {
+        "segment_description": "Curious, social-first buyer who actively seeks out new launches and shares discoveries.",
+        "age_range": "22-32",
+        "household_context": "single or sharing with roommates; urban",
+        "lifestyle_context": "active on social media; follows lifestyle and food creators",
+        "category_usage_frequency": "buys category 3-5x/week, often experimenting",
+        "current_brand_repertoire": [
+          "Mainstream sweetened bottled teas",
+          "Zero-sugar bottled teas"
+        ],
+        "current_purchase_channel": [
+          "Convenience stores",
+          "Supermarkets"
+        ],
+        "category_pain_points": [
+          "category feels stale",
+          "wants conversation-worthy products"
+        ],
+        "need_states": [
+          "Refreshes the body naturally with less sugar guilt"
+        ],
+        "usage_occasions": [
+          "Quick refresh on commute",
+          "After lunch in summer"
+        ],
+        "price_sensitivity": 0.588,
+        "novelty_seeking_level": 0.856,
+        "brand_loyalty_level": 0.022,
+        "claim_skepticism_level": 0.364,
+        "health_safety_concern_level": 0.649,
+        "convenience_need_level": 0.509,
+        "taste_or_sensory_importance": 0.641,
+        "packaging_sensitivity": 0.951,
+        "promotion_sensitivity": 0.353,
+        "social_influence_sensitivity": 0.902,
+        "review_dependency_level": 0.239,
+        "channel_preference": [
+          "Convenience stores",
+          "Supermarkets"
+        ],
+        "media_touchpoints": [
+          "KOL partnerships",
+          "TikTok short video"
+        ],
+        "trust_drivers": [
+          "Creator hype",
+          "Limited drops",
+          "Distinctive pack",
+          "Launch-month promotion lowers trial risk."
+        ],
+        "trial_barriers": [
+          "Will lose interest if the launch feels derivative",
+          "Concerned about: Consumers may not believe the natural cooling claim without education",
+          "Premium price vs mainstream alternatives"
+        ],
+        "repeat_purchase_drivers": [
+          "new flavor drops",
+          "limited editions",
+          "creator buzz"
+        ],
+        "likely_objections": [
+          "if it feels like an old idea repackaged"
+        ],
+        "emotional_triggers": [
+          "being first to discover",
+          "shareable aesthetic"
+        ],
+        "initial_memory": [
+          "Aware of FreshPlus as a category brand at low salience.",
+          "Currently buys Mainstream sweetened bottled teas as a default in the category.",
+          "Belongs to segment: Early Adopter / Trend-Seeker."
+        ],
+        "grounding_sources": [
+          "FunctionalClaim: 50% less sugar than leading RTD teas",
+          "CompetitorBrand: Mainstream sweetened bottled teas",
+          "Channel: Convenience stores",
+          "RiskSignal: Consumers may not believe the natural cooling claim without education",
+          "UsageOccasion: Quick refresh on commute"
+        ]
+      }
+    },
+    {
+      "name": "Consumer-EAT-007",
+      "segment_name": "Early Adopter / Trend-Seeker",
+      "profile": {
+        "segment_description": "Curious, social-first buyer who actively seeks out new launches and shares discoveries.",
+        "age_range": "22-32",
+        "household_context": "single or sharing with roommates; urban",
+        "lifestyle_context": "active on social media; follows lifestyle and food creators",
+        "category_usage_frequency": "buys category 3-5x/week, often experimenting",
+        "current_brand_repertoire": [
+          "Mainstream sweetened bottled teas",
+          "Zero-sugar bottled teas"
+        ],
+        "current_purchase_channel": [
+          "TikTok Shop",
+          "Supermarkets"
+        ],
+        "category_pain_points": [
+          "category feels stale",
+          "wants conversation-worthy products"
+        ],
+        "need_states": [
+          "Refreshes the body naturally with less sugar guilt"
+        ],
+        "usage_occasions": [
+          "Quick refresh on commute",
+          "Mid-afternoon at work"
+        ],
+        "price_sensitivity": 0.636,
+        "novelty_seeking_level": 0.969,
+        "brand_loyalty_level": 0.092,
+        "claim_skepticism_level": 0.4,
+        "health_safety_concern_level": 0.404,
+        "convenience_need_level": 0.624,
+        "taste_or_sensory_importance": 0.611,
+        "packaging_sensitivity": 0.754,
+        "promotion_sensitivity": 0.542,
+        "social_influence_sensitivity": 0.863,
+        "review_dependency_level": 0.053,
+        "channel_preference": [
+          "TikTok Shop",
+          "Supermarkets"
+        ],
+        "media_touchpoints": [
+          "TikTok short video",
+          "KOL partnerships"
+        ],
+        "trust_drivers": [
+          "Creator hype",
+          "Limited drops",
+          "Distinctive pack",
+          "Launch-month promotion lowers trial risk."
+        ],
+        "trial_barriers": [
+          "Will lose interest if the launch feels derivative",
+          "Concerned about: Consumers may not believe the natural cooling claim without education",
+          "Premium price vs mainstream alternatives"
+        ],
+        "repeat_purchase_drivers": [
+          "new flavor drops",
+          "limited editions",
+          "creator buzz"
+        ],
+        "likely_objections": [
+          "if it feels like an old idea repackaged"
+        ],
+        "emotional_triggers": [
+          "being first to discover",
+          "shareable aesthetic"
+        ],
+        "initial_memory": [
+          "Aware of FreshPlus as a category brand at low salience.",
+          "Currently buys Mainstream sweetened bottled teas as a default in the category.",
+          "Belongs to segment: Early Adopter / Trend-Seeker."
+        ],
+        "grounding_sources": [
+          "FunctionalClaim: 50% less sugar than leading RTD teas",
+          "CompetitorBrand: Mainstream sweetened bottled teas",
+          "Channel: TikTok Shop",
+          "RiskSignal: Consumers may not believe the natural cooling claim without education",
+          "UsageOccasion: Quick refresh on commute"
+        ]
+      }
+    },
+    {
+      "name": "Consumer-VPB-008",
+      "segment_name": "Value-Seeking Practical Buyer",
+      "profile": {
+        "segment_description": "Calculates price-per-volume; rarely tries new items at full price.",
+        "age_range": "28-45",
+        "household_context": "couple or small family; budget-conscious",
+        "lifestyle_context": "promo-aware; compares unit prices in-store",
+        "category_usage_frequency": "buys category weekly, same SKUs",
+        "current_brand_repertoire": [
+          "Mainstream sweetened bottled teas",
+          "Zero-sugar bottled teas"
+        ],
+        "current_purchase_channel": [
+          "Supermarkets",
+          "E-commerce platforms"
+        ],
+        "category_pain_points": [
+          "premium creep",
+          "shrinking pack sizes"
+        ],
+        "need_states": [
+          "Refreshes the body naturally with less sugar guilt"
+        ],
+        "usage_occasions": [
+          "Quick refresh on commute",
+          "After lunch in summer"
+        ],
+        "price_sensitivity": 0.97,
+        "novelty_seeking_level": 0.291,
+        "brand_loyalty_level": 0.442,
+        "claim_skepticism_level": 0.67,
+        "health_safety_concern_level": 0.613,
+        "convenience_need_level": 0.634,
+        "taste_or_sensory_importance": 0.376,
+        "packaging_sensitivity": 0.496,
+        "promotion_sensitivity": 0.674,
+        "social_influence_sensitivity": 0.266,
+        "review_dependency_level": 0.58,
+        "channel_preference": [
+          "Supermarkets",
+          "E-commerce platforms"
+        ],
+        "media_touchpoints": [
+          "KOL partnerships",
+          "TikTok short video"
+        ],
+        "trust_drivers": [
+          "Sustained promo",
+          "Clear price-per-100ml",
+          "Sampling",
+          "Launch-month promotion lowers trial risk."
+        ],
+        "trial_barriers": [
+          "Premium price not justified vs current SKU",
+          "Concerned about: Consumers may not believe the natural cooling claim without education",
+          "Premium price vs mainstream alternatives"
+        ],
+        "repeat_purchase_drivers": [
+          "sustained promo",
+          "clear price-per-100ml"
+        ],
+        "likely_objections": [
+          "price too high vs current SKU",
+          "doesn't justify premium"
+        ],
+        "emotional_triggers": [
+          "sense of smart purchase"
+        ],
+        "initial_memory": [
+          "Aware of FreshPlus as a category brand at low salience.",
+          "Currently buys Mainstream sweetened bottled teas as a default in the category.",
+          "Belongs to segment: Value-Seeking Practical Buyer."
+        ],
+        "grounding_sources": [
+          "FunctionalClaim: 50% less sugar than leading RTD teas",
+          "CompetitorBrand: Mainstream sweetened bottled teas",
+          "Channel: Supermarkets",
+          "RiskSignal: Consumers may not believe the natural cooling claim without education",
+          "UsageOccasion: Quick refresh on commute"
+        ]
+      }
+    },
+    {
+      "name": "Consumer-VPB-009",
+      "segment_name": "Value-Seeking Practical Buyer",
+      "profile": {
+        "segment_description": "Calculates price-per-volume; rarely tries new items at full price.",
+        "age_range": "28-45",
+        "household_context": "couple or small family; budget-conscious",
+        "lifestyle_context": "promo-aware; compares unit prices in-store",
+        "category_usage_frequency": "buys category weekly, same SKUs",
+        "current_brand_repertoire": [
+          "Mainstream sweetened bottled teas",
+          "Zero-sugar bottled teas"
+        ],
+        "current_purchase_channel": [
+          "Convenience stores",
+          "E-commerce platforms"
+        ],
+        "category_pain_points": [
+          "premium creep",
+          "shrinking pack sizes"
+        ],
+        "need_states": [
+          "Refreshes the body naturally with less sugar guilt"
+        ],
+        "usage_occasions": [
+          "Quick refresh on commute",
+          "Mid-afternoon at work"
+        ],
+        "price_sensitivity": 0.939,
+        "novelty_seeking_level": 0.241,
+        "brand_loyalty_level": 0.564,
+        "claim_skepticism_level": 0.79,
+        "health_safety_concern_level": 0.552,
+        "convenience_need_level": 0.462,
+        "taste_or_sensory_importance": 0.62,
+        "packaging_sensitivity": 0.485,
+        "promotion_sensitivity": 0.737,
+        "social_influence_sensitivity": 0.022,
+        "review_dependency_level": 0.356,
+        "channel_preference": [
+          "Convenience stores",
+          "E-commerce platforms"
+        ],
+        "media_touchpoints": [
+          "TikTok short video",
+          "KOL partnerships"
+        ],
+        "trust_drivers": [
+          "Sustained promo",
+          "Clear price-per-100ml",
+          "Sampling",
+          "Launch-month promotion lowers trial risk."
+        ],
+        "trial_barriers": [
+          "Premium price not justified vs current SKU",
+          "Concerned about: Consumers may not believe the natural cooling claim without education",
+          "Premium price vs mainstream alternatives"
+        ],
+        "repeat_purchase_drivers": [
+          "sustained promo",
+          "clear price-per-100ml"
+        ],
+        "likely_objections": [
+          "price too high vs current SKU",
+          "doesn't justify premium"
+        ],
+        "emotional_triggers": [
+          "sense of smart purchase"
+        ],
+        "initial_memory": [
+          "Aware of FreshPlus as a category brand at low salience.",
+          "Currently buys Mainstream sweetened bottled teas as a default in the category.",
+          "Belongs to segment: Value-Seeking Practical Buyer."
+        ],
+        "grounding_sources": [
+          "FunctionalClaim: 50% less sugar than leading RTD teas",
+          "CompetitorBrand: Mainstream sweetened bottled teas",
+          "Channel: Convenience stores",
+          "RiskSignal: Consumers may not believe the natural cooling claim without education",
+          "UsageOccasion: Quick refresh on commute"
+        ]
+      }
+    },
+    {
+      "name": "Consumer-VPB-010",
+      "segment_name": "Value-Seeking Practical Buyer",
+      "profile": {
+        "segment_description": "Calculates price-per-volume; rarely tries new items at full price.",
+        "age_range": "28-45",
+        "household_context": "couple or small family; budget-conscious",
+        "lifestyle_context": "promo-aware; compares unit prices in-store",
+        "category_usage_frequency": "buys category weekly, same SKUs",
+        "current_brand_repertoire": [
+          "Mainstream sweetened bottled teas",
+          "Zero-sugar bottled teas"
+        ],
+        "current_purchase_channel": [
+          "Convenience stores",
+          "TikTok Shop"
+        ],
+        "category_pain_points": [
+          "premium creep",
+          "shrinking pack sizes"
+        ],
+        "need_states": [
+          "Refreshes the body naturally with less sugar guilt"
+        ],
+        "usage_occasions": [
+          "Mid-afternoon at work",
+          "Quick refresh on commute"
+        ],
+        "price_sensitivity": 0.758,
+        "novelty_seeking_level": 0.116,
+        "brand_loyalty_level": 0.504,
+        "claim_skepticism_level": 0.747,
+        "health_safety_concern_level": 0.496,
+        "convenience_need_level": 0.512,
+        "taste_or_sensory_importance": 0.567,
+        "packaging_sensitivity": 0.615,
+        "promotion_sensitivity": 0.852,
+        "social_influence_sensitivity": 0.085,
+        "review_dependency_level": 0.492,
+        "channel_preference": [
+          "Convenience stores",
+          "TikTok Shop"
+        ],
+        "media_touchpoints": [
+          "KOL partnerships",
+          "TikTok short video"
+        ],
+        "trust_drivers": [
+          "Sustained promo",
+          "Clear price-per-100ml",
+          "Sampling",
+          "Launch-month promotion lowers trial risk."
+        ],
+        "trial_barriers": [
+          "Premium price not justified vs current SKU",
+          "Concerned about: Consumers may not believe the natural cooling claim without education",
+          "Premium price vs mainstream alternatives"
+        ],
+        "repeat_purchase_drivers": [
+          "sustained promo",
+          "clear price-per-100ml"
+        ],
+        "likely_objections": [
+          "price too high vs current SKU",
+          "doesn't justify premium"
+        ],
+        "emotional_triggers": [
+          "sense of smart purchase"
+        ],
+        "initial_memory": [
+          "Aware of FreshPlus as a category brand at low salience.",
+          "Currently buys Mainstream sweetened bottled teas as a default in the category.",
+          "Belongs to segment: Value-Seeking Practical Buyer."
+        ],
+        "grounding_sources": [
+          "FunctionalClaim: 50% less sugar than leading RTD teas",
+          "CompetitorBrand: Mainstream sweetened bottled teas",
+          "Channel: Convenience stores",
+          "RiskSignal: Consumers may not believe the natural cooling claim without education",
+          "UsageOccasion: Mid-afternoon at work"
+        ]
+      }
+    },
+    {
+      "name": "Consumer-VPB-011",
+      "segment_name": "Value-Seeking Practical Buyer",
+      "profile": {
+        "segment_description": "Calculates price-per-volume; rarely tries new items at full price.",
+        "age_range": "28-45",
+        "household_context": "couple or small family; budget-conscious",
+        "lifestyle_context": "promo-aware; compares unit prices in-store",
+        "category_usage_frequency": "buys category weekly, same SKUs",
+        "current_brand_repertoire": [
+          "Mainstream sweetened bottled teas",
+          "Zero-sugar bottled teas"
+        ],
+        "current_purchase_channel": [
+          "E-commerce platforms",
+          "Convenience stores"
+        ],
+        "category_pain_points": [
+          "premium creep",
+          "shrinking pack sizes"
+        ],
+        "need_states": [
+          "Refreshes the body naturally with less sugar guilt"
+        ],
+        "usage_occasions": [
+          "Mid-afternoon at work",
+          "After lunch in summer"
+        ],
+        "price_sensitivity": 0.867,
+        "novelty_seeking_level": 0.255,
+        "brand_loyalty_level": 0.552,
+        "claim_skepticism_level": 0.994,
+        "health_safety_concern_level": 0.38,
+        "convenience_need_level": 0.471,
+        "taste_or_sensory_importance": 0.452,
+        "packaging_sensitivity": 0.609,
+        "promotion_sensitivity": 0.737,
+        "social_influence_sensitivity": 0.067,
+        "review_dependency_level": 0.485,
+        "channel_preference": [
+          "E-commerce platforms",
+          "Convenience stores"
+        ],
+        "media_touchpoints": [
+          "TikTok short video",
+          "KOL partnerships"
+        ],
+        "trust_drivers": [
+          "Sustained promo",
+          "Clear price-per-100ml",
+          "Sampling",
+          "Launch-month promotion lowers trial risk."
+        ],
+        "trial_barriers": [
+          "Premium price not justified vs current SKU",
+          "Concerned about: Consumers may not believe the natural cooling claim without education",
+          "Premium price vs mainstream alternatives"
+        ],
+        "repeat_purchase_drivers": [
+          "sustained promo",
+          "clear price-per-100ml"
+        ],
+        "likely_objections": [
+          "price too high vs current SKU",
+          "doesn't justify premium"
+        ],
+        "emotional_triggers": [
+          "sense of smart purchase"
+        ],
+        "initial_memory": [
+          "Aware of FreshPlus as a category brand at low salience.",
+          "Currently buys Mainstream sweetened bottled teas as a default in the category.",
+          "Belongs to segment: Value-Seeking Practical Buyer."
+        ],
+        "grounding_sources": [
+          "FunctionalClaim: 50% less sugar than leading RTD teas",
+          "CompetitorBrand: Mainstream sweetened bottled teas",
+          "Channel: E-commerce platforms",
+          "RiskSignal: Consumers may not believe the natural cooling claim without education",
+          "UsageOccasion: Mid-afternoon at work"
+        ]
+      }
+    },
+    {
+      "name": "Consumer-VPB-012",
+      "segment_name": "Value-Seeking Practical Buyer",
+      "profile": {
+        "segment_description": "Calculates price-per-volume; rarely tries new items at full price.",
+        "age_range": "28-45",
+        "household_context": "couple or small family; budget-conscious",
+        "lifestyle_context": "promo-aware; compares unit prices in-store",
+        "category_usage_frequency": "buys category weekly, same SKUs",
+        "current_brand_repertoire": [
+          "Mainstream sweetened bottled teas",
+          "Zero-sugar bottled teas"
+        ],
+        "current_purchase_channel": [
+          "Convenience stores",
+          "Supermarkets"
+        ],
+        "category_pain_points": [
+          "premium creep",
+          "shrinking pack sizes"
+        ],
+        "need_states": [
+          "Refreshes the body naturally with less sugar guilt"
+        ],
+        "usage_occasions": [
+          "Mid-afternoon at work",
+          "After lunch in summer"
+        ],
+        "price_sensitivity": 0.964,
+        "novelty_seeking_level": 0.034,
+        "brand_loyalty_level": 0.546,
+        "claim_skepticism_level": 0.839,
+        "health_safety_concern_level": 0.354,
+        "convenience_need_level": 0.378,
+        "taste_or_sensory_importance": 0.576,
+        "packaging_sensitivity": 0.421,
+        "promotion_sensitivity": 0.792,
+        "social_influence_sensitivity": 0.168,
+        "review_dependency_level": 0.609,
+        "channel_preference": [
+          "Convenience stores",
+          "Supermarkets"
+        ],
+        "media_touchpoints": [
+          "KOL partnerships",
+          "TikTok short video"
+        ],
+        "trust_drivers": [
+          "Sustained promo",
+          "Clear price-per-100ml",
+          "Sampling",
+          "Launch-month promotion lowers trial risk."
+        ],
+        "trial_barriers": [
+          "Premium price not justified vs current SKU",
+          "Concerned about: Consumers may not believe the natural cooling claim without education",
+          "Premium price vs mainstream alternatives"
+        ],
+        "repeat_purchase_drivers": [
+          "sustained promo",
+          "clear price-per-100ml"
+        ],
+        "likely_objections": [
+          "price too high vs current SKU",
+          "doesn't justify premium"
+        ],
+        "emotional_triggers": [
+          "sense of smart purchase"
+        ],
+        "initial_memory": [
+          "Aware of FreshPlus as a category brand at low salience.",
+          "Currently buys Mainstream sweetened bottled teas as a default in the category.",
+          "Belongs to segment: Value-Seeking Practical Buyer."
+        ],
+        "grounding_sources": [
+          "FunctionalClaim: 50% less sugar than leading RTD teas",
+          "CompetitorBrand: Mainstream sweetened bottled teas",
+          "Channel: Convenience stores",
+          "RiskSignal: Consumers may not believe the natural cooling claim without education",
+          "UsageOccasion: Mid-afternoon at work"
+        ]
+      }
+    },
+    {
+      "name": "Consumer-VPB-013",
+      "segment_name": "Value-Seeking Practical Buyer",
+      "profile": {
+        "segment_description": "Calculates price-per-volume; rarely tries new items at full price.",
+        "age_range": "28-45",
+        "household_context": "couple or small family; budget-conscious",
+        "lifestyle_context": "promo-aware; compares unit prices in-store",
+        "category_usage_frequency": "buys category weekly, same SKUs",
+        "current_brand_repertoire": [
+          "Mainstream sweetened bottled teas",
+          "Zero-sugar bottled teas"
+        ],
+        "current_purchase_channel": [
+          "Supermarkets",
+          "Convenience stores"
+        ],
+        "category_pain_points": [
+          "premium creep",
+          "shrinking pack sizes"
+        ],
+        "need_states": [
+          "Refreshes the body naturally with less sugar guilt"
+        ],
+        "usage_occasions": [
+          "Quick refresh on commute",
+          "After lunch in summer"
+        ],
+        "price_sensitivity": 0.924,
+        "novelty_seeking_level": 0.256,
+        "brand_loyalty_level": 0.585,
+        "claim_skepticism_level": 0.882,
+        "health_safety_concern_level": 0.496,
+        "convenience_need_level": 0.407,
+        "taste_or_sensory_importance": 0.415,
+        "packaging_sensitivity": 0.368,
+        "promotion_sensitivity": 0.908,
+        "social_influence_sensitivity": 0.021,
+        "review_dependency_level": 0.444,
+        "channel_preference": [
+          "Supermarkets",
+          "Convenience stores"
+        ],
+        "media_touchpoints": [
+          "TikTok short video",
+          "KOL partnerships"
+        ],
+        "trust_drivers": [
+          "Sustained promo",
+          "Clear price-per-100ml",
+          "Sampling",
+          "Launch-month promotion lowers trial risk."
+        ],
+        "trial_barriers": [
+          "Premium price not justified vs current SKU",
+          "Concerned about: Consumers may not believe the natural cooling claim without education",
+          "Premium price vs mainstream alternatives"
+        ],
+        "repeat_purchase_drivers": [
+          "sustained promo",
+          "clear price-per-100ml"
+        ],
+        "likely_objections": [
+          "price too high vs current SKU",
+          "doesn't justify premium"
+        ],
+        "emotional_triggers": [
+          "sense of smart purchase"
+        ],
+        "initial_memory": [
+          "Aware of FreshPlus as a category brand at low salience.",
+          "Currently buys Mainstream sweetened bottled teas as a default in the category.",
+          "Belongs to segment: Value-Seeking Practical Buyer."
+        ],
+        "grounding_sources": [
+          "FunctionalClaim: 50% less sugar than leading RTD teas",
+          "CompetitorBrand: Mainstream sweetened bottled teas",
+          "Channel: Supermarkets",
+          "RiskSignal: Consumers may not believe the natural cooling claim without education",
+          "UsageOccasion: Quick refresh on commute"
+        ]
+      }
+    },
+    {
+      "name": "Consumer-VPB-014",
+      "segment_name": "Value-Seeking Practical Buyer",
+      "profile": {
+        "segment_description": "Calculates price-per-volume; rarely tries new items at full price.",
+        "age_range": "28-45",
+        "household_context": "couple or small family; budget-conscious",
+        "lifestyle_context": "promo-aware; compares unit prices in-store",
+        "category_usage_frequency": "buys category weekly, same SKUs",
+        "current_brand_repertoire": [
+          "Mainstream sweetened bottled teas",
+          "Zero-sugar bottled teas"
+        ],
+        "current_purchase_channel": [
+          "Supermarkets",
+          "E-commerce platforms"
+        ],
+        "category_pain_points": [
+          "premium creep",
+          "shrinking pack sizes"
+        ],
+        "need_states": [
+          "Refreshes the body naturally with less sugar guilt"
+        ],
+        "usage_occasions": [
+          "Mid-afternoon at work",
+          "After lunch in summer"
+        ],
+        "price_sensitivity": 0.767,
+        "novelty_seeking_level": 0.302,
+        "brand_loyalty_level": 0.471,
+        "claim_skepticism_level": 0.98,
+        "health_safety_concern_level": 0.521,
+        "convenience_need_level": 0.524,
+        "taste_or_sensory_importance": 0.362,
+        "packaging_sensitivity": 0.375,
+        "promotion_sensitivity": 0.88,
+        "social_influence_sensitivity": 0.198,
+        "review_dependency_level": 0.445,
+        "channel_preference": [
+          "Supermarkets",
+          "E-commerce platforms"
+        ],
+        "media_touchpoints": [
+          "KOL partnerships",
+          "TikTok short video"
+        ],
+        "trust_drivers": [
+          "Sustained promo",
+          "Clear price-per-100ml",
+          "Sampling",
+          "Launch-month promotion lowers trial risk."
+        ],
+        "trial_barriers": [
+          "Premium price not justified vs current SKU",
+          "Concerned about: Consumers may not believe the natural cooling claim without education",
+          "Premium price vs mainstream alternatives"
+        ],
+        "repeat_purchase_drivers": [
+          "sustained promo",
+          "clear price-per-100ml"
+        ],
+        "likely_objections": [
+          "price too high vs current SKU",
+          "doesn't justify premium"
+        ],
+        "emotional_triggers": [
+          "sense of smart purchase"
+        ],
+        "initial_memory": [
+          "Aware of FreshPlus as a category brand at low salience.",
+          "Currently buys Mainstream sweetened bottled teas as a default in the category.",
+          "Belongs to segment: Value-Seeking Practical Buyer."
+        ],
+        "grounding_sources": [
+          "FunctionalClaim: 50% less sugar than leading RTD teas",
+          "CompetitorBrand: Mainstream sweetened bottled teas",
+          "Channel: Supermarkets",
+          "RiskSignal: Consumers may not believe the natural cooling claim without education",
+          "UsageOccasion: Mid-afternoon at work"
+        ]
+      }
+    },
+    {
+      "name": "Consumer-VPB-015",
+      "segment_name": "Value-Seeking Practical Buyer",
+      "profile": {
+        "segment_description": "Calculates price-per-volume; rarely tries new items at full price.",
+        "age_range": "28-45",
+        "household_context": "couple or small family; budget-conscious",
+        "lifestyle_context": "promo-aware; compares unit prices in-store",
+        "category_usage_frequency": "buys category weekly, same SKUs",
+        "current_brand_repertoire": [
+          "Mainstream sweetened bottled teas",
+          "Zero-sugar bottled teas"
+        ],
+        "current_purchase_channel": [
+          "TikTok Shop",
+          "Convenience stores"
+        ],
+        "category_pain_points": [
+          "premium creep",
+          "shrinking pack sizes"
+        ],
+        "need_states": [
+          "Refreshes the body naturally with less sugar guilt"
+        ],
+        "usage_occasions": [
+          "Mid-afternoon at work",
+          "After lunch in summer"
+        ],
+        "price_sensitivity": 0.825,
+        "novelty_seeking_level": 0.111,
+        "brand_loyalty_level": 0.576,
+        "claim_skepticism_level": 0.675,
+        "health_safety_concern_level": 0.487,
+        "convenience_need_level": 0.65,
+        "taste_or_sensory_importance": 0.649,
+        "packaging_sensitivity": 0.372,
+        "promotion_sensitivity": 0.725,
+        "social_influence_sensitivity": 0.093,
+        "review_dependency_level": 0.63,
+        "channel_preference": [
+          "TikTok Shop",
+          "Convenience stores"
+        ],
+        "media_touchpoints": [
+          "KOL partnerships",
+          "TikTok short video"
+        ],
+        "trust_drivers": [
+          "Sustained promo",
+          "Clear price-per-100ml",
+          "Sampling",
+          "Launch-month promotion lowers trial risk."
+        ],
+        "trial_barriers": [
+          "Premium price not justified vs current SKU",
+          "Concerned about: Consumers may not believe the natural cooling claim without education",
+          "Premium price vs mainstream alternatives"
+        ],
+        "repeat_purchase_drivers": [
+          "sustained promo",
+          "clear price-per-100ml"
+        ],
+        "likely_objections": [
+          "price too high vs current SKU",
+          "doesn't justify premium"
+        ],
+        "emotional_triggers": [
+          "sense of smart purchase"
+        ],
+        "initial_memory": [
+          "Aware of FreshPlus as a category brand at low salience.",
+          "Currently buys Mainstream sweetened bottled teas as a default in the category.",
+          "Belongs to segment: Value-Seeking Practical Buyer."
+        ],
+        "grounding_sources": [
+          "FunctionalClaim: 50% less sugar than leading RTD teas",
+          "CompetitorBrand: Mainstream sweetened bottled teas",
+          "Channel: TikTok Shop",
+          "RiskSignal: Consumers may not believe the natural cooling claim without education",
+          "UsageOccasion: Mid-afternoon at work"
+        ]
+      }
+    },
+    {
+      "name": "Consumer-VPB-016",
+      "segment_name": "Value-Seeking Practical Buyer",
+      "profile": {
+        "segment_description": "Calculates price-per-volume; rarely tries new items at full price.",
+        "age_range": "28-45",
+        "household_context": "couple or small family; budget-conscious",
+        "lifestyle_context": "promo-aware; compares unit prices in-store",
+        "category_usage_frequency": "buys category weekly, same SKUs",
+        "current_brand_repertoire": [
+          "Mainstream sweetened bottled teas",
+          "Zero-sugar bottled teas"
+        ],
+        "current_purchase_channel": [
+          "TikTok Shop",
+          "Convenience stores"
+        ],
+        "category_pain_points": [
+          "premium creep",
+          "shrinking pack sizes"
+        ],
+        "need_states": [
+          "Refreshes the body naturally with less sugar guilt"
+        ],
+        "usage_occasions": [
+          "After lunch in summer",
+          "Mid-afternoon at work"
+        ],
+        "price_sensitivity": 0.997,
+        "novelty_seeking_level": 0.229,
+        "brand_loyalty_level": 0.352,
+        "claim_skepticism_level": 0.936,
+        "health_safety_concern_level": 0.44,
+        "convenience_need_level": 0.549,
+        "taste_or_sensory_importance": 0.632,
+        "packaging_sensitivity": 0.39,
+        "promotion_sensitivity": 0.69,
+        "social_influence_sensitivity": 0.037,
+        "review_dependency_level": 0.516,
+        "channel_preference": [
+          "TikTok Shop",
+          "Convenience stores"
+        ],
+        "media_touchpoints": [
+          "KOL partnerships",
+          "TikTok short video"
+        ],
+        "trust_drivers": [
+          "Sustained promo",
+          "Clear price-per-100ml",
+          "Sampling",
+          "Launch-month promotion lowers trial risk."
+        ],
+        "trial_barriers": [
+          "Premium price not justified vs current SKU",
+          "Concerned about: Consumers may not believe the natural cooling claim without education",
+          "Premium price vs mainstream alternatives"
+        ],
+        "repeat_purchase_drivers": [
+          "sustained promo",
+          "clear price-per-100ml"
+        ],
+        "likely_objections": [
+          "price too high vs current SKU",
+          "doesn't justify premium"
+        ],
+        "emotional_triggers": [
+          "sense of smart purchase"
+        ],
+        "initial_memory": [
+          "Aware of FreshPlus as a category brand at low salience.",
+          "Currently buys Mainstream sweetened bottled teas as a default in the category.",
+          "Belongs to segment: Value-Seeking Practical Buyer."
+        ],
+        "grounding_sources": [
+          "FunctionalClaim: 50% less sugar than leading RTD teas",
+          "CompetitorBrand: Mainstream sweetened bottled teas",
+          "Channel: TikTok Shop",
+          "RiskSignal: Consumers may not believe the natural cooling claim without education",
+          "UsageOccasion: After lunch in summer"
+        ]
+      }
+    },
+    {
+      "name": "Consumer-VPB-017",
+      "segment_name": "Value-Seeking Practical Buyer",
+      "profile": {
+        "segment_description": "Calculates price-per-volume; rarely tries new items at full price.",
+        "age_range": "28-45",
+        "household_context": "couple or small family; budget-conscious",
+        "lifestyle_context": "promo-aware; compares unit prices in-store",
+        "category_usage_frequency": "buys category weekly, same SKUs",
+        "current_brand_repertoire": [
+          "Mainstream sweetened bottled teas",
+          "Zero-sugar bottled teas"
+        ],
+        "current_purchase_channel": [
+          "Supermarkets",
+          "TikTok Shop"
+        ],
+        "category_pain_points": [
+          "premium creep",
+          "shrinking pack sizes"
+        ],
+        "need_states": [
+          "Refreshes the body naturally with less sugar guilt"
+        ],
+        "usage_occasions": [
+          "Mid-afternoon at work",
+          "Quick refresh on commute"
+        ],
+        "price_sensitivity": 0.977,
+        "novelty_seeking_level": 0.018,
+        "brand_loyalty_level": 0.54,
+        "claim_skepticism_level": 0.94,
+        "health_safety_concern_level": 0.363,
+        "convenience_need_level": 0.45,
+        "taste_or_sensory_importance": 0.389,
+        "packaging_sensitivity": 0.644,
+        "promotion_sensitivity": 0.707,
+        "social_influence_sensitivity": 0.155,
+        "review_dependency_level": 0.562,
+        "channel_preference": [
+          "Supermarkets",
+          "TikTok Shop"
+        ],
+        "media_touchpoints": [
+          "TikTok short video",
+          "KOL partnerships"
+        ],
+        "trust_drivers": [
+          "Sustained promo",
+          "Clear price-per-100ml",
+          "Sampling",
+          "Launch-month promotion lowers trial risk."
+        ],
+        "trial_barriers": [
+          "Premium price not justified vs current SKU",
+          "Concerned about: Consumers may not believe the natural cooling claim without education",
+          "Premium price vs mainstream alternatives"
+        ],
+        "repeat_purchase_drivers": [
+          "sustained promo",
+          "clear price-per-100ml"
+        ],
+        "likely_objections": [
+          "price too high vs current SKU",
+          "doesn't justify premium"
+        ],
+        "emotional_triggers": [
+          "sense of smart purchase"
+        ],
+        "initial_memory": [
+          "Aware of FreshPlus as a category brand at low salience.",
+          "Currently buys Mainstream sweetened bottled teas as a default in the category.",
+          "Belongs to segment: Value-Seeking Practical Buyer."
+        ],
+        "grounding_sources": [
+          "FunctionalClaim: 50% less sugar than leading RTD teas",
+          "CompetitorBrand: Mainstream sweetened bottled teas",
+          "Channel: Supermarkets",
+          "RiskSignal: Consumers may not believe the natural cooling claim without education",
+          "UsageOccasion: Mid-afternoon at work"
+        ]
+      }
+    },
+    {
+      "name": "Consumer-BCB-018",
+      "segment_name": "Brand-Loyal Conservative Buyer",
+      "profile": {
+        "segment_description": "Sticks with proven brand; suspicious of unfamiliar entrants.",
+        "age_range": "35-55",
+        "household_context": "established household",
+        "lifestyle_context": "low novelty appetite; values reliability",
+        "category_usage_frequency": "buys same brand weekly for years",
+        "current_brand_repertoire": [
+          "Mainstream sweetened bottled teas",
+          "Zero-sugar bottled teas"
+        ],
+        "current_purchase_channel": [
+          "Supermarkets",
+          "Convenience stores"
+        ],
+        "category_pain_points": [
+          "disliked when favorite brand changes recipe"
+        ],
+        "need_states": [
+          "Refreshes the body naturally with less sugar guilt"
+        ],
+        "usage_occasions": [
+          "Quick refresh on commute",
+          "Mid-afternoon at work"
+        ],
+        "price_sensitivity": 0.394,
+        "novelty_seeking_level": 0.032,
+        "brand_loyalty_level": 0.827,
+        "claim_skepticism_level": 0.965,
+        "health_safety_concern_level": 0.589,
+        "convenience_need_level": 0.608,
+        "taste_or_sensory_importance": 0.62,
+        "packaging_sensitivity": 0.413,
+        "promotion_sensitivity": 0.087,
+        "social_influence_sensitivity": 0.036,
+        "review_dependency_level": 0.584,
+        "channel_preference": [
+          "Supermarkets",
+          "Convenience stores"
+        ],
+        "media_touchpoints": [
+          "TikTok short video",
+          "KOL partnerships"
+        ],
+        "trust_drivers": [
+          "Trusted-source endorsement",
+          "Long shelf presence",
+          "Launch-month promotion lowers trial risk."
+        ],
+        "trial_barriers": [
+          "Already loyal to: Mainstream sweetened bottled teas, Zero-sugar bottled teas",
+          "Concerned about: Consumers may not believe the natural cooling claim without education",
+          "Premium price vs mainstream alternatives"
+        ],
+        "repeat_purchase_drivers": [
+          "consistency",
+          "trust signals"
+        ],
+        "likely_objections": [
+          "why switch from a brand that works?"
+        ],
+        "emotional_triggers": [
+          "familiarity",
+          "trusted endorsement"
+        ],
+        "initial_memory": [
+          "Aware of FreshPlus as a category brand at low salience.",
+          "Currently buys Mainstream sweetened bottled teas as a default in the category.",
+          "Belongs to segment: Brand-Loyal Conservative Buyer."
+        ],
+        "grounding_sources": [
+          "FunctionalClaim: 50% less sugar than leading RTD teas",
+          "CompetitorBrand: Mainstream sweetened bottled teas",
+          "Channel: Supermarkets",
+          "RiskSignal: Consumers may not believe the natural cooling claim without education",
+          "UsageOccasion: Quick refresh on commute"
+        ]
+      }
+    },
+    {
+      "name": "Consumer-BCB-019",
+      "segment_name": "Brand-Loyal Conservative Buyer",
+      "profile": {
+        "segment_description": "Sticks with proven brand; suspicious of unfamiliar entrants.",
+        "age_range": "35-55",
+        "household_context": "established household",
+        "lifestyle_context": "low novelty appetite; values reliability",
+        "category_usage_frequency": "buys same brand weekly for years",
+        "current_brand_repertoire": [
+          "Mainstream sweetened bottled teas",
+          "Zero-sugar bottled teas"
+        ],
+        "current_purchase_channel": [
+          "TikTok Shop",
+          "Supermarkets"
+        ],
+        "category_pain_points": [
+          "disliked when favorite brand changes recipe"
+        ],
+        "need_states": [
+          "Refreshes the body naturally with less sugar guilt"
+        ],
+        "usage_occasions": [
+          "Mid-afternoon at work",
+          "After lunch in summer"
+        ],
+        "price_sensitivity": 0.571,
+        "novelty_seeking_level": 0.083,
+        "brand_loyalty_level": 0.983,
+        "claim_skepticism_level": 0.931,
+        "health_safety_concern_level": 0.609,
+        "convenience_need_level": 0.593,
+        "taste_or_sensory_importance": 0.43,
+        "packaging_sensitivity": 0.586,
+        "promotion_sensitivity": 0.038,
+        "social_influence_sensitivity": 0.305,
+        "review_dependency_level": 0.608,
+        "channel_preference": [
+          "TikTok Shop",
+          "Supermarkets"
+        ],
+        "media_touchpoints": [
+          "TikTok short video",
+          "KOL partnerships"
+        ],
+        "trust_drivers": [
+          "Trusted-source endorsement",
+          "Long shelf presence",
+          "Launch-month promotion lowers trial risk."
+        ],
+        "trial_barriers": [
+          "Already loyal to: Mainstream sweetened bottled teas, Zero-sugar bottled teas",
+          "Concerned about: Consumers may not believe the natural cooling claim without education",
+          "Premium price vs mainstream alternatives"
+        ],
+        "repeat_purchase_drivers": [
+          "consistency",
+          "trust signals"
+        ],
+        "likely_objections": [
+          "why switch from a brand that works?"
+        ],
+        "emotional_triggers": [
+          "familiarity",
+          "trusted endorsement"
+        ],
+        "initial_memory": [
+          "Aware of FreshPlus as a category brand at low salience.",
+          "Currently buys Mainstream sweetened bottled teas as a default in the category.",
+          "Belongs to segment: Brand-Loyal Conservative Buyer."
+        ],
+        "grounding_sources": [
+          "FunctionalClaim: 50% less sugar than leading RTD teas",
+          "CompetitorBrand: Mainstream sweetened bottled teas",
+          "Channel: TikTok Shop",
+          "RiskSignal: Consumers may not believe the natural cooling claim without education",
+          "UsageOccasion: Mid-afternoon at work"
+        ]
+      }
+    },
+    {
+      "name": "Consumer-BCB-020",
+      "segment_name": "Brand-Loyal Conservative Buyer",
+      "profile": {
+        "segment_description": "Sticks with proven brand; suspicious of unfamiliar entrants.",
+        "age_range": "35-55",
+        "household_context": "established household",
+        "lifestyle_context": "low novelty appetite; values reliability",
+        "category_usage_frequency": "buys same brand weekly for years",
+        "current_brand_repertoire": [
+          "Mainstream sweetened bottled teas",
+          "Zero-sugar bottled teas"
+        ],
+        "current_purchase_channel": [
+          "Convenience stores",
+          "E-commerce platforms"
+        ],
+        "category_pain_points": [
+          "disliked when favorite brand changes recipe"
+        ],
+        "need_states": [
+          "Refreshes the body naturally with less sugar guilt"
+        ],
+        "usage_occasions": [
+          "Mid-afternoon at work",
+          "After lunch in summer"
+        ],
+        "price_sensitivity": 0.408,
+        "novelty_seeking_level": 0.082,
+        "brand_loyalty_level": 0.966,
+        "claim_skepticism_level": 0.988,
+        "health_safety_concern_level": 0.434,
+        "convenience_need_level": 0.542,
+        "taste_or_sensory_importance": 0.47,
+        "packaging_sensitivity": 0.644,
+        "promotion_sensitivity": 0.188,
+        "social_influence_sensitivity": 0.329,
+        "review_dependency_level": 0.385,
+        "channel_preference": [
+          "Convenience stores",
+          "E-commerce platforms"
+        ],
+        "media_touchpoints": [
+          "KOL partnerships",
+          "TikTok short video"
+        ],
+        "trust_drivers": [
+          "Trusted-source endorsement",
+          "Long shelf presence",
+          "Launch-month promotion lowers trial risk."
+        ],
+        "trial_barriers": [
+          "Already loyal to: Mainstream sweetened bottled teas, Zero-sugar bottled teas",
+          "Concerned about: Consumers may not believe the natural cooling claim without education",
+          "Premium price vs mainstream alternatives"
+        ],
+        "repeat_purchase_drivers": [
+          "consistency",
+          "trust signals"
+        ],
+        "likely_objections": [
+          "why switch from a brand that works?"
+        ],
+        "emotional_triggers": [
+          "familiarity",
+          "trusted endorsement"
+        ],
+        "initial_memory": [
+          "Aware of FreshPlus as a category brand at low salience.",
+          "Currently buys Mainstream sweetened bottled teas as a default in the category.",
+          "Belongs to segment: Brand-Loyal Conservative Buyer."
+        ],
+        "grounding_sources": [
+          "FunctionalClaim: 50% less sugar than leading RTD teas",
+          "CompetitorBrand: Mainstream sweetened bottled teas",
+          "Channel: Convenience stores",
+          "RiskSignal: Consumers may not believe the natural cooling claim without education",
+          "UsageOccasion: Mid-afternoon at work"
+        ]
+      }
+    },
+    {
+      "name": "Consumer-BCB-021",
+      "segment_name": "Brand-Loyal Conservative Buyer",
+      "profile": {
+        "segment_description": "Sticks with proven brand; suspicious of unfamiliar entrants.",
+        "age_range": "35-55",
+        "household_context": "established household",
+        "lifestyle_context": "low novelty appetite; values reliability",
+        "category_usage_frequency": "buys same brand weekly for years",
+        "current_brand_repertoire": [
+          "Mainstream sweetened bottled teas",
+          "Zero-sugar bottled teas"
+        ],
+        "current_purchase_channel": [
+          "Convenience stores",
+          "TikTok Shop"
+        ],
+        "category_pain_points": [
+          "disliked when favorite brand changes recipe"
+        ],
+        "need_states": [
+          "Refreshes the body naturally with less sugar guilt"
+        ],
+        "usage_occasions": [
+          "After lunch in summer",
+          "Quick refresh on commute"
+        ],
+        "price_sensitivity": 0.444,
+        "novelty_seeking_level": 0.152,
+        "brand_loyalty_level": 0.878,
+        "claim_skepticism_level": 0.785,
+        "health_safety_concern_level": 0.523,
+        "convenience_need_level": 0.426,
+        "taste_or_sensory_importance": 0.563,
+        "packaging_sensitivity": 0.351,
+        "promotion_sensitivity": 0.324,
+        "social_influence_sensitivity": 0.188,
+        "review_dependency_level": 0.566,
+        "channel_preference": [
+          "Convenience stores",
+          "TikTok Shop"
+        ],
+        "media_touchpoints": [
+          "KOL partnerships",
+          "TikTok short video"
+        ],
+        "trust_drivers": [
+          "Trusted-source endorsement",
+          "Long shelf presence",
+          "Launch-month promotion lowers trial risk."
+        ],
+        "trial_barriers": [
+          "Already loyal to: Mainstream sweetened bottled teas, Zero-sugar bottled teas",
+          "Concerned about: Consumers may not believe the natural cooling claim without education",
+          "Premium price vs mainstream alternatives"
+        ],
+        "repeat_purchase_drivers": [
+          "consistency",
+          "trust signals"
+        ],
+        "likely_objections": [
+          "why switch from a brand that works?"
+        ],
+        "emotional_triggers": [
+          "familiarity",
+          "trusted endorsement"
+        ],
+        "initial_memory": [
+          "Aware of FreshPlus as a category brand at low salience.",
+          "Currently buys Mainstream sweetened bottled teas as a default in the category.",
+          "Belongs to segment: Brand-Loyal Conservative Buyer."
+        ],
+        "grounding_sources": [
+          "FunctionalClaim: 50% less sugar than leading RTD teas",
+          "CompetitorBrand: Mainstream sweetened bottled teas",
+          "Channel: Convenience stores",
+          "RiskSignal: Consumers may not believe the natural cooling claim without education",
+          "UsageOccasion: After lunch in summer"
+        ]
+      }
+    },
+    {
+      "name": "Consumer-BCB-022",
+      "segment_name": "Brand-Loyal Conservative Buyer",
+      "profile": {
+        "segment_description": "Sticks with proven brand; suspicious of unfamiliar entrants.",
+        "age_range": "35-55",
+        "household_context": "established household",
+        "lifestyle_context": "low novelty appetite; values reliability",
+        "category_usage_frequency": "buys same brand weekly for years",
+        "current_brand_repertoire": [
+          "Mainstream sweetened bottled teas",
+          "Zero-sugar bottled teas"
+        ],
+        "current_purchase_channel": [
+          "E-commerce platforms",
+          "TikTok Shop"
+        ],
+        "category_pain_points": [
+          "disliked when favorite brand changes recipe"
+        ],
+        "need_states": [
+          "Refreshes the body naturally with less sugar guilt"
+        ],
+        "usage_occasions": [
+          "Quick refresh on commute",
+          "After lunch in summer"
+        ],
+        "price_sensitivity": 0.387,
+        "novelty_seeking_level": 0.225,
+        "brand_loyalty_level": 0.877,
+        "claim_skepticism_level": 0.883,
+        "health_safety_concern_level": 0.448,
+        "convenience_need_level": 0.559,
+        "taste_or_sensory_importance": 0.516,
+        "packaging_sensitivity": 0.408,
+        "promotion_sensitivity": 0.233,
+        "social_influence_sensitivity": 0.133,
+        "review_dependency_level": 0.574,
+        "channel_preference": [
+          "E-commerce platforms",
+          "TikTok Shop"
+        ],
+        "media_touchpoints": [
+          "TikTok short video",
+          "KOL partnerships"
+        ],
+        "trust_drivers": [
+          "Trusted-source endorsement",
+          "Long shelf presence",
+          "Launch-month promotion lowers trial risk."
+        ],
+        "trial_barriers": [
+          "Already loyal to: Mainstream sweetened bottled teas, Zero-sugar bottled teas",
+          "Concerned about: Consumers may not believe the natural cooling claim without education",
+          "Premium price vs mainstream alternatives"
+        ],
+        "repeat_purchase_drivers": [
+          "consistency",
+          "trust signals"
+        ],
+        "likely_objections": [
+          "why switch from a brand that works?"
+        ],
+        "emotional_triggers": [
+          "familiarity",
+          "trusted endorsement"
+        ],
+        "initial_memory": [
+          "Aware of FreshPlus as a category brand at low salience.",
+          "Currently buys Mainstream sweetened bottled teas as a default in the category.",
+          "Belongs to segment: Brand-Loyal Conservative Buyer."
+        ],
+        "grounding_sources": [
+          "FunctionalClaim: 50% less sugar than leading RTD teas",
+          "CompetitorBrand: Mainstream sweetened bottled teas",
+          "Channel: E-commerce platforms",
+          "RiskSignal: Consumers may not believe the natural cooling claim without education",
+          "UsageOccasion: Quick refresh on commute"
+        ]
+      }
+    },
+    {
+      "name": "Consumer-BCB-023",
+      "segment_name": "Brand-Loyal Conservative Buyer",
+      "profile": {
+        "segment_description": "Sticks with proven brand; suspicious of unfamiliar entrants.",
+        "age_range": "35-55",
+        "household_context": "established household",
+        "lifestyle_context": "low novelty appetite; values reliability",
+        "category_usage_frequency": "buys same brand weekly for years",
+        "current_brand_repertoire": [
+          "Mainstream sweetened bottled teas",
+          "Zero-sugar bottled teas"
+        ],
+        "current_purchase_channel": [
+          "TikTok Shop",
+          "Convenience stores"
+        ],
+        "category_pain_points": [
+          "disliked when favorite brand changes recipe"
+        ],
+        "need_states": [
+          "Refreshes the body naturally with less sugar guilt"
+        ],
+        "usage_occasions": [
+          "Mid-afternoon at work",
+          "Quick refresh on commute"
+        ],
+        "price_sensitivity": 0.479,
+        "novelty_seeking_level": 0.145,
+        "brand_loyalty_level": 0.914,
+        "claim_skepticism_level": 0.813,
+        "health_safety_concern_level": 0.483,
+        "convenience_need_level": 0.414,
+        "taste_or_sensory_importance": 0.492,
+        "packaging_sensitivity": 0.62,
+        "promotion_sensitivity": 0.279,
+        "social_influence_sensitivity": 0.059,
+        "review_dependency_level": 0.375,
+        "channel_preference": [
+          "TikTok Shop",
+          "Convenience stores"
+        ],
+        "media_touchpoints": [
+          "TikTok short video",
+          "KOL partnerships"
+        ],
+        "trust_drivers": [
+          "Trusted-source endorsement",
+          "Long shelf presence",
+          "Launch-month promotion lowers trial risk."
+        ],
+        "trial_barriers": [
+          "Already loyal to: Mainstream sweetened bottled teas, Zero-sugar bottled teas",
+          "Concerned about: Consumers may not believe the natural cooling claim without education",
+          "Premium price vs mainstream alternatives"
+        ],
+        "repeat_purchase_drivers": [
+          "consistency",
+          "trust signals"
+        ],
+        "likely_objections": [
+          "why switch from a brand that works?"
+        ],
+        "emotional_triggers": [
+          "familiarity",
+          "trusted endorsement"
+        ],
+        "initial_memory": [
+          "Aware of FreshPlus as a category brand at low salience.",
+          "Currently buys Mainstream sweetened bottled teas as a default in the category.",
+          "Belongs to segment: Brand-Loyal Conservative Buyer."
+        ],
+        "grounding_sources": [
+          "FunctionalClaim: 50% less sugar than leading RTD teas",
+          "CompetitorBrand: Mainstream sweetened bottled teas",
+          "Channel: TikTok Shop",
+          "RiskSignal: Consumers may not believe the natural cooling claim without education",
+          "UsageOccasion: Mid-afternoon at work"
+        ]
+      }
+    },
+    {
+      "name": "Consumer-BCB-024",
+      "segment_name": "Brand-Loyal Conservative Buyer",
+      "profile": {
+        "segment_description": "Sticks with proven brand; suspicious of unfamiliar entrants.",
+        "age_range": "35-55",
+        "household_context": "established household",
+        "lifestyle_context": "low novelty appetite; values reliability",
+        "category_usage_frequency": "buys same brand weekly for years",
+        "current_brand_repertoire": [
+          "Mainstream sweetened bottled teas",
+          "Zero-sugar bottled teas"
+        ],
+        "current_purchase_channel": [
+          "Supermarkets",
+          "Convenience stores"
+        ],
+        "category_pain_points": [
+          "disliked when favorite brand changes recipe"
+        ],
+        "need_states": [
+          "Refreshes the body naturally with less sugar guilt"
+        ],
+        "usage_occasions": [
+          "Mid-afternoon at work",
+          "After lunch in summer"
+        ],
+        "price_sensitivity": 0.423,
+        "novelty_seeking_level": 0.119,
+        "brand_loyalty_level": 0.962,
+        "claim_skepticism_level": 0.675,
+        "health_safety_concern_level": 0.474,
+        "convenience_need_level": 0.539,
+        "taste_or_sensory_importance": 0.408,
+        "packaging_sensitivity": 0.559,
+        "promotion_sensitivity": 0.173,
+        "social_influence_sensitivity": 0.085,
+        "review_dependency_level": 0.547,
+        "channel_preference": [
+          "Supermarkets",
+          "Convenience stores"
+        ],
+        "media_touchpoints": [
+          "KOL partnerships",
+          "TikTok short video"
+        ],
+        "trust_drivers": [
+          "Trusted-source endorsement",
+          "Long shelf presence",
+          "Launch-month promotion lowers trial risk."
+        ],
+        "trial_barriers": [
+          "Already loyal to: Mainstream sweetened bottled teas, Zero-sugar bottled teas",
+          "Concerned about: Consumers may not believe the natural cooling claim without education",
+          "Premium price vs mainstream alternatives"
+        ],
+        "repeat_purchase_drivers": [
+          "consistency",
+          "trust signals"
+        ],
+        "likely_objections": [
+          "why switch from a brand that works?"
+        ],
+        "emotional_triggers": [
+          "familiarity",
+          "trusted endorsement"
+        ],
+        "initial_memory": [
+          "Aware of FreshPlus as a category brand at low salience.",
+          "Currently buys Mainstream sweetened bottled teas as a default in the category.",
+          "Belongs to segment: Brand-Loyal Conservative Buyer."
+        ],
+        "grounding_sources": [
+          "FunctionalClaim: 50% less sugar than leading RTD teas",
+          "CompetitorBrand: Mainstream sweetened bottled teas",
+          "Channel: Supermarkets",
+          "RiskSignal: Consumers may not believe the natural cooling claim without education",
+          "UsageOccasion: Mid-afternoon at work"
+        ]
+      }
+    },
+    {
+      "name": "Consumer-HSB-025",
+      "segment_name": "Health/Safety-Conscious Buyer",
+      "profile": {
+        "segment_description": "Reads labels; cares about ingredients, sugar, additives, sourcing.",
+        "age_range": "26-45",
+        "household_context": "varies; often health-leaning lifestyle",
+        "lifestyle_context": "follows wellness content; reads ingredient lists",
+        "category_usage_frequency": "selective buyer, 2-3x/week",
+        "current_brand_repertoire": [
+          "Mainstream sweetened bottled teas",
+          "Zero-sugar bottled teas"
+        ],
+        "current_purchase_channel": [
+          "Supermarkets",
+          "TikTok Shop"
+        ],
+        "category_pain_points": [
+          "too much sugar in mainstream options",
+          "vague natural claims"
+        ],
+        "need_states": [
+          "Refreshes the body naturally with less sugar guilt"
+        ],
+        "usage_occasions": [
+          "Quick refresh on commute",
+          "After lunch in summer"
+        ],
+        "price_sensitivity": 0.625,
+        "novelty_seeking_level": 0.386,
+        "brand_loyalty_level": 0.39,
+        "claim_skepticism_level": 0.813,
+        "health_safety_concern_level": 0.883,
+        "convenience_need_level": 0.518,
+        "taste_or_sensory_importance": 0.761,
+        "packaging_sensitivity": 0.577,
+        "promotion_sensitivity": 0.483,
+        "social_influence_sensitivity": 0.595,
+        "review_dependency_level": 0.962,
+        "channel_preference": [
+          "Supermarkets",
+          "TikTok Shop"
+        ],
+        "media_touchpoints": [
+          "KOL partnerships",
+          "TikTok short video"
+        ],
+        "trust_drivers": [
+          "Clear ingredient list",
+          "Credible RTB",
+          "Third-party verification",
+          "Launch-month promotion lowers trial risk."
+        ],
+        "trial_barriers": [
+          "Skeptical about unsubstantiated 'natural' or cooling claims",
+          "Wants ingredient evidence behind: 50% less sugar than leading RTD teas",
+          "Concerned about: Consumers may not believe the natural cooling claim without education",
+          "Premium price vs mainstream alternatives"
+        ],
+        "repeat_purchase_drivers": [
+          "clean label",
+          "credible RTB",
+          "noticeable benefit"
+        ],
+        "likely_objections": [
+          "is the cooling claim actually substantiated?"
+        ],
+        "emotional_triggers": [
+          "feeling cared for",
+          "alignment with health goals"
+        ],
+        "initial_memory": [
+          "Aware of FreshPlus as a category brand at low salience.",
+          "Currently buys Mainstream sweetened bottled teas as a default in the category.",
+          "Belongs to segment: Health/Safety-Conscious Buyer."
+        ],
+        "grounding_sources": [
+          "FunctionalClaim: 50% less sugar than leading RTD teas",
+          "CompetitorBrand: Mainstream sweetened bottled teas",
+          "Channel: Supermarkets",
+          "RiskSignal: Consumers may not believe the natural cooling claim without education",
+          "UsageOccasion: Quick refresh on commute"
+        ]
+      }
+    },
+    {
+      "name": "Consumer-HSB-026",
+      "segment_name": "Health/Safety-Conscious Buyer",
+      "profile": {
+        "segment_description": "Reads labels; cares about ingredients, sugar, additives, sourcing.",
+        "age_range": "26-45",
+        "household_context": "varies; often health-leaning lifestyle",
+        "lifestyle_context": "follows wellness content; reads ingredient lists",
+        "category_usage_frequency": "selective buyer, 2-3x/week",
+        "current_brand_repertoire": [
+          "Mainstream sweetened bottled teas",
+          "Zero-sugar bottled teas"
+        ],
+        "current_purchase_channel": [
+          "E-commerce platforms",
+          "TikTok Shop"
+        ],
+        "category_pain_points": [
+          "too much sugar in mainstream options",
+          "vague natural claims"
+        ],
+        "need_states": [
+          "Refreshes the body naturally with less sugar guilt"
+        ],
+        "usage_occasions": [
+          "Mid-afternoon at work",
+          "Quick refresh on commute"
+        ],
+        "price_sensitivity": 0.424,
+        "novelty_seeking_level": 0.541,
+        "brand_loyalty_level": 0.58,
+        "claim_skepticism_level": 0.832,
+        "health_safety_concern_level": 0.907,
+        "convenience_need_level": 0.432,
+        "taste_or_sensory_importance": 0.677,
+        "packaging_sensitivity": 0.436,
+        "promotion_sensitivity": 0.432,
+        "social_influence_sensitivity": 0.446,
+        "review_dependency_level": 0.839,
+        "channel_preference": [
+          "E-commerce platforms",
+          "TikTok Shop"
+        ],
+        "media_touchpoints": [
+          "TikTok short video",
+          "KOL partnerships"
+        ],
+        "trust_drivers": [
+          "Clear ingredient list",
+          "Credible RTB",
+          "Third-party verification",
+          "Launch-month promotion lowers trial risk."
+        ],
+        "trial_barriers": [
+          "Skeptical about unsubstantiated 'natural' or cooling claims",
+          "Wants ingredient evidence behind: 50% less sugar than leading RTD teas",
+          "Concerned about: Consumers may not believe the natural cooling claim without education",
+          "Premium price vs mainstream alternatives"
+        ],
+        "repeat_purchase_drivers": [
+          "clean label",
+          "credible RTB",
+          "noticeable benefit"
+        ],
+        "likely_objections": [
+          "is the cooling claim actually substantiated?"
+        ],
+        "emotional_triggers": [
+          "feeling cared for",
+          "alignment with health goals"
+        ],
+        "initial_memory": [
+          "Aware of FreshPlus as a category brand at low salience.",
+          "Currently buys Mainstream sweetened bottled teas as a default in the category.",
+          "Belongs to segment: Health/Safety-Conscious Buyer."
+        ],
+        "grounding_sources": [
+          "FunctionalClaim: 50% less sugar than leading RTD teas",
+          "CompetitorBrand: Mainstream sweetened bottled teas",
+          "Channel: E-commerce platforms",
+          "RiskSignal: Consumers may not believe the natural cooling claim without education",
+          "UsageOccasion: Mid-afternoon at work"
+        ]
+      }
+    },
+    {
+      "name": "Consumer-HSB-027",
+      "segment_name": "Health/Safety-Conscious Buyer",
+      "profile": {
+        "segment_description": "Reads labels; cares about ingredients, sugar, additives, sourcing.",
+        "age_range": "26-45",
+        "household_context": "varies; often health-leaning lifestyle",
+        "lifestyle_context": "follows wellness content; reads ingredient lists",
+        "category_usage_frequency": "selective buyer, 2-3x/week",
+        "current_brand_repertoire": [
+          "Mainstream sweetened bottled teas",
+          "Zero-sugar bottled teas"
+        ],
+        "current_purchase_channel": [
+          "E-commerce platforms",
+          "Supermarkets"
+        ],
+        "category_pain_points": [
+          "too much sugar in mainstream options",
+          "vague natural claims"
+        ],
+        "need_states": [
+          "Refreshes the body naturally with less sugar guilt"
+        ],
+        "usage_occasions": [
+          "After lunch in summer",
+          "Quick refresh on commute"
+        ],
+        "price_sensitivity": 0.472,
+        "novelty_seeking_level": 0.513,
+        "brand_loyalty_level": 0.475,
+        "claim_skepticism_level": 0.722,
+        "health_safety_concern_level": 0.855,
+        "convenience_need_level": 0.621,
+        "taste_or_sensory_importance": 0.854,
+        "packaging_sensitivity": 0.559,
+        "promotion_sensitivity": 0.607,
+        "social_influence_sensitivity": 0.58,
+        "review_dependency_level": 0.783,
+        "channel_preference": [
+          "E-commerce platforms",
+          "Supermarkets"
+        ],
+        "media_touchpoints": [
+          "TikTok short video",
+          "KOL partnerships"
+        ],
+        "trust_drivers": [
+          "Clear ingredient list",
+          "Credible RTB",
+          "Third-party verification",
+          "Launch-month promotion lowers trial risk."
+        ],
+        "trial_barriers": [
+          "Skeptical about unsubstantiated 'natural' or cooling claims",
+          "Wants ingredient evidence behind: 50% less sugar than leading RTD teas",
+          "Concerned about: Consumers may not believe the natural cooling claim without education",
+          "Premium price vs mainstream alternatives"
+        ],
+        "repeat_purchase_drivers": [
+          "clean label",
+          "credible RTB",
+          "noticeable benefit"
+        ],
+        "likely_objections": [
+          "is the cooling claim actually substantiated?"
+        ],
+        "emotional_triggers": [
+          "feeling cared for",
+          "alignment with health goals"
+        ],
+        "initial_memory": [
+          "Aware of FreshPlus as a category brand at low salience.",
+          "Currently buys Mainstream sweetened bottled teas as a default in the category.",
+          "Belongs to segment: Health/Safety-Conscious Buyer."
+        ],
+        "grounding_sources": [
+          "FunctionalClaim: 50% less sugar than leading RTD teas",
+          "CompetitorBrand: Mainstream sweetened bottled teas",
+          "Channel: E-commerce platforms",
+          "RiskSignal: Consumers may not believe the natural cooling claim without education",
+          "UsageOccasion: After lunch in summer"
+        ]
+      }
+    },
+    {
+      "name": "Consumer-HSB-028",
+      "segment_name": "Health/Safety-Conscious Buyer",
+      "profile": {
+        "segment_description": "Reads labels; cares about ingredients, sugar, additives, sourcing.",
+        "age_range": "26-45",
+        "household_context": "varies; often health-leaning lifestyle",
+        "lifestyle_context": "follows wellness content; reads ingredient lists",
+        "category_usage_frequency": "selective buyer, 2-3x/week",
+        "current_brand_repertoire": [
+          "Mainstream sweetened bottled teas",
+          "Zero-sugar bottled teas"
+        ],
+        "current_purchase_channel": [
+          "Supermarkets",
+          "E-commerce platforms"
+        ],
+        "category_pain_points": [
+          "too much sugar in mainstream options",
+          "vague natural claims"
+        ],
+        "need_states": [
+          "Refreshes the body naturally with less sugar guilt"
+        ],
+        "usage_occasions": [
+          "Mid-afternoon at work",
+          "After lunch in summer"
+        ],
+        "price_sensitivity": 0.481,
+        "novelty_seeking_level": 0.359,
+        "brand_loyalty_level": 0.451,
+        "claim_skepticism_level": 0.888,
+        "health_safety_concern_level": 0.851,
+        "convenience_need_level": 0.4,
+        "taste_or_sensory_importance": 0.814,
+        "packaging_sensitivity": 0.388,
+        "promotion_sensitivity": 0.537,
+        "social_influence_sensitivity": 0.358,
+        "review_dependency_level": 0.788,
+        "channel_preference": [
+          "Supermarkets",
+          "E-commerce platforms"
+        ],
+        "media_touchpoints": [
+          "TikTok short video",
+          "KOL partnerships"
+        ],
+        "trust_drivers": [
+          "Clear ingredient list",
+          "Credible RTB",
+          "Third-party verification",
+          "Launch-month promotion lowers trial risk."
+        ],
+        "trial_barriers": [
+          "Skeptical about unsubstantiated 'natural' or cooling claims",
+          "Wants ingredient evidence behind: 50% less sugar than leading RTD teas",
+          "Concerned about: Consumers may not believe the natural cooling claim without education",
+          "Premium price vs mainstream alternatives"
+        ],
+        "repeat_purchase_drivers": [
+          "clean label",
+          "credible RTB",
+          "noticeable benefit"
+        ],
+        "likely_objections": [
+          "is the cooling claim actually substantiated?"
+        ],
+        "emotional_triggers": [
+          "feeling cared for",
+          "alignment with health goals"
+        ],
+        "initial_memory": [
+          "Aware of FreshPlus as a category brand at low salience.",
+          "Currently buys Mainstream sweetened bottled teas as a default in the category.",
+          "Belongs to segment: Health/Safety-Conscious Buyer."
+        ],
+        "grounding_sources": [
+          "FunctionalClaim: 50% less sugar than leading RTD teas",
+          "CompetitorBrand: Mainstream sweetened bottled teas",
+          "Channel: Supermarkets",
+          "RiskSignal: Consumers may not believe the natural cooling claim without education",
+          "UsageOccasion: Mid-afternoon at work"
+        ]
+      }
+    },
+    {
+      "name": "Consumer-HSB-029",
+      "segment_name": "Health/Safety-Conscious Buyer",
+      "profile": {
+        "segment_description": "Reads labels; cares about ingredients, sugar, additives, sourcing.",
+        "age_range": "26-45",
+        "household_context": "varies; often health-leaning lifestyle",
+        "lifestyle_context": "follows wellness content; reads ingredient lists",
+        "category_usage_frequency": "selective buyer, 2-3x/week",
+        "current_brand_repertoire": [
+          "Mainstream sweetened bottled teas",
+          "Zero-sugar bottled teas"
+        ],
+        "current_purchase_channel": [
+          "Convenience stores",
+          "E-commerce platforms"
+        ],
+        "category_pain_points": [
+          "too much sugar in mainstream options",
+          "vague natural claims"
+        ],
+        "need_states": [
+          "Refreshes the body naturally with less sugar guilt"
+        ],
+        "usage_occasions": [
+          "Mid-afternoon at work",
+          "Quick refresh on commute"
+        ],
+        "price_sensitivity": 0.448,
+        "novelty_seeking_level": 0.486,
+        "brand_loyalty_level": 0.451,
+        "claim_skepticism_level": 0.958,
+        "health_safety_concern_level": 0.82,
+        "convenience_need_level": 0.635,
+        "taste_or_sensory_importance": 0.798,
+        "packaging_sensitivity": 0.6,
+        "promotion_sensitivity": 0.491,
+        "social_influence_sensitivity": 0.575,
+        "review_dependency_level": 0.668,
+        "channel_preference": [
+          "Convenience stores",
+          "E-commerce platforms"
+        ],
+        "media_touchpoints": [
+          "TikTok short video",
+          "KOL partnerships"
+        ],
+        "trust_drivers": [
+          "Clear ingredient list",
+          "Credible RTB",
+          "Third-party verification",
+          "Launch-month promotion lowers trial risk."
+        ],
+        "trial_barriers": [
+          "Skeptical about unsubstantiated 'natural' or cooling claims",
+          "Wants ingredient evidence behind: 50% less sugar than leading RTD teas",
+          "Concerned about: Consumers may not believe the natural cooling claim without education",
+          "Premium price vs mainstream alternatives"
+        ],
+        "repeat_purchase_drivers": [
+          "clean label",
+          "credible RTB",
+          "noticeable benefit"
+        ],
+        "likely_objections": [
+          "is the cooling claim actually substantiated?"
+        ],
+        "emotional_triggers": [
+          "feeling cared for",
+          "alignment with health goals"
+        ],
+        "initial_memory": [
+          "Aware of FreshPlus as a category brand at low salience.",
+          "Currently buys Mainstream sweetened bottled teas as a default in the category.",
+          "Belongs to segment: Health/Safety-Conscious Buyer."
+        ],
+        "grounding_sources": [
+          "FunctionalClaim: 50% less sugar than leading RTD teas",
+          "CompetitorBrand: Mainstream sweetened bottled teas",
+          "Channel: Convenience stores",
+          "RiskSignal: Consumers may not believe the natural cooling claim without education",
+          "UsageOccasion: Mid-afternoon at work"
+        ]
+      }
+    },
+    {
+      "name": "Consumer-HSB-030",
+      "segment_name": "Health/Safety-Conscious Buyer",
+      "profile": {
+        "segment_description": "Reads labels; cares about ingredients, sugar, additives, sourcing.",
+        "age_range": "26-45",
+        "household_context": "varies; often health-leaning lifestyle",
+        "lifestyle_context": "follows wellness content; reads ingredient lists",
+        "category_usage_frequency": "selective buyer, 2-3x/week",
+        "current_brand_repertoire": [
+          "Mainstream sweetened bottled teas",
+          "Zero-sugar bottled teas"
+        ],
+        "current_purchase_channel": [
+          "Convenience stores",
+          "Supermarkets"
+        ],
+        "category_pain_points": [
+          "too much sugar in mainstream options",
+          "vague natural claims"
+        ],
+        "need_states": [
+          "Refreshes the body naturally with less sugar guilt"
+        ],
+        "usage_occasions": [
+          "After lunch in summer",
+          "Mid-afternoon at work"
+        ],
+        "price_sensitivity": 0.536,
+        "novelty_seeking_level": 0.422,
+        "brand_loyalty_level": 0.492,
+        "claim_skepticism_level": 0.69,
+        "health_safety_concern_level": 0.987,
+        "convenience_need_level": 0.49,
+        "taste_or_sensory_importance": 0.74,
+        "packaging_sensitivity": 0.461,
+        "promotion_sensitivity": 0.532,
+        "social_influence_sensitivity": 0.639,
+        "review_dependency_level": 0.901,
+        "channel_preference": [
+          "Convenience stores",
+          "Supermarkets"
+        ],
+        "media_touchpoints": [
+          "KOL partnerships",
+          "TikTok short video"
+        ],
+        "trust_drivers": [
+          "Clear ingredient list",
+          "Credible RTB",
+          "Third-party verification",
+          "Launch-month promotion lowers trial risk."
+        ],
+        "trial_barriers": [
+          "Skeptical about unsubstantiated 'natural' or cooling claims",
+          "Wants ingredient evidence behind: 50% less sugar than leading RTD teas",
+          "Concerned about: Consumers may not believe the natural cooling claim without education",
+          "Premium price vs mainstream alternatives"
+        ],
+        "repeat_purchase_drivers": [
+          "clean label",
+          "credible RTB",
+          "noticeable benefit"
+        ],
+        "likely_objections": [
+          "is the cooling claim actually substantiated?"
+        ],
+        "emotional_triggers": [
+          "feeling cared for",
+          "alignment with health goals"
+        ],
+        "initial_memory": [
+          "Aware of FreshPlus as a category brand at low salience.",
+          "Currently buys Mainstream sweetened bottled teas as a default in the category.",
+          "Belongs to segment: Health/Safety-Conscious Buyer."
+        ],
+        "grounding_sources": [
+          "FunctionalClaim: 50% less sugar than leading RTD teas",
+          "CompetitorBrand: Mainstream sweetened bottled teas",
+          "Channel: Convenience stores",
+          "RiskSignal: Consumers may not believe the natural cooling claim without education",
+          "UsageOccasion: After lunch in summer"
+        ]
+      }
+    },
+    {
+      "name": "Consumer-HSB-031",
+      "segment_name": "Health/Safety-Conscious Buyer",
+      "profile": {
+        "segment_description": "Reads labels; cares about ingredients, sugar, additives, sourcing.",
+        "age_range": "26-45",
+        "household_context": "varies; often health-leaning lifestyle",
+        "lifestyle_context": "follows wellness content; reads ingredient lists",
+        "category_usage_frequency": "selective buyer, 2-3x/week",
+        "current_brand_repertoire": [
+          "Mainstream sweetened bottled teas",
+          "Zero-sugar bottled teas"
+        ],
+        "current_purchase_channel": [
+          "Convenience stores",
+          "TikTok Shop"
+        ],
+        "category_pain_points": [
+          "too much sugar in mainstream options",
+          "vague natural claims"
+        ],
+        "need_states": [
+          "Refreshes the body naturally with less sugar guilt"
+        ],
+        "usage_occasions": [
+          "Quick refresh on commute",
+          "After lunch in summer"
+        ],
+        "price_sensitivity": 0.409,
+        "novelty_seeking_level": 0.528,
+        "brand_loyalty_level": 0.599,
+        "claim_skepticism_level": 0.735,
+        "health_safety_concern_level": 0.924,
+        "convenience_need_level": 0.44,
+        "taste_or_sensory_importance": 0.889,
+        "packaging_sensitivity": 0.592,
+        "promotion_sensitivity": 0.589,
+        "social_influence_sensitivity": 0.52,
+        "review_dependency_level": 0.664,
+        "channel_preference": [
+          "Convenience stores",
+          "TikTok Shop"
+        ],
+        "media_touchpoints": [
+          "KOL partnerships",
+          "TikTok short video"
+        ],
+        "trust_drivers": [
+          "Clear ingredient list",
+          "Credible RTB",
+          "Third-party verification",
+          "Launch-month promotion lowers trial risk."
+        ],
+        "trial_barriers": [
+          "Skeptical about unsubstantiated 'natural' or cooling claims",
+          "Wants ingredient evidence behind: 50% less sugar than leading RTD teas",
+          "Concerned about: Consumers may not believe the natural cooling claim without education",
+          "Premium price vs mainstream alternatives"
+        ],
+        "repeat_purchase_drivers": [
+          "clean label",
+          "credible RTB",
+          "noticeable benefit"
+        ],
+        "likely_objections": [
+          "is the cooling claim actually substantiated?"
+        ],
+        "emotional_triggers": [
+          "feeling cared for",
+          "alignment with health goals"
+        ],
+        "initial_memory": [
+          "Aware of FreshPlus as a category brand at low salience.",
+          "Currently buys Mainstream sweetened bottled teas as a default in the category.",
+          "Belongs to segment: Health/Safety-Conscious Buyer."
+        ],
+        "grounding_sources": [
+          "FunctionalClaim: 50% less sugar than leading RTD teas",
+          "CompetitorBrand: Mainstream sweetened bottled teas",
+          "Channel: Convenience stores",
+          "RiskSignal: Consumers may not believe the natural cooling claim without education",
+          "UsageOccasion: Quick refresh on commute"
+        ]
+      }
+    },
+    {
+      "name": "Consumer-CBB-032",
+      "segment_name": "Convenience-Driven Busy Buyer",
+      "profile": {
+        "segment_description": "Time-poor; chooses what's closest, fastest, easiest.",
+        "age_range": "25-40",
+        "household_context": "urban working professional",
+        "lifestyle_context": "buys at CVS on commute; doesn't browse",
+        "category_usage_frequency": "buys category 4-6x/week, grab-and-go",
+        "current_brand_repertoire": [
+          "Mainstream sweetened bottled teas",
+          "Zero-sugar bottled teas"
+        ],
+        "current_purchase_channel": [
+          "TikTok Shop",
+          "Supermarkets"
+        ],
+        "category_pain_points": [
+          "confusing shelves",
+          "out-of-stock favorites"
+        ],
+        "need_states": [
+          "Refreshes the body naturally with less sugar guilt"
+        ],
+        "usage_occasions": [
+          "After lunch in summer",
+          "Quick refresh on commute"
+        ],
+        "price_sensitivity": 0.597,
+        "novelty_seeking_level": 0.037,
+        "brand_loyalty_level": 0.638,
+        "claim_skepticism_level": 0.541,
+        "health_safety_concern_level": 0.599,
+        "convenience_need_level": 0.927,
+        "taste_or_sensory_importance": 0.481,
+        "packaging_sensitivity": 0.57,
+        "promotion_sensitivity": 0.64,
+        "social_influence_sensitivity": 0.431,
+        "review_dependency_level": 0.283,
+        "channel_preference": [
+          "TikTok Shop",
+          "Supermarkets"
+        ],
+        "media_touchpoints": [
+          "TikTok short video",
+          "KOL partnerships"
+        ],
+        "trust_drivers": [
+          "Wide availability",
+          "Fast checkout",
+          "Eye-level shelf",
+          "Launch-month promotion lowers trial risk."
+        ],
+        "trial_barriers": [
+          "Will skip if not visible in usual CVS",
+          "Concerned about: Consumers may not believe the natural cooling claim without education",
+          "Premium price vs mainstream alternatives"
+        ],
+        "repeat_purchase_drivers": [
+          "availability everywhere",
+          "fast checkout"
+        ],
+        "likely_objections": [
+          "if I can't see it on the shelf I skip it"
+        ],
+        "emotional_triggers": [
+          "relief of one less decision"
+        ],
+        "initial_memory": [
+          "Aware of FreshPlus as a category brand at low salience.",
+          "Currently buys Mainstream sweetened bottled teas as a default in the category.",
+          "Belongs to segment: Convenience-Driven Busy Buyer."
+        ],
+        "grounding_sources": [
+          "FunctionalClaim: 50% less sugar than leading RTD teas",
+          "CompetitorBrand: Mainstream sweetened bottled teas",
+          "Channel: TikTok Shop",
+          "RiskSignal: Consumers may not believe the natural cooling claim without education",
+          "UsageOccasion: After lunch in summer"
+        ]
+      }
+    },
+    {
+      "name": "Consumer-CBB-033",
+      "segment_name": "Convenience-Driven Busy Buyer",
+      "profile": {
+        "segment_description": "Time-poor; chooses what's closest, fastest, easiest.",
+        "age_range": "25-40",
+        "household_context": "urban working professional",
+        "lifestyle_context": "buys at CVS on commute; doesn't browse",
+        "category_usage_frequency": "buys category 4-6x/week, grab-and-go",
+        "current_brand_repertoire": [
+          "Mainstream sweetened bottled teas",
+          "Zero-sugar bottled teas"
+        ],
+        "current_purchase_channel": [
+          "Supermarkets",
+          "Convenience stores"
+        ],
+        "category_pain_points": [
+          "confusing shelves",
+          "out-of-stock favorites"
+        ],
+        "need_states": [
+          "Refreshes the body naturally with less sugar guilt"
+        ],
+        "usage_occasions": [
+          "Quick refresh on commute",
+          "Mid-afternoon at work"
+        ],
+        "price_sensitivity": 0.485,
+        "novelty_seeking_level": 0.263,
+        "brand_loyalty_level": 0.521,
+        "claim_skepticism_level": 0.55,
+        "health_safety_concern_level": 0.451,
+        "convenience_need_level": 0.874,
+        "taste_or_sensory_importance": 0.448,
+        "packaging_sensitivity": 0.496,
+        "promotion_sensitivity": 0.456,
+        "social_influence_sensitivity": 0.428,
+        "review_dependency_level": 0.098,
+        "channel_preference": [
+          "Supermarkets",
+          "Convenience stores"
+        ],
+        "media_touchpoints": [
+          "TikTok short video",
+          "KOL partnerships"
+        ],
+        "trust_drivers": [
+          "Wide availability",
+          "Fast checkout",
+          "Eye-level shelf",
+          "Launch-month promotion lowers trial risk."
+        ],
+        "trial_barriers": [
+          "Will skip if not visible in usual CVS",
+          "Concerned about: Consumers may not believe the natural cooling claim without education",
+          "Premium price vs mainstream alternatives"
+        ],
+        "repeat_purchase_drivers": [
+          "availability everywhere",
+          "fast checkout"
+        ],
+        "likely_objections": [
+          "if I can't see it on the shelf I skip it"
+        ],
+        "emotional_triggers": [
+          "relief of one less decision"
+        ],
+        "initial_memory": [
+          "Aware of FreshPlus as a category brand at low salience.",
+          "Currently buys Mainstream sweetened bottled teas as a default in the category.",
+          "Belongs to segment: Convenience-Driven Busy Buyer."
+        ],
+        "grounding_sources": [
+          "FunctionalClaim: 50% less sugar than leading RTD teas",
+          "CompetitorBrand: Mainstream sweetened bottled teas",
+          "Channel: Supermarkets",
+          "RiskSignal: Consumers may not believe the natural cooling claim without education",
+          "UsageOccasion: Quick refresh on commute"
+        ]
+      }
+    },
+    {
+      "name": "Consumer-CBB-034",
+      "segment_name": "Convenience-Driven Busy Buyer",
+      "profile": {
+        "segment_description": "Time-poor; chooses what's closest, fastest, easiest.",
+        "age_range": "25-40",
+        "household_context": "urban working professional",
+        "lifestyle_context": "buys at CVS on commute; doesn't browse",
+        "category_usage_frequency": "buys category 4-6x/week, grab-and-go",
+        "current_brand_repertoire": [
+          "Mainstream sweetened bottled teas",
+          "Zero-sugar bottled teas"
+        ],
+        "current_purchase_channel": [
+          "TikTok Shop",
+          "E-commerce platforms"
+        ],
+        "category_pain_points": [
+          "confusing shelves",
+          "out-of-stock favorites"
+        ],
+        "need_states": [
+          "Refreshes the body naturally with less sugar guilt"
+        ],
+        "usage_occasions": [
+          "After lunch in summer",
+          "Quick refresh on commute"
+        ],
+        "price_sensitivity": 0.577,
+        "novelty_seeking_level": 0.242,
+        "brand_loyalty_level": 0.544,
+        "claim_skepticism_level": 0.497,
+        "health_safety_concern_level": 0.588,
+        "convenience_need_level": 0.773,
+        "taste_or_sensory_importance": 0.416,
+        "packaging_sensitivity": 0.558,
+        "promotion_sensitivity": 0.442,
+        "social_influence_sensitivity": 0.524,
+        "review_dependency_level": 0.166,
+        "channel_preference": [
+          "TikTok Shop",
+          "E-commerce platforms"
+        ],
+        "media_touchpoints": [
+          "KOL partnerships",
+          "TikTok short video"
+        ],
+        "trust_drivers": [
+          "Wide availability",
+          "Fast checkout",
+          "Eye-level shelf",
+          "Launch-month promotion lowers trial risk."
+        ],
+        "trial_barriers": [
+          "Will skip if not visible in usual CVS",
+          "Concerned about: Consumers may not believe the natural cooling claim without education",
+          "Premium price vs mainstream alternatives"
+        ],
+        "repeat_purchase_drivers": [
+          "availability everywhere",
+          "fast checkout"
+        ],
+        "likely_objections": [
+          "if I can't see it on the shelf I skip it"
+        ],
+        "emotional_triggers": [
+          "relief of one less decision"
+        ],
+        "initial_memory": [
+          "Aware of FreshPlus as a category brand at low salience.",
+          "Currently buys Mainstream sweetened bottled teas as a default in the category.",
+          "Belongs to segment: Convenience-Driven Busy Buyer."
+        ],
+        "grounding_sources": [
+          "FunctionalClaim: 50% less sugar than leading RTD teas",
+          "CompetitorBrand: Mainstream sweetened bottled teas",
+          "Channel: TikTok Shop",
+          "RiskSignal: Consumers may not believe the natural cooling claim without education",
+          "UsageOccasion: After lunch in summer"
+        ]
+      }
+    },
+    {
+      "name": "Consumer-CBB-035",
+      "segment_name": "Convenience-Driven Busy Buyer",
+      "profile": {
+        "segment_description": "Time-poor; chooses what's closest, fastest, easiest.",
+        "age_range": "25-40",
+        "household_context": "urban working professional",
+        "lifestyle_context": "buys at CVS on commute; doesn't browse",
+        "category_usage_frequency": "buys category 4-6x/week, grab-and-go",
+        "current_brand_repertoire": [
+          "Mainstream sweetened bottled teas",
+          "Zero-sugar bottled teas"
+        ],
+        "current_purchase_channel": [
+          "TikTok Shop",
+          "Convenience stores"
+        ],
+        "category_pain_points": [
+          "confusing shelves",
+          "out-of-stock favorites"
+        ],
+        "need_states": [
+          "Refreshes the body naturally with less sugar guilt"
+        ],
+        "usage_occasions": [
+          "Mid-afternoon at work",
+          "Quick refresh on commute"
+        ],
+        "price_sensitivity": 0.419,
+        "novelty_seeking_level": 0.252,
+        "brand_loyalty_level": 0.445,
+        "claim_skepticism_level": 0.573,
+        "health_safety_concern_level": 0.635,
+        "convenience_need_level": 0.923,
+        "taste_or_sensory_importance": 0.407,
+        "packaging_sensitivity": 0.572,
+        "promotion_sensitivity": 0.433,
+        "social_influence_sensitivity": 0.527,
+        "review_dependency_level": 0.266,
+        "channel_preference": [
+          "TikTok Shop",
+          "Convenience stores"
+        ],
+        "media_touchpoints": [
+          "KOL partnerships",
+          "TikTok short video"
+        ],
+        "trust_drivers": [
+          "Wide availability",
+          "Fast checkout",
+          "Eye-level shelf",
+          "Launch-month promotion lowers trial risk."
+        ],
+        "trial_barriers": [
+          "Will skip if not visible in usual CVS",
+          "Concerned about: Consumers may not believe the natural cooling claim without education",
+          "Premium price vs mainstream alternatives"
+        ],
+        "repeat_purchase_drivers": [
+          "availability everywhere",
+          "fast checkout"
+        ],
+        "likely_objections": [
+          "if I can't see it on the shelf I skip it"
+        ],
+        "emotional_triggers": [
+          "relief of one less decision"
+        ],
+        "initial_memory": [
+          "Aware of FreshPlus as a category brand at low salience.",
+          "Currently buys Mainstream sweetened bottled teas as a default in the category.",
+          "Belongs to segment: Convenience-Driven Busy Buyer."
+        ],
+        "grounding_sources": [
+          "FunctionalClaim: 50% less sugar than leading RTD teas",
+          "CompetitorBrand: Mainstream sweetened bottled teas",
+          "Channel: TikTok Shop",
+          "RiskSignal: Consumers may not believe the natural cooling claim without education",
+          "UsageOccasion: Mid-afternoon at work"
+        ]
+      }
+    },
+    {
+      "name": "Consumer-CBB-036",
+      "segment_name": "Convenience-Driven Busy Buyer",
+      "profile": {
+        "segment_description": "Time-poor; chooses what's closest, fastest, easiest.",
+        "age_range": "25-40",
+        "household_context": "urban working professional",
+        "lifestyle_context": "buys at CVS on commute; doesn't browse",
+        "category_usage_frequency": "buys category 4-6x/week, grab-and-go",
+        "current_brand_repertoire": [
+          "Mainstream sweetened bottled teas",
+          "Zero-sugar bottled teas"
+        ],
+        "current_purchase_channel": [
+          "Supermarkets",
+          "Convenience stores"
+        ],
+        "category_pain_points": [
+          "confusing shelves",
+          "out-of-stock favorites"
+        ],
+        "need_states": [
+          "Refreshes the body naturally with less sugar guilt"
+        ],
+        "usage_occasions": [
+          "After lunch in summer",
+          "Quick refresh on commute"
+        ],
+        "price_sensitivity": 0.562,
+        "novelty_seeking_level": 0.044,
+        "brand_loyalty_level": 0.364,
+        "claim_skepticism_level": 0.366,
+        "health_safety_concern_level": 0.438,
+        "convenience_need_level": 0.986,
+        "taste_or_sensory_importance": 0.541,
+        "packaging_sensitivity": 0.576,
+        "promotion_sensitivity": 0.381,
+        "social_influence_sensitivity": 0.354,
+        "review_dependency_level": 0.1,
+        "channel_preference": [
+          "Supermarkets",
+          "Convenience stores"
+        ],
+        "media_touchpoints": [
+          "KOL partnerships",
+          "TikTok short video"
+        ],
+        "trust_drivers": [
+          "Wide availability",
+          "Fast checkout",
+          "Eye-level shelf",
+          "Launch-month promotion lowers trial risk."
+        ],
+        "trial_barriers": [
+          "Will skip if not visible in usual CVS",
+          "Concerned about: Consumers may not believe the natural cooling claim without education",
+          "Premium price vs mainstream alternatives"
+        ],
+        "repeat_purchase_drivers": [
+          "availability everywhere",
+          "fast checkout"
+        ],
+        "likely_objections": [
+          "if I can't see it on the shelf I skip it"
+        ],
+        "emotional_triggers": [
+          "relief of one less decision"
+        ],
+        "initial_memory": [
+          "Aware of FreshPlus as a category brand at low salience.",
+          "Currently buys Mainstream sweetened bottled teas as a default in the category.",
+          "Belongs to segment: Convenience-Driven Busy Buyer."
+        ],
+        "grounding_sources": [
+          "FunctionalClaim: 50% less sugar than leading RTD teas",
+          "CompetitorBrand: Mainstream sweetened bottled teas",
+          "Channel: Supermarkets",
+          "RiskSignal: Consumers may not believe the natural cooling claim without education",
+          "UsageOccasion: After lunch in summer"
+        ]
+      }
+    },
+    {
+      "name": "Consumer-CBB-037",
+      "segment_name": "Convenience-Driven Busy Buyer",
+      "profile": {
+        "segment_description": "Time-poor; chooses what's closest, fastest, easiest.",
+        "age_range": "25-40",
+        "household_context": "urban working professional",
+        "lifestyle_context": "buys at CVS on commute; doesn't browse",
+        "category_usage_frequency": "buys category 4-6x/week, grab-and-go",
+        "current_brand_repertoire": [
+          "Mainstream sweetened bottled teas",
+          "Zero-sugar bottled teas"
+        ],
+        "current_purchase_channel": [
+          "E-commerce platforms",
+          "Supermarkets"
+        ],
+        "category_pain_points": [
+          "confusing shelves",
+          "out-of-stock favorites"
+        ],
+        "need_states": [
+          "Refreshes the body naturally with less sugar guilt"
+        ],
+        "usage_occasions": [
+          "Quick refresh on commute",
+          "After lunch in summer"
+        ],
+        "price_sensitivity": 0.37,
+        "novelty_seeking_level": 0.172,
+        "brand_loyalty_level": 0.523,
+        "claim_skepticism_level": 0.556,
+        "health_safety_concern_level": 0.396,
+        "convenience_need_level": 0.953,
+        "taste_or_sensory_importance": 0.635,
+        "packaging_sensitivity": 0.376,
+        "promotion_sensitivity": 0.424,
+        "social_influence_sensitivity": 0.517,
+        "review_dependency_level": 0.146,
+        "channel_preference": [
+          "E-commerce platforms",
+          "Supermarkets"
+        ],
+        "media_touchpoints": [
+          "KOL partnerships",
+          "TikTok short video"
+        ],
+        "trust_drivers": [
+          "Wide availability",
+          "Fast checkout",
+          "Eye-level shelf",
+          "Launch-month promotion lowers trial risk."
+        ],
+        "trial_barriers": [
+          "Will skip if not visible in usual CVS",
+          "Concerned about: Consumers may not believe the natural cooling claim without education",
+          "Premium price vs mainstream alternatives"
+        ],
+        "repeat_purchase_drivers": [
+          "availability everywhere",
+          "fast checkout"
+        ],
+        "likely_objections": [
+          "if I can't see it on the shelf I skip it"
+        ],
+        "emotional_triggers": [
+          "relief of one less decision"
+        ],
+        "initial_memory": [
+          "Aware of FreshPlus as a category brand at low salience.",
+          "Currently buys Mainstream sweetened bottled teas as a default in the category.",
+          "Belongs to segment: Convenience-Driven Busy Buyer."
+        ],
+        "grounding_sources": [
+          "FunctionalClaim: 50% less sugar than leading RTD teas",
+          "CompetitorBrand: Mainstream sweetened bottled teas",
+          "Channel: E-commerce platforms",
+          "RiskSignal: Consumers may not believe the natural cooling claim without education",
+          "UsageOccasion: Quick refresh on commute"
+        ]
+      }
+    },
+    {
+      "name": "Consumer-CBB-038",
+      "segment_name": "Convenience-Driven Busy Buyer",
+      "profile": {
+        "segment_description": "Time-poor; chooses what's closest, fastest, easiest.",
+        "age_range": "25-40",
+        "household_context": "urban working professional",
+        "lifestyle_context": "buys at CVS on commute; doesn't browse",
+        "category_usage_frequency": "buys category 4-6x/week, grab-and-go",
+        "current_brand_repertoire": [
+          "Mainstream sweetened bottled teas",
+          "Zero-sugar bottled teas"
+        ],
+        "current_purchase_channel": [
+          "TikTok Shop",
+          "Convenience stores"
+        ],
+        "category_pain_points": [
+          "confusing shelves",
+          "out-of-stock favorites"
+        ],
+        "need_states": [
+          "Refreshes the body naturally with less sugar guilt"
+        ],
+        "usage_occasions": [
+          "Quick refresh on commute",
+          "After lunch in summer"
+        ],
+        "price_sensitivity": 0.536,
+        "novelty_seeking_level": 0.213,
+        "brand_loyalty_level": 0.572,
+        "claim_skepticism_level": 0.634,
+        "health_safety_concern_level": 0.412,
+        "convenience_need_level": 0.803,
+        "taste_or_sensory_importance": 0.548,
+        "packaging_sensitivity": 0.397,
+        "promotion_sensitivity": 0.402,
+        "social_influence_sensitivity": 0.373,
+        "review_dependency_level": 0.001,
+        "channel_preference": [
+          "TikTok Shop",
+          "Convenience stores"
+        ],
+        "media_touchpoints": [
+          "TikTok short video",
+          "KOL partnerships"
+        ],
+        "trust_drivers": [
+          "Wide availability",
+          "Fast checkout",
+          "Eye-level shelf",
+          "Launch-month promotion lowers trial risk."
+        ],
+        "trial_barriers": [
+          "Will skip if not visible in usual CVS",
+          "Concerned about: Consumers may not believe the natural cooling claim without education",
+          "Premium price vs mainstream alternatives"
+        ],
+        "repeat_purchase_drivers": [
+          "availability everywhere",
+          "fast checkout"
+        ],
+        "likely_objections": [
+          "if I can't see it on the shelf I skip it"
+        ],
+        "emotional_triggers": [
+          "relief of one less decision"
+        ],
+        "initial_memory": [
+          "Aware of FreshPlus as a category brand at low salience.",
+          "Currently buys Mainstream sweetened bottled teas as a default in the category.",
+          "Belongs to segment: Convenience-Driven Busy Buyer."
+        ],
+        "grounding_sources": [
+          "FunctionalClaim: 50% less sugar than leading RTD teas",
+          "CompetitorBrand: Mainstream sweetened bottled teas",
+          "Channel: TikTok Shop",
+          "RiskSignal: Consumers may not believe the natural cooling claim without education",
+          "UsageOccasion: Quick refresh on commute"
+        ]
+      }
+    },
+    {
+      "name": "Consumer-FDM-039",
+      "segment_name": "Family Decision Maker",
+      "profile": {
+        "segment_description": "Buys for household; balances kids' taste, health concerns, and pack size.",
+        "age_range": "32-48",
+        "household_context": "family with children",
+        "lifestyle_context": "supermarket weekly run; pack-size aware",
+        "category_usage_frequency": "weekly bulk purchase",
+        "current_brand_repertoire": [
+          "Mainstream sweetened bottled teas",
+          "Zero-sugar bottled teas"
+        ],
+        "current_purchase_channel": [
+          "Convenience stores",
+          "E-commerce platforms"
+        ],
+        "category_pain_points": [
+          "singles waste money",
+          "kids reject taste"
+        ],
+        "need_states": [
+          "Refreshes the body naturally with less sugar guilt"
+        ],
+        "usage_occasions": [
+          "Mid-afternoon at work",
+          "Quick refresh on commute"
+        ],
+        "price_sensitivity": 0.896,
+        "novelty_seeking_level": 0.486,
+        "brand_loyalty_level": 0.556,
+        "claim_skepticism_level": 0.627,
+        "health_safety_concern_level": 0.926,
+        "convenience_need_level": 0.538,
+        "taste_or_sensory_importance": 0.881,
+        "packaging_sensitivity": 0.63,
+        "promotion_sensitivity": 0.799,
+        "social_influence_sensitivity": 0.513,
+        "review_dependency_level": 0.544,
+        "channel_preference": [
+          "Convenience stores",
+          "E-commerce platforms"
+        ],
+        "media_touchpoints": [
+          "KOL partnerships",
+          "TikTok short video"
+        ],
+        "trust_drivers": [
+          "Family-friendly pack",
+          "Trusted supermarket placement",
+          "Launch-month promotion lowers trial risk."
+        ],
+        "trial_barriers": [
+          "Pack size may be wrong for family use",
+          "Will check whether kids accept the taste behind: 50% less sugar than leading RTD teas",
+          "Concerned about: Consumers may not believe the natural cooling claim without education",
+          "Premium price vs mainstream alternatives"
+        ],
+        "repeat_purchase_drivers": [
+          "family-friendly pack",
+          "approved by kids"
+        ],
+        "likely_objections": [
+          "pack too small for family",
+          "kids might not like herbal taste"
+        ],
+        "emotional_triggers": [
+          "doing right by the family"
+        ],
+        "initial_memory": [
+          "Aware of FreshPlus as a category brand at low salience.",
+          "Currently buys Mainstream sweetened bottled teas as a default in the category.",
+          "Belongs to segment: Family Decision Maker."
+        ],
+        "grounding_sources": [
+          "FunctionalClaim: 50% less sugar than leading RTD teas",
+          "CompetitorBrand: Mainstream sweetened bottled teas",
+          "Channel: Convenience stores",
+          "RiskSignal: Consumers may not believe the natural cooling claim without education",
+          "UsageOccasion: Mid-afternoon at work"
+        ]
+      }
+    },
+    {
+      "name": "Consumer-FDM-040",
+      "segment_name": "Family Decision Maker",
+      "profile": {
+        "segment_description": "Buys for household; balances kids' taste, health concerns, and pack size.",
+        "age_range": "32-48",
+        "household_context": "family with children",
+        "lifestyle_context": "supermarket weekly run; pack-size aware",
+        "category_usage_frequency": "weekly bulk purchase",
+        "current_brand_repertoire": [
+          "Mainstream sweetened bottled teas",
+          "Zero-sugar bottled teas"
+        ],
+        "current_purchase_channel": [
+          "TikTok Shop",
+          "E-commerce platforms"
+        ],
+        "category_pain_points": [
+          "singles waste money",
+          "kids reject taste"
+        ],
+        "need_states": [
+          "Refreshes the body naturally with less sugar guilt"
+        ],
+        "usage_occasions": [
+          "Quick refresh on commute",
+          "Mid-afternoon at work"
+        ],
+        "price_sensitivity": 0.814,
+        "novelty_seeking_level": 0.441,
+        "brand_loyalty_level": 0.471,
+        "claim_skepticism_level": 0.432,
+        "health_safety_concern_level": 0.839,
+        "convenience_need_level": 0.481,
+        "taste_or_sensory_importance": 0.859,
+        "packaging_sensitivity": 0.617,
+        "promotion_sensitivity": 0.907,
+        "social_influence_sensitivity": 0.531,
+        "review_dependency_level": 0.358,
+        "channel_preference": [
+          "TikTok Shop",
+          "E-commerce platforms"
+        ],
+        "media_touchpoints": [
+          "TikTok short video",
+          "KOL partnerships"
+        ],
+        "trust_drivers": [
+          "Family-friendly pack",
+          "Trusted supermarket placement",
+          "Launch-month promotion lowers trial risk."
+        ],
+        "trial_barriers": [
+          "Pack size may be wrong for family use",
+          "Will check whether kids accept the taste behind: 50% less sugar than leading RTD teas",
+          "Concerned about: Consumers may not believe the natural cooling claim without education",
+          "Premium price vs mainstream alternatives"
+        ],
+        "repeat_purchase_drivers": [
+          "family-friendly pack",
+          "approved by kids"
+        ],
+        "likely_objections": [
+          "pack too small for family",
+          "kids might not like herbal taste"
+        ],
+        "emotional_triggers": [
+          "doing right by the family"
+        ],
+        "initial_memory": [
+          "Aware of FreshPlus as a category brand at low salience.",
+          "Currently buys Mainstream sweetened bottled teas as a default in the category.",
+          "Belongs to segment: Family Decision Maker."
+        ],
+        "grounding_sources": [
+          "FunctionalClaim: 50% less sugar than leading RTD teas",
+          "CompetitorBrand: Mainstream sweetened bottled teas",
+          "Channel: TikTok Shop",
+          "RiskSignal: Consumers may not believe the natural cooling claim without education",
+          "UsageOccasion: Quick refresh on commute"
+        ]
+      }
+    },
+    {
+      "name": "Consumer-FDM-041",
+      "segment_name": "Family Decision Maker",
+      "profile": {
+        "segment_description": "Buys for household; balances kids' taste, health concerns, and pack size.",
+        "age_range": "32-48",
+        "household_context": "family with children",
+        "lifestyle_context": "supermarket weekly run; pack-size aware",
+        "category_usage_frequency": "weekly bulk purchase",
+        "current_brand_repertoire": [
+          "Mainstream sweetened bottled teas",
+          "Zero-sugar bottled teas"
+        ],
+        "current_purchase_channel": [
+          "TikTok Shop",
+          "E-commerce platforms"
+        ],
+        "category_pain_points": [
+          "singles waste money",
+          "kids reject taste"
+        ],
+        "need_states": [
+          "Refreshes the body naturally with less sugar guilt"
+        ],
+        "usage_occasions": [
+          "After lunch in summer",
+          "Quick refresh on commute"
+        ],
+        "price_sensitivity": 0.878,
+        "novelty_seeking_level": 0.625,
+        "brand_loyalty_level": 0.404,
+        "claim_skepticism_level": 0.526,
+        "health_safety_concern_level": 0.872,
+        "convenience_need_level": 0.498,
+        "taste_or_sensory_importance": 0.682,
+        "packaging_sensitivity": 0.454,
+        "promotion_sensitivity": 0.767,
+        "social_influence_sensitivity": 0.551,
+        "review_dependency_level": 0.607,
+        "channel_preference": [
+          "TikTok Shop",
+          "E-commerce platforms"
+        ],
+        "media_touchpoints": [
+          "KOL partnerships",
+          "TikTok short video"
+        ],
+        "trust_drivers": [
+          "Family-friendly pack",
+          "Trusted supermarket placement",
+          "Launch-month promotion lowers trial risk."
+        ],
+        "trial_barriers": [
+          "Pack size may be wrong for family use",
+          "Will check whether kids accept the taste behind: 50% less sugar than leading RTD teas",
+          "Concerned about: Consumers may not believe the natural cooling claim without education",
+          "Premium price vs mainstream alternatives"
+        ],
+        "repeat_purchase_drivers": [
+          "family-friendly pack",
+          "approved by kids"
+        ],
+        "likely_objections": [
+          "pack too small for family",
+          "kids might not like herbal taste"
+        ],
+        "emotional_triggers": [
+          "doing right by the family"
+        ],
+        "initial_memory": [
+          "Aware of FreshPlus as a category brand at low salience.",
+          "Currently buys Mainstream sweetened bottled teas as a default in the category.",
+          "Belongs to segment: Family Decision Maker."
+        ],
+        "grounding_sources": [
+          "FunctionalClaim: 50% less sugar than leading RTD teas",
+          "CompetitorBrand: Mainstream sweetened bottled teas",
+          "Channel: TikTok Shop",
+          "RiskSignal: Consumers may not believe the natural cooling claim without education",
+          "UsageOccasion: After lunch in summer"
+        ]
+      }
+    },
+    {
+      "name": "Consumer-FDM-042",
+      "segment_name": "Family Decision Maker",
+      "profile": {
+        "segment_description": "Buys for household; balances kids' taste, health concerns, and pack size.",
+        "age_range": "32-48",
+        "household_context": "family with children",
+        "lifestyle_context": "supermarket weekly run; pack-size aware",
+        "category_usage_frequency": "weekly bulk purchase",
+        "current_brand_repertoire": [
+          "Mainstream sweetened bottled teas",
+          "Zero-sugar bottled teas"
+        ],
+        "current_purchase_channel": [
+          "Convenience stores",
+          "E-commerce platforms"
+        ],
+        "category_pain_points": [
+          "singles waste money",
+          "kids reject taste"
+        ],
+        "need_states": [
+          "Refreshes the body naturally with less sugar guilt"
+        ],
+        "usage_occasions": [
+          "Quick refresh on commute",
+          "After lunch in summer"
+        ],
+        "price_sensitivity": 0.76,
+        "novelty_seeking_level": 0.447,
+        "brand_loyalty_level": 0.641,
+        "claim_skepticism_level": 0.471,
+        "health_safety_concern_level": 0.83,
+        "convenience_need_level": 0.646,
+        "taste_or_sensory_importance": 0.88,
+        "packaging_sensitivity": 0.513,
+        "promotion_sensitivity": 0.795,
+        "social_influence_sensitivity": 0.406,
+        "review_dependency_level": 0.459,
+        "channel_preference": [
+          "Convenience stores",
+          "E-commerce platforms"
+        ],
+        "media_touchpoints": [
+          "KOL partnerships",
+          "TikTok short video"
+        ],
+        "trust_drivers": [
+          "Family-friendly pack",
+          "Trusted supermarket placement",
+          "Launch-month promotion lowers trial risk."
+        ],
+        "trial_barriers": [
+          "Pack size may be wrong for family use",
+          "Will check whether kids accept the taste behind: 50% less sugar than leading RTD teas",
+          "Concerned about: Consumers may not believe the natural cooling claim without education",
+          "Premium price vs mainstream alternatives"
+        ],
+        "repeat_purchase_drivers": [
+          "family-friendly pack",
+          "approved by kids"
+        ],
+        "likely_objections": [
+          "pack too small for family",
+          "kids might not like herbal taste"
+        ],
+        "emotional_triggers": [
+          "doing right by the family"
+        ],
+        "initial_memory": [
+          "Aware of FreshPlus as a category brand at low salience.",
+          "Currently buys Mainstream sweetened bottled teas as a default in the category.",
+          "Belongs to segment: Family Decision Maker."
+        ],
+        "grounding_sources": [
+          "FunctionalClaim: 50% less sugar than leading RTD teas",
+          "CompetitorBrand: Mainstream sweetened bottled teas",
+          "Channel: Convenience stores",
+          "RiskSignal: Consumers may not believe the natural cooling claim without education",
+          "UsageOccasion: Quick refresh on commute"
+        ]
+      }
+    },
+    {
+      "name": "Consumer-SRB-043",
+      "segment_name": "Skeptical Reviewer-Dependent Buyer",
+      "profile": {
+        "segment_description": "Will not try until trusted reviewer confirms it works.",
+        "age_range": "24-40",
+        "household_context": "varies",
+        "lifestyle_context": "follows reviewer accounts; reads comment sections",
+        "category_usage_frequency": "category buyer but late adopter",
+        "current_brand_repertoire": [
+          "Mainstream sweetened bottled teas",
+          "Zero-sugar bottled teas"
+        ],
+        "current_purchase_channel": [
+          "Supermarkets",
+          "E-commerce platforms"
+        ],
+        "category_pain_points": [
+          "wasted money on overhyped launches"
+        ],
+        "need_states": [
+          "Refreshes the body naturally with less sugar guilt"
+        ],
+        "usage_occasions": [
+          "After lunch in summer",
+          "Mid-afternoon at work"
+        ],
+        "price_sensitivity": 0.481,
+        "novelty_seeking_level": 0.244,
+        "brand_loyalty_level": 0.386,
+        "claim_skepticism_level": 0.993,
+        "health_safety_concern_level": 0.533,
+        "convenience_need_level": 0.422,
+        "taste_or_sensory_importance": 0.398,
+        "packaging_sensitivity": 0.515,
+        "promotion_sensitivity": 0.516,
+        "social_influence_sensitivity": 0.683,
+        "review_dependency_level": 0.998,
+        "channel_preference": [
+          "Supermarkets",
+          "E-commerce platforms"
+        ],
+        "media_touchpoints": [
+          "KOL partnerships",
+          "TikTok short video"
+        ],
+        "trust_drivers": [
+          "Long-tail review sentiment",
+          "Comments-section signal",
+          "Launch-month promotion lowers trial risk."
+        ],
+        "trial_barriers": [
+          "Will not buy until trusted reviewer confirms",
+          "Concerned about: Consumers may not believe the natural cooling claim without education",
+          "Premium price vs mainstream alternatives"
+        ],
+        "repeat_purchase_drivers": [
+          "positive reviewer follow-up",
+          "long-tail comments"
+        ],
+        "likely_objections": [
+          "not enough reviews yet",
+          "claims sound too good"
+        ],
+        "emotional_triggers": [
+          "validation by trusted creator"
+        ],
+        "initial_memory": [
+          "Aware of FreshPlus as a category brand at low salience.",
+          "Currently buys Mainstream sweetened bottled teas as a default in the category.",
+          "Belongs to segment: Skeptical Reviewer-Dependent Buyer."
+        ],
+        "grounding_sources": [
+          "FunctionalClaim: 50% less sugar than leading RTD teas",
+          "CompetitorBrand: Mainstream sweetened bottled teas",
+          "Channel: Supermarkets",
+          "RiskSignal: Consumers may not believe the natural cooling claim without education",
+          "UsageOccasion: After lunch in summer"
+        ]
+      }
+    },
+    {
+      "name": "Consumer-SRB-044",
+      "segment_name": "Skeptical Reviewer-Dependent Buyer",
+      "profile": {
+        "segment_description": "Will not try until trusted reviewer confirms it works.",
+        "age_range": "24-40",
+        "household_context": "varies",
+        "lifestyle_context": "follows reviewer accounts; reads comment sections",
+        "category_usage_frequency": "category buyer but late adopter",
+        "current_brand_repertoire": [
+          "Mainstream sweetened bottled teas",
+          "Zero-sugar bottled teas"
+        ],
+        "current_purchase_channel": [
+          "Convenience stores",
+          "Supermarkets"
+        ],
+        "category_pain_points": [
+          "wasted money on overhyped launches"
+        ],
+        "need_states": [
+          "Refreshes the body naturally with less sugar guilt"
+        ],
+        "usage_occasions": [
+          "Quick refresh on commute",
+          "After lunch in summer"
+        ],
+        "price_sensitivity": 0.495,
+        "novelty_seeking_level": 0.165,
+        "brand_loyalty_level": 0.487,
+        "claim_skepticism_level": 0.786,
+        "health_safety_concern_level": 0.407,
+        "convenience_need_level": 0.53,
+        "taste_or_sensory_importance": 0.574,
+        "packaging_sensitivity": 0.391,
+        "promotion_sensitivity": 0.371,
+        "social_influence_sensitivity": 0.92,
+        "review_dependency_level": 0.964,
+        "channel_preference": [
+          "Convenience stores",
+          "Supermarkets"
+        ],
+        "media_touchpoints": [
+          "KOL partnerships",
+          "TikTok short video"
+        ],
+        "trust_drivers": [
+          "Long-tail review sentiment",
+          "Comments-section signal",
+          "Launch-month promotion lowers trial risk."
+        ],
+        "trial_barriers": [
+          "Will not buy until trusted reviewer confirms",
+          "Concerned about: Consumers may not believe the natural cooling claim without education",
+          "Premium price vs mainstream alternatives"
+        ],
+        "repeat_purchase_drivers": [
+          "positive reviewer follow-up",
+          "long-tail comments"
+        ],
+        "likely_objections": [
+          "not enough reviews yet",
+          "claims sound too good"
+        ],
+        "emotional_triggers": [
+          "validation by trusted creator"
+        ],
+        "initial_memory": [
+          "Aware of FreshPlus as a category brand at low salience.",
+          "Currently buys Mainstream sweetened bottled teas as a default in the category.",
+          "Belongs to segment: Skeptical Reviewer-Dependent Buyer."
+        ],
+        "grounding_sources": [
+          "FunctionalClaim: 50% less sugar than leading RTD teas",
+          "CompetitorBrand: Mainstream sweetened bottled teas",
+          "Channel: Convenience stores",
+          "RiskSignal: Consumers may not believe the natural cooling claim without education",
+          "UsageOccasion: Quick refresh on commute"
+        ]
+      }
+    },
+    {
+      "name": "Consumer-SRB-045",
+      "segment_name": "Skeptical Reviewer-Dependent Buyer",
+      "profile": {
+        "segment_description": "Will not try until trusted reviewer confirms it works.",
+        "age_range": "24-40",
+        "household_context": "varies",
+        "lifestyle_context": "follows reviewer accounts; reads comment sections",
+        "category_usage_frequency": "category buyer but late adopter",
+        "current_brand_repertoire": [
+          "Mainstream sweetened bottled teas",
+          "Zero-sugar bottled teas"
+        ],
+        "current_purchase_channel": [
+          "E-commerce platforms",
+          "TikTok Shop"
+        ],
+        "category_pain_points": [
+          "wasted money on overhyped launches"
+        ],
+        "need_states": [
+          "Refreshes the body naturally with less sugar guilt"
+        ],
+        "usage_occasions": [
+          "Mid-afternoon at work",
+          "After lunch in summer"
+        ],
+        "price_sensitivity": 0.484,
+        "novelty_seeking_level": 0.17,
+        "brand_loyalty_level": 0.45,
+        "claim_skepticism_level": 0.941,
+        "health_safety_concern_level": 0.463,
+        "convenience_need_level": 0.63,
+        "taste_or_sensory_importance": 0.611,
+        "packaging_sensitivity": 0.644,
+        "promotion_sensitivity": 0.422,
+        "social_influence_sensitivity": 0.784,
+        "review_dependency_level": 0.964,
+        "channel_preference": [
+          "E-commerce platforms",
+          "TikTok Shop"
+        ],
+        "media_touchpoints": [
+          "KOL partnerships",
+          "TikTok short video"
+        ],
+        "trust_drivers": [
+          "Long-tail review sentiment",
+          "Comments-section signal",
+          "Launch-month promotion lowers trial risk."
+        ],
+        "trial_barriers": [
+          "Will not buy until trusted reviewer confirms",
+          "Concerned about: Consumers may not believe the natural cooling claim without education",
+          "Premium price vs mainstream alternatives"
+        ],
+        "repeat_purchase_drivers": [
+          "positive reviewer follow-up",
+          "long-tail comments"
+        ],
+        "likely_objections": [
+          "not enough reviews yet",
+          "claims sound too good"
+        ],
+        "emotional_triggers": [
+          "validation by trusted creator"
+        ],
+        "initial_memory": [
+          "Aware of FreshPlus as a category brand at low salience.",
+          "Currently buys Mainstream sweetened bottled teas as a default in the category.",
+          "Belongs to segment: Skeptical Reviewer-Dependent Buyer."
+        ],
+        "grounding_sources": [
+          "FunctionalClaim: 50% less sugar than leading RTD teas",
+          "CompetitorBrand: Mainstream sweetened bottled teas",
+          "Channel: E-commerce platforms",
+          "RiskSignal: Consumers may not believe the natural cooling claim without education",
+          "UsageOccasion: Mid-afternoon at work"
+        ]
+      }
+    },
+    {
+      "name": "Consumer-SRB-046",
+      "segment_name": "Skeptical Reviewer-Dependent Buyer",
+      "profile": {
+        "segment_description": "Will not try until trusted reviewer confirms it works.",
+        "age_range": "24-40",
+        "household_context": "varies",
+        "lifestyle_context": "follows reviewer accounts; reads comment sections",
+        "category_usage_frequency": "category buyer but late adopter",
+        "current_brand_repertoire": [
+          "Mainstream sweetened bottled teas",
+          "Zero-sugar bottled teas"
+        ],
+        "current_purchase_channel": [
+          "E-commerce platforms",
+          "TikTok Shop"
+        ],
+        "category_pain_points": [
+          "wasted money on overhyped launches"
+        ],
+        "need_states": [
+          "Refreshes the body naturally with less sugar guilt"
+        ],
+        "usage_occasions": [
+          "Quick refresh on commute",
+          "Mid-afternoon at work"
+        ],
+        "price_sensitivity": 0.588,
+        "novelty_seeking_level": 0.228,
+        "brand_loyalty_level": 0.396,
+        "claim_skepticism_level": 0.991,
+        "health_safety_concern_level": 0.388,
+        "convenience_need_level": 0.64,
+        "taste_or_sensory_importance": 0.45,
+        "packaging_sensitivity": 0.38,
+        "promotion_sensitivity": 0.604,
+        "social_influence_sensitivity": 0.685,
+        "review_dependency_level": 0.978,
+        "channel_preference": [
+          "E-commerce platforms",
+          "TikTok Shop"
+        ],
+        "media_touchpoints": [
+          "TikTok short video",
+          "KOL partnerships"
+        ],
+        "trust_drivers": [
+          "Long-tail review sentiment",
+          "Comments-section signal",
+          "Launch-month promotion lowers trial risk."
+        ],
+        "trial_barriers": [
+          "Will not buy until trusted reviewer confirms",
+          "Concerned about: Consumers may not believe the natural cooling claim without education",
+          "Premium price vs mainstream alternatives"
+        ],
+        "repeat_purchase_drivers": [
+          "positive reviewer follow-up",
+          "long-tail comments"
+        ],
+        "likely_objections": [
+          "not enough reviews yet",
+          "claims sound too good"
+        ],
+        "emotional_triggers": [
+          "validation by trusted creator"
+        ],
+        "initial_memory": [
+          "Aware of FreshPlus as a category brand at low salience.",
+          "Currently buys Mainstream sweetened bottled teas as a default in the category.",
+          "Belongs to segment: Skeptical Reviewer-Dependent Buyer."
+        ],
+        "grounding_sources": [
+          "FunctionalClaim: 50% less sugar than leading RTD teas",
+          "CompetitorBrand: Mainstream sweetened bottled teas",
+          "Channel: E-commerce platforms",
+          "RiskSignal: Consumers may not believe the natural cooling claim without education",
+          "UsageOccasion: Quick refresh on commute"
+        ]
+      }
+    },
+    {
+      "name": "Consumer-PTB-047",
+      "segment_name": "Promotion-Driven Trial Buyer",
+      "profile": {
+        "segment_description": "Tries new items when there's a discount, sample, or BOGO.",
+        "age_range": "22-40",
+        "household_context": "varies",
+        "lifestyle_context": "tracks deals; opportunistic",
+        "category_usage_frequency": "variable; spikes around promos",
+        "current_brand_repertoire": [
+          "Mainstream sweetened bottled teas",
+          "Zero-sugar bottled teas"
+        ],
+        "current_purchase_channel": [
+          "Supermarkets",
+          "TikTok Shop"
+        ],
+        "category_pain_points": [
+          "full-price feels overpriced"
+        ],
+        "need_states": [
+          "Refreshes the body naturally with less sugar guilt"
+        ],
+        "usage_occasions": [
+          "Quick refresh on commute",
+          "Mid-afternoon at work"
+        ],
+        "price_sensitivity": 0.989,
+        "novelty_seeking_level": 0.452,
+        "brand_loyalty_level": 0.242,
+        "claim_skepticism_level": 0.545,
+        "health_safety_concern_level": 0.606,
+        "convenience_need_level": 0.606,
+        "taste_or_sensory_importance": 0.608,
+        "packaging_sensitivity": 0.464,
+        "promotion_sensitivity": 0.829,
+        "social_influence_sensitivity": 0.566,
+        "review_dependency_level": 0.578,
+        "channel_preference": [
+          "Supermarkets",
+          "TikTok Shop"
+        ],
+        "media_touchpoints": [
+          "KOL partnerships",
+          "TikTok short video"
+        ],
+        "trust_drivers": [
+          "Stacked promo",
+          "Loyalty stamps",
+          "Sampling booth",
+          "Launch-month promotion lowers trial risk."
+        ],
+        "trial_barriers": [
+          "Will wait for a BOGO or sample",
+          "Concerned about: Consumers may not believe the natural cooling claim without education",
+          "Premium price vs mainstream alternatives"
+        ],
+        "repeat_purchase_drivers": [
+          "recurring promos",
+          "loyalty rewards"
+        ],
+        "likely_objections": [
+          "I'll wait for the promo"
+        ],
+        "emotional_triggers": [
+          "thrill of a deal"
+        ],
+        "initial_memory": [
+          "Aware of FreshPlus as a category brand at low salience.",
+          "Currently buys Mainstream sweetened bottled teas as a default in the category.",
+          "Belongs to segment: Promotion-Driven Trial Buyer."
+        ],
+        "grounding_sources": [
+          "FunctionalClaim: 50% less sugar than leading RTD teas",
+          "CompetitorBrand: Mainstream sweetened bottled teas",
+          "Channel: Supermarkets",
+          "RiskSignal: Consumers may not believe the natural cooling claim without education",
+          "UsageOccasion: Quick refresh on commute"
+        ]
+      }
+    },
+    {
+      "name": "Consumer-PTB-048",
+      "segment_name": "Promotion-Driven Trial Buyer",
+      "profile": {
+        "segment_description": "Tries new items when there's a discount, sample, or BOGO.",
+        "age_range": "22-40",
+        "household_context": "varies",
+        "lifestyle_context": "tracks deals; opportunistic",
+        "category_usage_frequency": "variable; spikes around promos",
+        "current_brand_repertoire": [
+          "Mainstream sweetened bottled teas",
+          "Zero-sugar bottled teas"
+        ],
+        "current_purchase_channel": [
+          "Supermarkets",
+          "Convenience stores"
+        ],
+        "category_pain_points": [
+          "full-price feels overpriced"
+        ],
+        "need_states": [
+          "Refreshes the body naturally with less sugar guilt"
+        ],
+        "usage_occasions": [
+          "Mid-afternoon at work",
+          "After lunch in summer"
+        ],
+        "price_sensitivity": 0.802,
+        "novelty_seeking_level": 0.38,
+        "brand_loyalty_level": 0.222,
+        "claim_skepticism_level": 0.612,
+        "health_safety_concern_level": 0.483,
+        "convenience_need_level": 0.558,
+        "taste_or_sensory_importance": 0.621,
+        "packaging_sensitivity": 0.364,
+        "promotion_sensitivity": 0.949,
+        "social_influence_sensitivity": 0.438,
+        "review_dependency_level": 0.462,
+        "channel_preference": [
+          "Supermarkets",
+          "Convenience stores"
+        ],
+        "media_touchpoints": [
+          "TikTok short video",
+          "KOL partnerships"
+        ],
+        "trust_drivers": [
+          "Stacked promo",
+          "Loyalty stamps",
+          "Sampling booth",
+          "Launch-month promotion lowers trial risk."
+        ],
+        "trial_barriers": [
+          "Will wait for a BOGO or sample",
+          "Concerned about: Consumers may not believe the natural cooling claim without education",
+          "Premium price vs mainstream alternatives"
+        ],
+        "repeat_purchase_drivers": [
+          "recurring promos",
+          "loyalty rewards"
+        ],
+        "likely_objections": [
+          "I'll wait for the promo"
+        ],
+        "emotional_triggers": [
+          "thrill of a deal"
+        ],
+        "initial_memory": [
+          "Aware of FreshPlus as a category brand at low salience.",
+          "Currently buys Mainstream sweetened bottled teas as a default in the category.",
+          "Belongs to segment: Promotion-Driven Trial Buyer."
+        ],
+        "grounding_sources": [
+          "FunctionalClaim: 50% less sugar than leading RTD teas",
+          "CompetitorBrand: Mainstream sweetened bottled teas",
+          "Channel: Supermarkets",
+          "RiskSignal: Consumers may not believe the natural cooling claim without education",
+          "UsageOccasion: Mid-afternoon at work"
+        ]
+      }
+    },
+    {
+      "name": "Consumer-PTB-049",
+      "segment_name": "Promotion-Driven Trial Buyer",
+      "profile": {
+        "segment_description": "Tries new items when there's a discount, sample, or BOGO.",
+        "age_range": "22-40",
+        "household_context": "varies",
+        "lifestyle_context": "tracks deals; opportunistic",
+        "category_usage_frequency": "variable; spikes around promos",
+        "current_brand_repertoire": [
+          "Mainstream sweetened bottled teas",
+          "Zero-sugar bottled teas"
+        ],
+        "current_purchase_channel": [
+          "TikTok Shop",
+          "E-commerce platforms"
+        ],
+        "category_pain_points": [
+          "full-price feels overpriced"
+        ],
+        "need_states": [
+          "Refreshes the body naturally with less sugar guilt"
+        ],
+        "usage_occasions": [
+          "Mid-afternoon at work",
+          "After lunch in summer"
+        ],
+        "price_sensitivity": 0.784,
+        "novelty_seeking_level": 0.555,
+        "brand_loyalty_level": 0.174,
+        "claim_skepticism_level": 0.525,
+        "health_safety_concern_level": 0.42,
+        "convenience_need_level": 0.541,
+        "taste_or_sensory_importance": 0.488,
+        "packaging_sensitivity": 0.55,
+        "promotion_sensitivity": 0.975,
+        "social_influence_sensitivity": 0.49,
+        "review_dependency_level": 0.436,
+        "channel_preference": [
+          "TikTok Shop",
+          "E-commerce platforms"
+        ],
+        "media_touchpoints": [
+          "KOL partnerships",
+          "TikTok short video"
+        ],
+        "trust_drivers": [
+          "Stacked promo",
+          "Loyalty stamps",
+          "Sampling booth",
+          "Launch-month promotion lowers trial risk."
+        ],
+        "trial_barriers": [
+          "Will wait for a BOGO or sample",
+          "Concerned about: Consumers may not believe the natural cooling claim without education",
+          "Premium price vs mainstream alternatives"
+        ],
+        "repeat_purchase_drivers": [
+          "recurring promos",
+          "loyalty rewards"
+        ],
+        "likely_objections": [
+          "I'll wait for the promo"
+        ],
+        "emotional_triggers": [
+          "thrill of a deal"
+        ],
+        "initial_memory": [
+          "Aware of FreshPlus as a category brand at low salience.",
+          "Currently buys Mainstream sweetened bottled teas as a default in the category.",
+          "Belongs to segment: Promotion-Driven Trial Buyer."
+        ],
+        "grounding_sources": [
+          "FunctionalClaim: 50% less sugar than leading RTD teas",
+          "CompetitorBrand: Mainstream sweetened bottled teas",
+          "Channel: TikTok Shop",
+          "RiskSignal: Consumers may not believe the natural cooling claim without education",
+          "UsageOccasion: Mid-afternoon at work"
+        ]
+      }
+    },
+    {
+      "name": "Consumer-PTB-050",
+      "segment_name": "Promotion-Driven Trial Buyer",
+      "profile": {
+        "segment_description": "Tries new items when there's a discount, sample, or BOGO.",
+        "age_range": "22-40",
+        "household_context": "varies",
+        "lifestyle_context": "tracks deals; opportunistic",
+        "category_usage_frequency": "variable; spikes around promos",
+        "current_brand_repertoire": [
+          "Mainstream sweetened bottled teas",
+          "Zero-sugar bottled teas"
+        ],
+        "current_purchase_channel": [
+          "Convenience stores",
+          "TikTok Shop"
+        ],
+        "category_pain_points": [
+          "full-price feels overpriced"
+        ],
+        "need_states": [
+          "Refreshes the body naturally with less sugar guilt"
+        ],
+        "usage_occasions": [
+          "After lunch in summer",
+          "Mid-afternoon at work"
+        ],
+        "price_sensitivity": 0.81,
+        "novelty_seeking_level": 0.441,
+        "brand_loyalty_level": 0.35,
+        "claim_skepticism_level": 0.606,
+        "health_safety_concern_level": 0.382,
+        "convenience_need_level": 0.464,
+        "taste_or_sensory_importance": 0.458,
+        "packaging_sensitivity": 0.439,
+        "promotion_sensitivity": 0.925,
+        "social_influence_sensitivity": 0.357,
+        "review_dependency_level": 0.599,
+        "channel_preference": [
+          "Convenience stores",
+          "TikTok Shop"
+        ],
+        "media_touchpoints": [
+          "KOL partnerships",
+          "TikTok short video"
+        ],
+        "trust_drivers": [
+          "Stacked promo",
+          "Loyalty stamps",
+          "Sampling booth",
+          "Launch-month promotion lowers trial risk."
+        ],
+        "trial_barriers": [
+          "Will wait for a BOGO or sample",
+          "Concerned about: Consumers may not believe the natural cooling claim without education",
+          "Premium price vs mainstream alternatives"
+        ],
+        "repeat_purchase_drivers": [
+          "recurring promos",
+          "loyalty rewards"
+        ],
+        "likely_objections": [
+          "I'll wait for the promo"
+        ],
+        "emotional_triggers": [
+          "thrill of a deal"
+        ],
+        "initial_memory": [
+          "Aware of FreshPlus as a category brand at low salience.",
+          "Currently buys Mainstream sweetened bottled teas as a default in the category.",
+          "Belongs to segment: Promotion-Driven Trial Buyer."
+        ],
+        "grounding_sources": [
+          "FunctionalClaim: 50% less sugar than leading RTD teas",
+          "CompetitorBrand: Mainstream sweetened bottled teas",
+          "Channel: Convenience stores",
+          "RiskSignal: Consumers may not believe the natural cooling claim without education",
+          "UsageOccasion: After lunch in summer"
+        ]
+      }
+    }
+  ],
+  "market_actor_agents": [
+    {
+      "name": "Modern-Trade Retailer",
+      "role": "Retailer",
+      "profile": {
+        "objective": "Maximize per-SKU velocity and category margin.",
+        "influence_power": 0.75,
+        "trust_level": 0.6,
+        "likely_actions": [
+          "Negotiate shelf position based on early sell-through",
+          "Trim facings if velocity is below category median",
+          "Pair with on-shelf promo if launch promo expires"
+        ],
+        "risk_to_launch": [
+          "De-list within 8 weeks if rotation is weak",
+          "Demand higher slotting / promo support",
+          "No diffusion channel (word-of-mouth, community)."
+        ],
+        "positive_contribution": [
+          "Premium shelf visibility if initial sell-through is strong",
+          "Co-branded sampling at high-traffic stores"
+        ],
+        "evaluation_criteria": [
+          "shelf visibility",
+          "price competitiveness vs category",
+          "promo attractiveness",
+          "channel fit",
+          "repeat sales potential"
+        ],
+        "initial_memory": [
+          "Will judge launch on first 8 weeks of rotation in Convenience stores."
+        ],
+        "grounding_sources": [
+          "Channel: Convenience stores"
+        ]
+      }
+    },
+    {
+      "name": "Incumbent Category Leader",
+      "role": "Competitor",
+      "profile": {
+        "objective": "Defend share and minimize switching to the new entrant.",
+        "influence_power": 0.8,
+        "trust_level": 0.55,
+        "likely_actions": [
+          "Run defensive price promo at same channels",
+          "Push comparative claim content if our claim is challenged",
+          "Seed neutral-looking content questioning new RTB",
+          "Buy KOL slots to dilute novelty"
+        ],
+        "risk_to_launch": [
+          "Aggressive bundle discounting that resets price reference",
+          "Doubt-seeding around credibility of cooling/health claim",
+          "Lock retail visibility through trade spend",
+          "Mainstream sweetened bottled teas: may respond with price/promo or comparative claim content."
+        ],
+        "positive_contribution": [],
+        "evaluation_criteria": [
+          "discounting risk",
+          "claim comparison risk",
+          "content attack / seeding doubt",
+          "retail visibility defense"
+        ],
+        "initial_memory": [
+          "Defends against new entrant by leaning on Mainstream sweetened bottled teas."
+        ],
+        "grounding_sources": [
+          "CompetitorBrand: Mainstream sweetened bottled teas"
+        ]
+      }
+    },
+    {
+      "name": "Mid-Tier Lifestyle KOL",
+      "role": "Influencer",
+      "profile": {
+        "objective": "Earn engagement by reviewing review-worthy products honestly.",
+        "influence_power": 0.65,
+        "trust_level": 0.65,
+        "likely_actions": [
+          "Test product on camera and react to taste",
+          "Compare with current go-to brand",
+          "Highlight pack design + ingredient story"
+        ],
+        "risk_to_launch": [
+          "Negative taste reaction goes viral",
+          "Pointed challenge to the health/cooling claim",
+          "Will probe: Consumers may not believe the natural cooling claim without education"
+        ],
+        "positive_contribution": [
+          "Endorses RTB if pack story is clean and taste is acceptable",
+          "Drives initial trial spike among social-leaning segments"
+        ],
+        "evaluation_criteria": [
+          "review-worthiness",
+          "believability",
+          "sensory appeal",
+          "packaging appeal",
+          "controversy potential"
+        ],
+        "initial_memory": [
+          "TikTok creator content has high social-diffusion potential among 22–35 urban segment."
+        ],
+        "grounding_sources": [
+          "Touchpoint: TikTok short video"
+        ]
+      }
+    },
+    {
+      "name": "Category Community / Comment Section",
+      "role": "SocialCommunity",
+      "profile": {
+        "objective": "Surface honest aggregate sentiment among engaged consumers.",
+        "influence_power": 0.55,
+        "trust_level": 0.6,
+        "likely_actions": [
+          "Debate taste vs claim authenticity",
+          "Share comparison photos vs competitor",
+          "Amplify complaints if they recur"
+        ],
+        "risk_to_launch": [
+          "Complaint amplification (taste/price)",
+          "Spread of doubt about claim credibility"
+        ],
+        "positive_contribution": [
+          "Organic recommendations that drive long-tail trial",
+          "Use-case discovery (new occasions)"
+        ],
+        "evaluation_criteria": [
+          "likely discussion topics",
+          "concerns that may spread",
+          "positive word-of-mouth potential",
+          "complaint amplification risk"
+        ],
+        "initial_memory": [
+          "Likely topic: Premium price vs mainstream alternatives"
+        ],
+        "grounding_sources": [
+          "DiffusionNote: TikTok creator content has high social-diffusion potential among 22–35 urban segment."
+        ]
+      }
+    },
+    {
+      "name": "Category / Nutrition Expert",
+      "role": "CategoryExpert",
+      "profile": {
+        "objective": "Evaluate product on category logic and credibility of claims.",
+        "influence_power": 0.5,
+        "trust_level": 0.8,
+        "likely_actions": [
+          "Critique claim phrasing for clarity and substantiation",
+          "Compare RTB to category benchmarks",
+          "Flag regulatory phrasing risk"
+        ],
+        "risk_to_launch": [
+          "Publicly question the strength of the 'natural cooling' RTB",
+          "Recommend clearer ingredient disclosure"
+        ],
+        "positive_contribution": [
+          "Validates differentiation if RTB is solid",
+          "Suggests sharper claim rewrites"
+        ],
+        "evaluation_criteria": [
+          "claim clarity",
+          "differentiation",
+          "category fit",
+          "product-market fit",
+          "reason-to-believe strength"
+        ],
+        "initial_memory": [
+          "CategoryExpert baseline posture."
+        ],
+        "grounding_sources": [
+          "ClaimAnalysis: 50% less sugar than leading RTD teas (believable)",
+          "ClaimAnalysis: Contains traditional cooling herbs (chrysanthemum, mulberry leaf) (believable)"
+        ]
+      }
+    }
+  ]
+}

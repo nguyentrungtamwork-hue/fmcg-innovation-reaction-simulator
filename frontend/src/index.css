@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+  body {
+    @apply bg-slate-50 text-slate-800 antialiased;
+  }
+}
+
+@layer components {
+  .card {
+    @apply rounded-xl border border-slate-200 bg-white p-4 shadow-sm;
+  }
+  .btn {
+    @apply inline-flex items-center justify-center rounded-lg px-3.5 py-2 text-sm font-medium transition disabled:cursor-not-allowed disabled:opacity-50 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-600 focus-visible:ring-offset-1;
+  }
+  .btn-primary {
+    @apply btn bg-brand-600 text-white hover:bg-brand-700;
+  }
+  .btn-secondary {
+    @apply btn border border-slate-300 bg-white text-slate-700 hover:bg-slate-100;
+  }
+  .btn-danger {
+    @apply btn border border-red-200 bg-white text-red-600 hover:bg-red-50;
+  }
+  .input {
+    @apply w-full rounded-lg border border-slate-300 px-3 py-2 text-sm outline-none focus:border-brand-600 focus:ring-1 focus:ring-brand-600;
+  }
+  .label {
+    @apply mb-1 block text-xs font-semibold uppercase tracking-wide text-slate-500;
+  }
+  .chip {
+    @apply inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-xs font-medium;
+  }
+}
+
+@keyframes studioPulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.55; }
+}
+.studio-pulse {
+  animation: studioPulse 1.2s ease-in-out infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .studio-pulse { animation: none; }
+  * { scroll-behavior: auto !important; }
+}
+
+@media print {
+  body {
+    background: #fff !important;
+  }
+  main {
+    max-width: none !important;
+    padding: 0 !important;
+  }
+  .card {
+    border-color: #e2e8f0 !important;
+    box-shadow: none !important;
+    break-inside: avoid;
+  }
+  section {
+    break-inside: avoid;
+  }
+  /* major report sections start on a fresh page where possible */
+  main > div > section + section {
+    break-before: auto;
+  }
+  /* Phase 28: hide app chrome + controls when printing */
+  header, footer, nav, .print-hide {
+    display: none !important;
+  }
+  .decision-pack-section {
+    break-inside: avoid;
+  }
+  .decision-pack-section.page-break {
+    break-before: page;
+  }
+  .decision-pack {
+    color: #0f172a;
+    font-size: 12px;
+  }
+}

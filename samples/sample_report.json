@@ -1,0 +1,1091 @@
+{
+  "project_id": "e4b366be-c5d3-43af-9a37-5eea81713d0f",
+  "report_id": "4b31413c-1ec2-40b9-8b3c-0c339c0e4723",
+  "status": "completed",
+  "source_mode": "deterministic",
+  "confidence_score": 0.745,
+  "generated_at": "2026-06-01T04:17:21.284405",
+  "report_payload": {
+    "executive_summary": {
+      "overall_market_reaction": "Across 6 simulated launch rounds, consumer reaction to FreshPlus Herbal Cool is cautious (avg sentiment 0.389). Trial reaches ≈ 46.0% but repeat intent is the binding constraint at ≈ 8.7% of triers.",
+      "top_opportunity": "Family Decision Maker is the strongest beachhead (avg trial 0.538), driven by 'Launch-month promotion lowers trial risk.'.",
+      "top_risk": "'Premium price vs mainstream alternatives' is the most frequent adoption barrier and suppresses repeat across segments.",
+      "estimated_trial_potential": "≈ 46.0% trial (23/50 simulated consumers).",
+      "estimated_repeat_potential": "≈ 8.7% of triers signal repeat (2/23).",
+      "key_recommendation": "Lead the launch with a clearer, substantiated reason-to-believe for the core claim.",
+      "confidence_score": 0.62,
+      "important_assumptions": [
+        "Scoring is deterministic and segment-weighted, not fitted to real sales data.",
+        "Market context derived from the ontology: premium=True, promo_available=True, sampling=True, taste_risk=True.",
+        "Each simulated consumer represents a behavioural archetype, not an individual."
+      ]
+    },
+    "launch_funnel_summary": {
+      "awareness_signal": "50/50 consumers engaged positively at first exposure (Round 1).",
+      "trial_signal": "23/50 reached trial (≈ 46.0%).",
+      "repeat_signal": "2 triers signalled repeat intent (≈ 8.7% of triers).",
+      "advocacy_signal": "13 consumers recommended or shared the product.",
+      "rejection_signal": "0 rejected before trial; 0 ignore actions logged.",
+      "complaint_signal": "0 consumers complained or commented negatively post-trial.",
+      "switching_signal": "2 signalled switching to FreshPlus; 62 stayed with incumbents.",
+      "action_distribution": {
+        "like": 43,
+        "save_for_later": 46,
+        "request_review": 24,
+        "wait_for_promotion": 28,
+        "ask_where_to_buy": 25,
+        "add_to_cart": 5,
+        "purchase_trial": 23,
+        "compare_with_current_brand": 6,
+        "stay_with_current_brand": 62,
+        "recommend": 11,
+        "no_repeat_intent": 14,
+        "repeat_purchase_intent": 2,
+        "share_with_friend": 9,
+        "switch_brand": 2
+      },
+      "round_summary": [
+        {
+          "round_number": 1,
+          "stage_name": "Pre-launch concept exposure",
+          "dominant_action": "like",
+          "avg_sentiment": 0.483,
+          "avg_trial_probability": 0.405
+        },
+        {
+          "round_number": 2,
+          "stage_name": "Launch communication exposure",
+          "dominant_action": "save_for_later",
+          "avg_sentiment": 0.431,
+          "avg_trial_probability": 0.429
+        },
+        {
+          "round_number": 3,
+          "stage_name": "Shelf / e-commerce exposure",
+          "dominant_action": "ask_where_to_buy",
+          "avg_sentiment": 0.48,
+          "avg_trial_probability": 0.452
+        },
+        {
+          "round_number": 4,
+          "stage_name": "Trial decision",
+          "dominant_action": "purchase_trial",
+          "avg_sentiment": 0.316,
+          "avg_trial_probability": 0.468
+        },
+        {
+          "round_number": 5,
+          "stage_name": "Post-trial reaction",
+          "dominant_action": "stay_with_current_brand",
+          "avg_sentiment": 0.318,
+          "avg_trial_probability": 0.491
+        },
+        {
+          "round_number": 6,
+          "stage_name": "Social diffusion and market feedback",
+          "dominant_action": "stay_with_current_brand",
+          "avg_sentiment": 0.304,
+          "avg_trial_probability": 0.526
+        }
+      ]
+    },
+    "segment_reaction_map": [
+      {
+        "segment_name": "Family Decision Maker",
+        "number_of_agents": 4,
+        "average_trial_probability": 0.538,
+        "average_purchase_intent_score": 0.534,
+        "average_repeat_probability": 0.112,
+        "average_sentiment_score": 0.434,
+        "strongest_trigger": "Launch-month promotion lowers trial risk.",
+        "strongest_barrier": "satisfaction not high enough to commit to repeat",
+        "dominant_actions": [
+          "like",
+          "purchase_trial",
+          "no_repeat_intent"
+        ],
+        "representative_reaction": "I'll try one bottle first, but I need to know if the herbal taste is too strong.",
+        "recommended_message_angle": "Reassure on taste acceptance and offer family-friendly pack/value. Address the recurring barrier: satisfaction not high enough to commit to repeat.",
+        "confidence_score": 0.79
+      },
+      {
+        "segment_name": "Promotion-Driven Trial Buyer",
+        "number_of_agents": 4,
+        "average_trial_probability": 0.535,
+        "average_purchase_intent_score": 0.53,
+        "average_repeat_probability": 0.149,
+        "average_sentiment_score": 0.441,
+        "strongest_trigger": "Launch-month promotion lowers trial risk.",
+        "strongest_barrier": "satisfaction not high enough to commit to repeat",
+        "dominant_actions": [
+          "like",
+          "wait_for_promotion",
+          "purchase_trial"
+        ],
+        "representative_reaction": "Sharing this with friends who'd like it.",
+        "recommended_message_angle": "Anchor trial on a clear promo/sample mechanic. Address the recurring barrier: satisfaction not high enough to commit to repeat.",
+        "confidence_score": 0.79
+      },
+      {
+        "segment_name": "Convenience-Driven Busy Buyer",
+        "number_of_agents": 7,
+        "average_trial_probability": 0.497,
+        "average_purchase_intent_score": 0.493,
+        "average_repeat_probability": 0.128,
+        "average_sentiment_score": 0.43,
+        "strongest_trigger": "Launch-month promotion lowers trial risk.",
+        "strongest_barrier": "Premium price vs mainstream alternatives",
+        "dominant_actions": [
+          "save_for_later",
+          "like",
+          "purchase_trial"
+        ],
+        "representative_reaction": "Sticking with my current brand for now.",
+        "recommended_message_angle": "Stress availability and grab-and-go ease at convenience stores. Address the recurring barrier: Premium price vs mainstream alternatives.",
+        "confidence_score": 0.8
+      },
+      {
+        "segment_name": "Value-Seeking Practical Buyer",
+        "number_of_agents": 10,
+        "average_trial_probability": 0.483,
+        "average_purchase_intent_score": 0.479,
+        "average_repeat_probability": 0.069,
+        "average_sentiment_score": 0.349,
+        "strongest_trigger": "Launch-month promotion lowers trial risk.",
+        "strongest_barrier": "Premium price vs mainstream alternatives",
+        "dominant_actions": [
+          "save_for_later",
+          "wait_for_promotion",
+          "stay_with_current_brand"
+        ],
+        "representative_reaction": "Sticking with my current brand for now.",
+        "recommended_message_angle": "Make the price-per-serve and concrete savings explicit; avoid premium framing. Address the recurring barrier: Premium price vs mainstream alternatives.",
+        "confidence_score": 0.8
+      },
+      {
+        "segment_name": "Early Adopter / Trend-Seeker",
+        "number_of_agents": 7,
+        "average_trial_probability": 0.473,
+        "average_purchase_intent_score": 0.464,
+        "average_repeat_probability": 0.135,
+        "average_sentiment_score": 0.456,
+        "strongest_trigger": "Launch-month promotion lowers trial risk.",
+        "strongest_barrier": "Premium price vs mainstream alternatives",
+        "dominant_actions": [
+          "like",
+          "ask_where_to_buy",
+          "purchase_trial"
+        ],
+        "representative_reaction": "I might switch from my usual brand to this.",
+        "recommended_message_angle": "Lead with novelty and shareability; give them a first-to-discover hook. Address the recurring barrier: Premium price vs mainstream alternatives.",
+        "confidence_score": 0.8
+      },
+      {
+        "segment_name": "Health/Safety-Conscious Buyer",
+        "number_of_agents": 7,
+        "average_trial_probability": 0.41,
+        "average_purchase_intent_score": 0.405,
+        "average_repeat_probability": 0.062,
+        "average_sentiment_score": 0.358,
+        "strongest_trigger": "Launch-month promotion lowers trial risk.",
+        "strongest_barrier": "Premium price vs mainstream alternatives",
+        "dominant_actions": [
+          "request_review",
+          "stay_with_current_brand",
+          "ask_where_to_buy"
+        ],
+        "representative_reaction": "Sticking with my current brand for now.",
+        "recommended_message_angle": "Substantiate the low-sugar / natural-cooling reason-to-believe with clear evidence. Address the recurring barrier: Premium price vs mainstream alternatives.",
+        "confidence_score": 0.8
+      },
+      {
+        "segment_name": "Brand-Loyal Conservative Buyer",
+        "number_of_agents": 7,
+        "average_trial_probability": 0.402,
+        "average_purchase_intent_score": 0.397,
+        "average_repeat_probability": 0.039,
+        "average_sentiment_score": 0.352,
+        "strongest_trigger": "Launch-month promotion lowers trial risk.",
+        "strongest_barrier": "Premium price vs mainstream alternatives",
+        "dominant_actions": [
+          "save_for_later",
+          "stay_with_current_brand",
+          "ask_where_to_buy"
+        ],
+        "representative_reaction": "Sticking with my current brand for now.",
+        "recommended_message_angle": "Borrow trust via familiar endorsements and a low-risk reason to switch. Address the recurring barrier: Premium price vs mainstream alternatives.",
+        "confidence_score": 0.8
+      },
+      {
+        "segment_name": "Skeptical Reviewer-Dependent Buyer",
+        "number_of_agents": 4,
+        "average_trial_probability": 0.373,
+        "average_purchase_intent_score": 0.36,
+        "average_repeat_probability": 0.041,
+        "average_sentiment_score": 0.318,
+        "strongest_trigger": "Launch-month promotion lowers trial risk.",
+        "strongest_barrier": "Premium price vs mainstream alternatives",
+        "dominant_actions": [
+          "stay_with_current_brand",
+          "request_review",
+          "like"
+        ],
+        "representative_reaction": "Sticking with my current brand for now.",
+        "recommended_message_angle": "Seed credible third-party reviews before asking for trial. Address the recurring barrier: Premium price vs mainstream alternatives.",
+        "confidence_score": 0.79
+      }
+    ],
+    "purchase_trigger_analysis": [
+      {
+        "trigger": "Launch-month promotion lowers trial risk.",
+        "frequency": 112,
+        "affected_segments": [
+          "Value-Seeking Practical Buyer",
+          "Convenience-Driven Busy Buyer",
+          "Early Adopter / Trend-Seeker",
+          "Brand-Loyal Conservative Buyer"
+        ],
+        "related_touchpoints": [
+          "TikTok short video",
+          "KOL review",
+          "TikTok Shop / e-commerce product page"
+        ],
+        "evidence_events": [
+          {
+            "event_id": "aa4e9398-6d74-4447-80a5-a135e9d990b5",
+            "round_number": 1,
+            "agent_id": "04a26a00-3ee4-4349-acca-779b500eec88",
+            "segment_name": "Skeptical Reviewer-Dependent Buyer",
+            "action_type": "like",
+            "short_reaction_excerpt": "This looks good, I tapped like."
+          },
+          {
+            "event_id": "20db4b0c-96cc-420f-878b-d4c17aee3bd1",
+            "round_number": 1,
+            "agent_id": "052b215f-8086-4c15-b8e2-afa8e3fc537d",
+            "segment_name": "Promotion-Driven Trial Buyer",
+            "action_type": "like",
+            "short_reaction_excerpt": "This looks good, I tapped like."
+          },
+          {
+            "event_id": "a0e84377-5c13-4a1f-9614-79c3e34ba22d",
+            "round_number": 1,
+            "agent_id": "0c6ffc43-b865-43a7-a088-1cd31d190be7",
+            "segment_name": "Skeptical Reviewer-Dependent Buyer",
+            "action_type": "like",
+            "short_reaction_excerpt": "This looks good, I tapped like."
+          }
+        ],
+        "strategic_implication": "Appears 112 times across 4 segments — lean into this in creative and at the touchpoints above to pull consumers down the funnel."
+      },
+      {
+        "trigger": "wants to find it in a preferred channel",
+        "frequency": 25,
+        "affected_segments": [
+          "Brand-Loyal Conservative Buyer",
+          "Health/Safety-Conscious Buyer",
+          "Early Adopter / Trend-Seeker",
+          "Convenience-Driven Busy Buyer"
+        ],
+        "related_touchpoints": [
+          "Supermarket shelf",
+          "Convenience store display"
+        ],
+        "evidence_events": [
+          {
+            "event_id": "e76a3171-5b46-4ac1-875a-a307d2b1c444",
+            "round_number": 3,
+            "agent_id": "0c6ffc43-b865-43a7-a088-1cd31d190be7",
+            "segment_name": "Skeptical Reviewer-Dependent Buyer",
+            "action_type": "ask_where_to_buy",
+            "short_reaction_excerpt": "Where can I actually buy this?"
+          },
+          {
+            "event_id": "d225ee02-172d-409d-96fd-31c2bfa67169",
+            "round_number": 3,
+            "agent_id": "0de152d9-bfa3-4094-b244-159777d2d371",
+            "segment_name": "Convenience-Driven Busy Buyer",
+            "action_type": "ask_where_to_buy",
+            "short_reaction_excerpt": "Where can I actually buy this?"
+          },
+          {
+            "event_id": "a371a958-68d8-441e-bcf6-09231cf2ef7c",
+            "round_number": 3,
+            "agent_id": "1bb802e9-81e6-4d68-acf0-2dff611cc597",
+            "segment_name": "Convenience-Driven Busy Buyer",
+            "action_type": "ask_where_to_buy",
+            "short_reaction_excerpt": "Where can I actually buy this?"
+          }
+        ],
+        "strategic_implication": "Appears 25 times across 4 segments — lean into this in creative and at the touchpoints above to pull consumers down the funnel."
+      },
+      {
+        "trigger": "promotion-driven trial intent",
+        "frequency": 20,
+        "affected_segments": [
+          "Value-Seeking Practical Buyer",
+          "Promotion-Driven Trial Buyer",
+          "Family Decision Maker",
+          "Skeptical Reviewer-Dependent Buyer"
+        ],
+        "related_touchpoints": [
+          "Supermarket shelf",
+          "Convenience store display"
+        ],
+        "evidence_events": [
+          {
+            "event_id": "4ba4231a-eec0-40de-be78-31716e894db5",
+            "round_number": 3,
+            "agent_id": "04a26a00-3ee4-4349-acca-779b500eec88",
+            "segment_name": "Skeptical Reviewer-Dependent Buyer",
+            "action_type": "wait_for_promotion",
+            "short_reaction_excerpt": "I'd try it if there were a promo or sample."
+          },
+          {
+            "event_id": "642b2faf-0dbe-4b63-863a-992e5195ab87",
+            "round_number": 3,
+            "agent_id": "052b215f-8086-4c15-b8e2-afa8e3fc537d",
+            "segment_name": "Promotion-Driven Trial Buyer",
+            "action_type": "wait_for_promotion",
+            "short_reaction_excerpt": "I'd try it if there were a promo or sample."
+          },
+          {
+            "event_id": "4df20bf0-d3b3-4911-9417-7550dd568140",
+            "round_number": 3,
+            "agent_id": "1fde106c-b095-430f-b1bd-9f8b8ecf6e13",
+            "segment_name": "Health/Safety-Conscious Buyer",
+            "action_type": "wait_for_promotion",
+            "short_reaction_excerpt": "I'd try it if there were a promo or sample."
+          }
+        ],
+        "strategic_implication": "Appears 20 times across 4 segments — lean into this in creative and at the touchpoints above to pull consumers down the funnel."
+      },
+      {
+        "trigger": "positive trial → advocacy",
+        "frequency": 13,
+        "affected_segments": [
+          "Early Adopter / Trend-Seeker",
+          "Promotion-Driven Trial Buyer",
+          "Convenience-Driven Busy Buyer"
+        ],
+        "related_touchpoints": [
+          "TikTok short video"
+        ],
+        "evidence_events": [
+          {
+            "event_id": "e1f976d3-2a08-4f8c-8476-0ec0e3d75057",
+            "round_number": 6,
+            "agent_id": "052b215f-8086-4c15-b8e2-afa8e3fc537d",
+            "segment_name": "Promotion-Driven Trial Buyer",
+            "action_type": "share_with_friend",
+            "short_reaction_excerpt": "Sharing this with friends who'd like it."
+          },
+          {
+            "event_id": "23a4d866-c396-49cc-bd54-8d2b6e56fe71",
+            "round_number": 6,
+            "agent_id": "0de152d9-bfa3-4094-b244-159777d2d371",
+            "segment_name": "Convenience-Driven Busy Buyer",
+            "action_type": "recommend",
+            "short_reaction_excerpt": "I'd recommend this to a friend."
+          },
+          {
+            "event_id": "86c699cf-ae2b-4146-b8f9-af771161d26d",
+            "round_number": 6,
+            "agent_id": "1bb802e9-81e6-4d68-acf0-2dff611cc597",
+            "segment_name": "Convenience-Driven Busy Buyer",
+            "action_type": "recommend",
+            "short_reaction_excerpt": "I'd recommend this to a friend."
+          }
+        ],
+        "strategic_implication": "Appears 13 times across 3 segments — lean into this in creative and at the touchpoints above to pull consumers down the funnel."
+      },
+      {
+        "trigger": "trial met expectations",
+        "frequency": 9,
+        "affected_segments": [
+          "Early Adopter / Trend-Seeker",
+          "Convenience-Driven Busy Buyer",
+          "Promotion-Driven Trial Buyer"
+        ],
+        "related_touchpoints": [
+          "Word-of-mouth conversation",
+          "Consumer review section"
+        ],
+        "evidence_events": [
+          {
+            "event_id": "55d50376-b520-4486-9d1f-8da666e81b82",
+            "round_number": 5,
+            "agent_id": "052b215f-8086-4c15-b8e2-afa8e3fc537d",
+            "segment_name": "Promotion-Driven Trial Buyer",
+            "action_type": "recommend",
+            "short_reaction_excerpt": "I'd recommend this to a friend."
+          },
+          {
+            "event_id": "56c413c7-5412-4aa0-a351-14b24ad10fe3",
+            "round_number": 5,
+            "agent_id": "1bb802e9-81e6-4d68-acf0-2dff611cc597",
+            "segment_name": "Convenience-Driven Busy Buyer",
+            "action_type": "repeat_purchase_intent",
+            "short_reaction_excerpt": "I'd buy this again — it worked for me."
+          },
+          {
+            "event_id": "61e9e817-607b-416a-96b8-fc58ddc76a96",
+            "round_number": 5,
+            "agent_id": "25a669a4-74d8-4aa3-bd15-79ac132eea3e",
+            "segment_name": "Early Adopter / Trend-Seeker",
+            "action_type": "recommend",
+            "short_reaction_excerpt": "I'd recommend this to a friend."
+          }
+        ],
+        "strategic_implication": "Appears 9 times across 3 segments — lean into this in creative and at the touchpoints above to pull consumers down the funnel."
+      },
+      {
+        "trigger": "would try under promotion",
+        "frequency": 8,
+        "affected_segments": [
+          "Value-Seeking Practical Buyer",
+          "Skeptical Reviewer-Dependent Buyer"
+        ],
+        "related_touchpoints": [
+          "TikTok Shop / e-commerce product page"
+        ],
+        "evidence_events": [
+          {
+            "event_id": "e852fd45-d110-463f-aed5-af4828254fcd",
+            "round_number": 4,
+            "agent_id": "04a26a00-3ee4-4349-acca-779b500eec88",
+            "segment_name": "Skeptical Reviewer-Dependent Buyer",
+            "action_type": "wait_for_promotion",
+            "short_reaction_excerpt": "I'd try it if there were a promo or sample."
+          },
+          {
+            "event_id": "5ad659f9-c985-429e-b95a-51fcb20fdf7a",
+            "round_number": 4,
+            "agent_id": "26e0c674-7c50-4d98-965e-9077e9a3f33d",
+            "segment_name": "Value-Seeking Practical Buyer",
+            "action_type": "wait_for_promotion",
+            "short_reaction_excerpt": "I'd try it if there were a promo or sample."
+          },
+          {
+            "event_id": "05b97684-9169-4548-880b-b334ffa7cda8",
+            "round_number": 4,
+            "agent_id": "433036ad-a3f6-44f5-be87-07fe8533d247",
+            "segment_name": "Value-Seeking Practical Buyer",
+            "action_type": "wait_for_promotion",
+            "short_reaction_excerpt": "I'd try it if there were a promo or sample."
+          }
+        ],
+        "strategic_implication": "Appears 8 times across 2 segments — lean into this in creative and at the touchpoints above to pull consumers down the funnel."
+      }
+    ],
+    "adoption_barrier_analysis": [
+      {
+        "barrier": "Premium price vs mainstream alternatives",
+        "frequency": 68,
+        "affected_segments": [
+          "Brand-Loyal Conservative Buyer",
+          "Value-Seeking Practical Buyer",
+          "Health/Safety-Conscious Buyer",
+          "Skeptical Reviewer-Dependent Buyer"
+        ],
+        "related_touchpoints": [
+          "TikTok short video",
+          "Consumer review section",
+          "Word-of-mouth conversation"
+        ],
+        "evidence_events": [
+          {
+            "event_id": "eb6d00e9-4037-4d3e-83ef-f4262563c0a0",
+            "round_number": 4,
+            "agent_id": "220b713f-5a95-4efa-a253-dd2f40aa6c7a",
+            "segment_name": "Convenience-Driven Busy Buyer",
+            "action_type": "compare_with_current_brand",
+            "short_reaction_excerpt": "Is this really better than what I already buy?"
+          },
+          {
+            "event_id": "de1c2eb8-21df-4fbc-b7fe-827e975cf34d",
+            "round_number": 4,
+            "agent_id": "5016ab89-393b-4e90-b1c9-cb97cb76ce1f",
+            "segment_name": "Early Adopter / Trend-Seeker",
+            "action_type": "compare_with_current_brand",
+            "short_reaction_excerpt": "Is this really better than what I already buy?"
+          },
+          {
+            "event_id": "83b2b9c7-26e4-4783-a77e-31d1f970e877",
+            "round_number": 4,
+            "agent_id": "6ffa851b-79e2-4fe2-b3bf-45bcc4a5e8c2",
+            "segment_name": "Convenience-Driven Busy Buyer",
+            "action_type": "compare_with_current_brand",
+            "short_reaction_excerpt": "Is this really better than what I already buy?"
+          }
+        ],
+        "severity_level": "high",
+        "recommended_fix": "Clarify value-per-serve, or pair launch with a trial-driving promo/sample."
+      },
+      {
+        "barrier": "satisfaction not high enough to commit to repeat",
+        "frequency": 14,
+        "affected_segments": [
+          "Value-Seeking Practical Buyer",
+          "Family Decision Maker",
+          "Convenience-Driven Busy Buyer",
+          "Promotion-Driven Trial Buyer"
+        ],
+        "related_touchpoints": [
+          "Consumer review section",
+          "Word-of-mouth conversation"
+        ],
+        "evidence_events": [
+          {
+            "event_id": "3b1c93d2-8e35-491c-a2fa-c00bbba00477",
+            "round_number": 5,
+            "agent_id": "0de152d9-bfa3-4094-b244-159777d2d371",
+            "segment_name": "Convenience-Driven Busy Buyer",
+            "action_type": "no_repeat_intent",
+            "short_reaction_excerpt": "It was okay, but I won't repurchase."
+          },
+          {
+            "event_id": "fbe0f216-27d6-41a6-993b-e4788e64bcf9",
+            "round_number": 5,
+            "agent_id": "1fde106c-b095-430f-b1bd-9f8b8ecf6e13",
+            "segment_name": "Health/Safety-Conscious Buyer",
+            "action_type": "no_repeat_intent",
+            "short_reaction_excerpt": "It was okay, but I won't repurchase."
+          },
+          {
+            "event_id": "5530f9f1-88fe-4fbe-b48d-970066ca7141",
+            "round_number": 5,
+            "agent_id": "7205db56-37cd-4d6c-9673-58e6bfd4fc10",
+            "segment_name": "Value-Seeking Practical Buyer",
+            "action_type": "no_repeat_intent",
+            "short_reaction_excerpt": "It was okay, but I won't repurchase."
+          }
+        ],
+        "severity_level": "low",
+        "recommended_fix": "Improve post-trial experience (taste/value) to convert trial into repeat."
+      },
+      {
+        "barrier": "needs review validation before trial",
+        "frequency": 13,
+        "affected_segments": [
+          "Health/Safety-Conscious Buyer",
+          "Brand-Loyal Conservative Buyer",
+          "Skeptical Reviewer-Dependent Buyer"
+        ],
+        "related_touchpoints": [
+          "TikTok Shop / e-commerce product page"
+        ],
+        "evidence_events": [
+          {
+            "event_id": "30c800e1-0da0-4440-b7a1-9f05456786af",
+            "round_number": 4,
+            "agent_id": "0c6ffc43-b865-43a7-a088-1cd31d190be7",
+            "segment_name": "Skeptical Reviewer-Dependent Buyer",
+            "action_type": "request_review",
+            "short_reaction_excerpt": "The '50% less sugar than leading RTD teas' claim is interesting, but I want reviews before I trust it."
+          },
+          {
+            "event_id": "e98b654c-55d8-4ace-b148-2cc3d5670e1f",
+            "round_number": 4,
+            "agent_id": "1bd2ae25-7199-4dbb-9ab8-c749449880fe",
+            "segment_name": "Health/Safety-Conscious Buyer",
+            "action_type": "request_review",
+            "short_reaction_excerpt": "The '50% less sugar than leading RTD teas' claim is interesting, but I want reviews before I trust it."
+          },
+          {
+            "event_id": "0bd3a893-732d-4bab-925b-d19b7fd3c557",
+            "round_number": 4,
+            "agent_id": "280956ab-31b9-44f2-a91f-b6f81d7f1dcf",
+            "segment_name": "Brand-Loyal Conservative Buyer",
+            "action_type": "request_review",
+            "short_reaction_excerpt": "The '50% less sugar than leading RTD teas' claim is interesting, but I want reviews before I trust it."
+          }
+        ],
+        "severity_level": "low",
+        "recommended_fix": "Seed credible third-party reviews before asking for trial."
+      },
+      {
+        "barrier": "wants trusted reviews before trusting the claim",
+        "frequency": 11,
+        "affected_segments": [
+          "Health/Safety-Conscious Buyer",
+          "Skeptical Reviewer-Dependent Buyer"
+        ],
+        "related_touchpoints": [
+          "KOL review"
+        ],
+        "evidence_events": [
+          {
+            "event_id": "4fc06ba0-feda-4a8f-b98b-da79949e4c93",
+            "round_number": 2,
+            "agent_id": "04a26a00-3ee4-4349-acca-779b500eec88",
+            "segment_name": "Skeptical Reviewer-Dependent Buyer",
+            "action_type": "request_review",
+            "short_reaction_excerpt": "The '50% less sugar than leading RTD teas' claim is interesting, but I want reviews before I trust it."
+          },
+          {
+            "event_id": "23daee17-02a3-47ba-9d85-443a28a8df8c",
+            "round_number": 2,
+            "agent_id": "0c6ffc43-b865-43a7-a088-1cd31d190be7",
+            "segment_name": "Skeptical Reviewer-Dependent Buyer",
+            "action_type": "request_review",
+            "short_reaction_excerpt": "The '50% less sugar than leading RTD teas' claim is interesting, but I want reviews before I trust it."
+          },
+          {
+            "event_id": "dcf5ea7d-ca76-40b0-8f0e-85fb70ebbc60",
+            "round_number": 2,
+            "agent_id": "1bd2ae25-7199-4dbb-9ab8-c749449880fe",
+            "segment_name": "Health/Safety-Conscious Buyer",
+            "action_type": "request_review",
+            "short_reaction_excerpt": "The '50% less sugar than leading RTD teas' claim is interesting, but I want reviews before I trust it."
+          }
+        ],
+        "severity_level": "low",
+        "recommended_fix": "Seed credible third-party reviews before asking for trial."
+      }
+    ],
+    "claim_clarity_and_credibility": [
+      {
+        "claim": "50% less sugar than leading RTD teas",
+        "clarity_assessment": "clear — reads clearly to most segments.",
+        "credibility_assessment": "believable — broadly accepted.",
+        "supporting_signals": [
+          "differentiation: differentiated"
+        ],
+        "risk_signals": [
+          "Consumers may not believe the natural cooling claim",
+          "Sensory expectation must be managed pre-trial."
+        ],
+        "representative_reactions": [
+          "The '50% less sugar than leading RTD teas' claim is interesting, but I want reviews before I trust it.",
+          "The '50% less sugar than leading RTD teas' claim is interesting, but I want reviews before I trust it.",
+          "The '50% less sugar than leading RTD teas' claim is interesting, but I want reviews before I trust it."
+        ],
+        "recommended_rewrite": null
+      },
+      {
+        "claim": "Contains chrysanthemum",
+        "clarity_assessment": "clear — reads clearly to most segments.",
+        "credibility_assessment": "believable — broadly accepted.",
+        "supporting_signals": [
+          "differentiation: differentiated"
+        ],
+        "risk_signals": [
+          "Consumers may not believe the natural cooling claim",
+          "Sensory expectation must be managed pre-trial."
+        ],
+        "representative_reactions": [
+          "The '50% less sugar than leading RTD teas' claim is interesting, but I want reviews before I trust it.",
+          "The '50% less sugar than leading RTD teas' claim is interesting, but I want reviews before I trust it.",
+          "The '50% less sugar than leading RTD teas' claim is interesting, but I want reviews before I trust it."
+        ],
+        "recommended_rewrite": null
+      },
+      {
+        "claim": "A calm reset",
+        "clarity_assessment": "clear — reads clearly to most segments.",
+        "credibility_assessment": "believable — broadly accepted.",
+        "supporting_signals": [
+          "differentiation: generic"
+        ],
+        "risk_signals": [
+          "Consumers may not believe the natural cooling claim",
+          "Sensory expectation must be managed pre-trial."
+        ],
+        "representative_reactions": [
+          "The '50% less sugar than leading RTD teas' claim is interesting, but I want reviews before I trust it.",
+          "The '50% less sugar than leading RTD teas' claim is interesting, but I want reviews before I trust it.",
+          "The '50% less sugar than leading RTD teas' claim is interesting, but I want reviews before I trust it."
+        ],
+        "recommended_rewrite": null
+      }
+    ],
+    "packaging_price_perception": {
+      "packaging_appeal_summary": "Packaging is a secondary driver in the simulation; appeal is moderate and matters most for novelty-seeking and packaging-sensitive segments.",
+      "price_value_summary": "Premium positioning depresses perceived value for price-sensitive segments.",
+      "premium_price_risk": "HIGH — premium price is a top barrier and the main reason value-seekers defer or reject.",
+      "pack_size_concern": "Family segments may want a larger/multipack format beyond the 450ml pack.",
+      "promotion_dependency": "≈ 40.0% of consumers waited for a promotion/sample before trialling.",
+      "recommended_price_or_promo_action": "Hold premium price but anchor trial on the sampling + BOGO mechanic; revisit price only if repeat stays weak."
+    },
+    "channel_touchpoint_analysis": [
+      {
+        "channel_or_touchpoint": "TikTok short video",
+        "positive_signal": "10/100 interactions were positive (sentiment ≥ 0.55).",
+        "negative_signal": "46/100 interactions were negative (sentiment < 0.4).",
+        "trial_contribution": "0 trial/cart actions occurred at this touchpoint.",
+        "risk_signal": "elevated negative sentiment",
+        "recommended_role_in_launch": "awareness & consideration"
+      },
+      {
+        "channel_or_touchpoint": "KOL review",
+        "positive_signal": "2/50 interactions were positive (sentiment ≥ 0.55).",
+        "negative_signal": "14/50 interactions were negative (sentiment < 0.4).",
+        "trial_contribution": "0 trial/cart actions occurred at this touchpoint.",
+        "risk_signal": "low",
+        "recommended_role_in_launch": "awareness & consideration"
+      },
+      {
+        "channel_or_touchpoint": "TikTok Shop / e-commerce product page",
+        "positive_signal": "0/50 interactions were positive (sentiment ≥ 0.55).",
+        "negative_signal": "45/50 interactions were negative (sentiment < 0.4).",
+        "trial_contribution": "23 trial/cart actions occurred at this touchpoint.",
+        "risk_signal": "elevated negative sentiment",
+        "recommended_role_in_launch": "trial conversion"
+      },
+      {
+        "channel_or_touchpoint": "Supermarket shelf",
+        "positive_signal": "5/33 interactions were positive (sentiment ≥ 0.55).",
+        "negative_signal": "4/33 interactions were negative (sentiment < 0.4).",
+        "trial_contribution": "4 trial/cart actions occurred at this touchpoint.",
+        "risk_signal": "low",
+        "recommended_role_in_launch": "trial conversion"
+      },
+      {
+        "channel_or_touchpoint": "Word-of-mouth conversation",
+        "positive_signal": "0/25 interactions were positive (sentiment ≥ 0.55).",
+        "negative_signal": "22/25 interactions were negative (sentiment < 0.4).",
+        "trial_contribution": "0 trial/cart actions occurred at this touchpoint.",
+        "risk_signal": "elevated negative sentiment",
+        "recommended_role_in_launch": "support"
+      },
+      {
+        "channel_or_touchpoint": "Consumer review section",
+        "positive_signal": "0/25 interactions were positive (sentiment ≥ 0.55).",
+        "negative_signal": "25/25 interactions were negative (sentiment < 0.4).",
+        "trial_contribution": "0 trial/cart actions occurred at this touchpoint.",
+        "risk_signal": "elevated negative sentiment",
+        "recommended_role_in_launch": "support"
+      },
+      {
+        "channel_or_touchpoint": "Convenience store display",
+        "positive_signal": "2/17 interactions were positive (sentiment ≥ 0.55).",
+        "negative_signal": "2/17 interactions were negative (sentiment < 0.4).",
+        "trial_contribution": "1 trial/cart actions occurred at this touchpoint.",
+        "risk_signal": "low",
+        "recommended_role_in_launch": "trial conversion"
+      }
+    ],
+    "trial_repeat_forecast": {
+      "likely_triers": "≈ 46.0% of simulated consumers (23/50) chose to trial, concentrated in Family Decision Maker, Promotion-Driven Trial Buyer.",
+      "likely_repeaters": "≈ 8.7% of triers (2/23) signalled repeat intent; repeat is the funnel's tightest constraint.",
+      "one_time_trial_risk": "0 consumers complained post-trial and 0 rejected before trial — one-and-done risk is real where taste/credibility expectations are unmet.",
+      "switch_potential": "2 consumers signalled switching toward FreshPlus; 50 showed positive awareness in Round 1.",
+      "dependency_on_promotion": "20 consumers deferred to a promotion/sample before trialling — promo dependency is HIGH.",
+      "confidence_score": 0.62
+    },
+    "social_diffusion_and_wom": {
+      "likely_advocates": "13 consumers recommended or shared — advocacy skews to satisfied triers and social-leaning segments.",
+      "likely_complainers": "0 consumers complained or posted negatively, mostly around taste/credibility.",
+      "share_drivers": [
+        "positive trial → advocacy",
+        "trial met expectations"
+      ],
+      "complaint_drivers": [
+        "unmet taste/value expectations"
+      ],
+      "social_questions_likely_to_spread": [
+        "TikTok creator content has high social-diffusion potential among 22–35 urban segment."
+      ],
+      "recommended_social_content_response": "Pre-empt taste and claim doubts with proof-of-taste KOC content and a clear, substantiated RTB; monitor comment sections and respond to recurring objections quickly."
+    },
+    "competitor_and_retail_response": {
+      "competitor_risks": [
+        "R1: seed_doubt_content — Seeding comparison content to question their cooling claim.",
+        "R2: seed_doubt_content — Seeding comparison content to question their cooling claim.",
+        "R3: launch_defensive_promo — New entrant is gaining attention — countering with a defensive promo."
+      ],
+      "retailer_opportunities": [
+        "R1: maintain_listing_watch — Keeping it on shelf but watching rotation closely.",
+        "R2: maintain_listing_watch — Keeping it on shelf but watching rotation closely.",
+        "R3: maintain_listing_watch — Keeping it on shelf but watching rotation closely."
+      ],
+      "retailer_objections": [
+        "De-listing risk if rotation is weak within 8 weeks."
+      ],
+      "influencer_review_risks": [
+        "R1: preview_teaser — Teasing this to my audience — looks review-worthy.",
+        "R2: preview_teaser — Teasing this to my audience — looks review-worthy.",
+        "R3: post_critical_review — Honest take: the taste/claim didn't land for me."
+      ],
+      "community_discussion_risks": [
+        "R1: amplify_complaints — Complaints are recurring and getting amplified.",
+        "R2: amplify_complaints — Complaints are recurring and getting amplified.",
+        "R3: amplify_complaints — Complaints are recurring and getting amplified."
+      ],
+      "category_expert_concerns": [
+        "R1: validate_claim — The reason-to-believe holds up against category benchmarks.",
+        "R2: validate_claim — The reason-to-believe holds up against category benchmarks.",
+        "R3: validate_claim — The reason-to-believe holds up against category benchmarks."
+      ]
+    },
+    "innovation_risk_matrix": [
+      {
+        "risk_type": "claim risk",
+        "severity": "medium",
+        "evidence": "Skeptical segments request reviews; top barrier is 'Premium price vs mainstream alternatives'.",
+        "affected_segments": [
+          "Skeptical Reviewer-Dependent Buyer",
+          "Health/Safety-Conscious Buyer"
+        ],
+        "mitigation": "Add a concrete, substantiated reason-to-believe and seed credible reviews."
+      },
+      {
+        "risk_type": "price risk",
+        "severity": "high",
+        "evidence": "20 consumers waited for promo before trialling.",
+        "affected_segments": [
+          "Value-Seeking Practical Buyer",
+          "Promotion-Driven Trial Buyer"
+        ],
+        "mitigation": "Make value-per-serve explicit; anchor trial on sampling/BOGO."
+      },
+      {
+        "risk_type": "sensory risk",
+        "severity": "high",
+        "evidence": "0 post-trial complaints; herbal taste flagged as a launch risk.",
+        "affected_segments": [
+          "Family Decision Maker",
+          "Health/Safety-Conscious Buyer"
+        ],
+        "mitigation": "De-risk taste through sampling and proof-of-taste content before scaling."
+      },
+      {
+        "risk_type": "trust risk",
+        "severity": "medium",
+        "evidence": "0 consumers rejected before trial citing low relevance/trust.",
+        "affected_segments": [
+          "Skeptical Reviewer-Dependent Buyer"
+        ],
+        "mitigation": "Borrow trust via familiar endorsements and transparent labelling."
+      },
+      {
+        "risk_type": "channel risk",
+        "severity": "medium",
+        "evidence": "Findability drives the shelf/e-commerce round; weak visibility caps trial.",
+        "affected_segments": [
+          "Convenience-Driven Busy Buyer"
+        ],
+        "mitigation": "Secure visible facings and a strong e-commerce product page."
+      },
+      {
+        "risk_type": "competitor risk",
+        "severity": "medium",
+        "evidence": "Incumbent runs defensive promos / doubt-seeding in later rounds.",
+        "affected_segments": [
+          "Value-Seeking Practical Buyer",
+          "Brand-Loyal Conservative Buyer"
+        ],
+        "mitigation": "Lock trade visibility early and pre-empt comparison claims."
+      },
+      {
+        "risk_type": "social backlash risk",
+        "severity": "medium",
+        "evidence": "0 negative reactions could amplify in comment sections.",
+        "affected_segments": [
+          "Skeptical Reviewer-Dependent Buyer"
+        ],
+        "mitigation": "Monitor social, respond to recurring objections, avoid over-claiming."
+      }
+    ],
+    "strategic_recommendations": [
+      {
+        "priority": "P0",
+        "recommendation": "Lead the launch with a clearer, substantiated reason-to-believe for the core claim.",
+        "rationale": "'Premium price vs mainstream alternatives' is the most frequent barrier and the main repeat constraint.",
+        "supporting_evidence": "Top barrier appears 68 times across segments.",
+        "expected_impact": "Higher credibility → improved trial-to-repeat conversion.",
+        "owner_team": "Brand"
+      },
+      {
+        "priority": "P0",
+        "recommendation": "Use sampling to de-risk taste before scaling paid media.",
+        "rationale": "Sensory uncertainty (herbal taste) suppresses repeat and drives complaints.",
+        "supporting_evidence": "Post-trial complaints concentrate where taste importance is high.",
+        "expected_impact": "Lower one-and-done risk; stronger word-of-mouth.",
+        "owner_team": "Trade Marketing"
+      },
+      {
+        "priority": "P1",
+        "recommendation": "Focus initial targeting on the beachhead segments: Family Decision Maker, Promotion-Driven Trial Buyer.",
+        "rationale": "These segments show the highest simulated trial probability.",
+        "supporting_evidence": "Lead segment avg trial 0.538.",
+        "expected_impact": "Efficient early trial and advocacy seeding.",
+        "owner_team": "Media"
+      },
+      {
+        "priority": "P1",
+        "recommendation": "Anchor trial on the sampling + BOGO mechanic rather than a price cut.",
+        "rationale": "20 consumers deferred to a promotion/sample before trialling — promo dependency is HIGH.",
+        "supporting_evidence": "A meaningful share of consumers deferred to a promo/sample.",
+        "expected_impact": "Protects premium positioning while driving trial.",
+        "owner_team": "Sales"
+      },
+      {
+        "priority": "P2",
+        "recommendation": "Secure visible facings and a strong e-commerce product page in convenience + TikTok Shop.",
+        "rationale": "Findability gates the shelf/e-commerce round.",
+        "supporting_evidence": "7 touchpoints analysed; trial concentrates where visibility is high.",
+        "expected_impact": "Converts consideration into trial at the point of purchase.",
+        "owner_team": "E-commerce"
+      },
+      {
+        "priority": "P2",
+        "recommendation": "Brief creators on a proof-of-taste, honest-review format.",
+        "rationale": "Skeptical and review-dependent segments need credible third-party validation.",
+        "supporting_evidence": "request_review actions cluster in the comms round.",
+        "expected_impact": "Builds credibility ahead of broad trial.",
+        "owner_team": "Creative"
+      }
+    ],
+    "recommended_ab_tests": [
+      {
+        "test_name": "Claim reason-to-believe",
+        "hypothesis": "A substantiated RTB increases claim credibility and trial intent vs the current claim.",
+        "variant_a": "Current claim wording.",
+        "variant_b": "Claim + concrete substantiation (ingredient/mechanism + proof point).",
+        "target_segment": "Health/Safety-Conscious Buyer",
+        "success_metric": "Trial intent + credibility rating uplift.",
+        "why_this_test_matters": "Credibility is the top repeat constraint in the simulation."
+      },
+      {
+        "test_name": "Sampling vs media-first trial",
+        "hypothesis": "Sampling-led trial converts to repeat better than media-led trial for a taste-risk product.",
+        "variant_a": "Media-first (paid social) trial push.",
+        "variant_b": "Sampling-first at convenience stores, media as support.",
+        "target_segment": "Convenience-Driven Busy Buyer",
+        "success_metric": "Trial-to-repeat conversion rate.",
+        "why_this_test_matters": "Sensory risk drives one-and-done behaviour."
+      },
+      {
+        "test_name": "Price/promo elasticity",
+        "hypothesis": "A sharper entry promo lifts trial without permanently resetting price reference.",
+        "variant_a": "Premium price, BOGO launch promo.",
+        "variant_b": "Premium price, single-serve discount + bundle.",
+        "target_segment": "Value-Seeking Practical Buyer",
+        "success_metric": "Trial rate and post-promo repeat.",
+        "why_this_test_matters": "Promo dependency is a flagged risk to margin."
+      },
+      {
+        "test_name": "TikTok KOC proof-of-taste",
+        "hypothesis": "Honest proof-of-taste creator content drives more trial than aspirational lifestyle content.",
+        "variant_a": "Lifestyle / aesthetic creator content.",
+        "variant_b": "Honest proof-of-taste reaction content.",
+        "target_segment": "Early Adopter / Trend-Seeker",
+        "success_metric": "Click-to-trial and positive comment ratio.",
+        "why_this_test_matters": "Diffusion depends on credible social proof."
+      }
+    ],
+    "human_validation_questions": [
+      "[Survey] Do target consumers find the core claim believable, and does 'Premium price vs mainstream alternatives' suppress purchase as simulated?",
+      "[Focus group] How do consumers describe the herbal taste, and does it match or break the cooling claim expectation?",
+      "[Sensory test] What share of triers rate taste acceptable enough to repurchase?",
+      "[Social listening] Is 'Launch-month promotion lowers trial risk.' actually the dominant positive driver in real conversation?",
+      "[Retail test] Does shelf visibility in convenience stores move trial as the findability round suggests?",
+      "[E-commerce A/B test] Does the substantiated-RTB product page outperform the current page on add-to-cart?",
+      "[Sampling booth] Does sampling convert taste-skeptics into triers at the simulated rate?",
+      "[Survey] Is the premium price acceptable once value-per-serve is made explicit?"
+    ],
+    "limitations": [
+      "This simulation is exploratory decision support, NOT a guaranteed forecast.",
+      "Scores are produced by a deterministic, segment-weighted rule engine, not fitted to historical launch outcomes.",
+      "No real sales, scan, or POS data informs these numbers yet.",
+      "No real social-listening data is used; diffusion signals are simulated.",
+      "Findings must be validated with real consumer research before any launch decision."
+    ]
+  },
+  "markdown_report": "# Strategic Launch Simulation Report — FreshPlus Herbal Cool\n\n> **Exploratory decision support, not a guaranteed forecast.** All figures are simulated and must be validated with real consumer research.\n\n## 1. Executive Summary\n- **Overall reaction:** Across 6 simulated launch rounds, consumer reaction to FreshPlus Herbal Cool is cautious (avg sentiment 0.389). Trial reaches ≈ 46.0% but repeat intent is the binding constraint at ≈ 8.7% of triers.\n- **Top opportunity:** Family Decision Maker is the strongest beachhead (avg trial 0.538), driven by 'Launch-month promotion lowers trial risk.'.\n- **Top risk:** 'Premium price vs mainstream alternatives' is the most frequent adoption barrier and suppresses repeat across segments.\n- **Estimated trial:** ≈ 46.0% trial (23/50 simulated consumers).\n- **Estimated repeat:** ≈ 8.7% of triers signal repeat (2/23).\n- **Key recommendation:** Lead the launch with a clearer, substantiated reason-to-believe for the core claim.\n- **Confidence:** 0.62\n- **Assumptions:** Scoring is deterministic and segment-weighted, not fitted to real sales data.; Market context derived from the ontology: premium=True, promo_available=True, sampling=True, taste_risk=True.; Each simulated consumer represents a behavioural archetype, not an individual.\n\n## 2. Launch Funnel Summary\n- **Awareness:** 50/50 consumers engaged positively at first exposure (Round 1).\n- **Trial:** 23/50 reached trial (≈ 46.0%).\n- **Repeat:** 2 triers signalled repeat intent (≈ 8.7% of triers).\n- **Advocacy:** 13 consumers recommended or shared the product.\n- **Rejection:** 0 rejected before trial; 0 ignore actions logged.\n- **Complaint:** 0 consumers complained or commented negatively post-trial.\n- **Switching:** 2 signalled switching to FreshPlus; 62 stayed with incumbents.\n\n| Round | Stage | Dominant action | Avg sentiment | Avg trial prob |\n|---|---|---|---|---|\n| 1 | Pre-launch concept exposure | like | 0.483 | 0.405 |\n| 2 | Launch communication exposure | save_for_later | 0.431 | 0.429 |\n| 3 | Shelf / e-commerce exposure | ask_where_to_buy | 0.48 | 0.452 |\n| 4 | Trial decision | purchase_trial | 0.316 | 0.468 |\n| 5 | Post-trial reaction | stay_with_current_brand | 0.318 | 0.491 |\n| 6 | Social diffusion and market feedback | stay_with_current_brand | 0.304 | 0.526 |\n\n## 3. Segment Reaction Map\n| Segment | n | Trial | Intent | Repeat | Sentiment | Strongest barrier | Top actions |\n|---|---|---|---|---|---|---|---|\n| Family Decision Maker | 4 | 0.538 | 0.534 | 0.112 | 0.434 | satisfaction not high enough to commit to repeat | like, purchase_trial, no_repeat_intent |\n| Promotion-Driven Trial Buyer | 4 | 0.535 | 0.53 | 0.149 | 0.441 | satisfaction not high enough to commit to repeat | like, wait_for_promotion, purchase_trial |\n| Convenience-Driven Busy Buyer | 7 | 0.497 | 0.493 | 0.128 | 0.43 | Premium price vs mainstream alternatives | save_for_later, like, purchase_trial |\n| Value-Seeking Practical Buyer | 10 | 0.483 | 0.479 | 0.069 | 0.349 | Premium price vs mainstream alternatives | save_for_later, wait_for_promotion, stay_with_current_brand |\n| Early Adopter / Trend-Seeker | 7 | 0.473 | 0.464 | 0.135 | 0.456 | Premium price vs mainstream alternatives | like, ask_where_to_buy, purchase_trial |\n| Health/Safety-Conscious Buyer | 7 | 0.41 | 0.405 | 0.062 | 0.358 | Premium price vs mainstream alternatives | request_review, stay_with_current_brand, ask_where_to_buy |\n| Brand-Loyal Conservative Buyer | 7 | 0.402 | 0.397 | 0.039 | 0.352 | Premium price vs mainstream alternatives | save_for_later, stay_with_current_brand, ask_where_to_buy |\n| Skeptical Reviewer-Dependent Buyer | 4 | 0.373 | 0.36 | 0.041 | 0.318 | Premium price vs mainstream alternatives | stay_with_current_brand, request_review, like |\n\n- **Family Decision Maker** — _\"I'll try one bottle first, but I need to know if the herbal taste is too strong.\"_ → Reassure on taste acceptance and offer family-friendly pack/value. Address the recurring barrier: satisfaction not high enough to commit to repeat.\n- **Promotion-Driven Trial Buyer** — _\"Sharing this with friends who'd like it.\"_ → Anchor trial on a clear promo/sample mechanic. Address the recurring barrier: satisfaction not high enough to commit to repeat.\n- **Convenience-Driven Busy Buyer** — _\"Sticking with my current brand for now.\"_ → Stress availability and grab-and-go ease at convenience stores. Address the recurring barrier: Premium price vs mainstream alternatives.\n- **Value-Seeking Practical Buyer** — _\"Sticking with my current brand for now.\"_ → Make the price-per-serve and concrete savings explicit; avoid premium framing. Address the recurring barrier: Premium price vs mainstream alternatives.\n- **Early Adopter / Trend-Seeker** — _\"I might switch from my usual brand to this.\"_ → Lead with novelty and shareability; give them a first-to-discover hook. Address the recurring barrier: Premium price vs mainstream alternatives.\n- **Health/Safety-Conscious Buyer** — _\"Sticking with my current brand for now.\"_ → Substantiate the low-sugar / natural-cooling reason-to-believe with clear evidence. Address the recurring barrier: Premium price vs mainstream alternatives.\n- **Brand-Loyal Conservative Buyer** — _\"Sticking with my current brand for now.\"_ → Borrow trust via familiar endorsements and a low-risk reason to switch. Address the recurring barrier: Premium price vs mainstream alternatives.\n- **Skeptical Reviewer-Dependent Buyer** — _\"Sticking with my current brand for now.\"_ → Seed credible third-party reviews before asking for trial. Address the recurring barrier: Premium price vs mainstream alternatives.\n\n## 4. Purchase Trigger Analysis\n- **Launch-month promotion lowers trial risk.** (×112; segments: Value-Seeking Practical Buyer, Convenience-Driven Busy Buyer, Early Adopter / Trend-Seeker, Brand-Loyal Conservative Buyer). Appears 112 times across 4 segments — lean into this in creative and at the touchpoints above to pull consumers down the funnel.\n- **wants to find it in a preferred channel** (×25; segments: Brand-Loyal Conservative Buyer, Health/Safety-Conscious Buyer, Early Adopter / Trend-Seeker, Convenience-Driven Busy Buyer). Appears 25 times across 4 segments — lean into this in creative and at the touchpoints above to pull consumers down the funnel.\n- **promotion-driven trial intent** (×20; segments: Value-Seeking Practical Buyer, Promotion-Driven Trial Buyer, Family Decision Maker, Skeptical Reviewer-Dependent Buyer). Appears 20 times across 4 segments — lean into this in creative and at the touchpoints above to pull consumers down the funnel.\n- **positive trial → advocacy** (×13; segments: Early Adopter / Trend-Seeker, Promotion-Driven Trial Buyer, Convenience-Driven Busy Buyer). Appears 13 times across 3 segments — lean into this in creative and at the touchpoints above to pull consumers down the funnel.\n- **trial met expectations** (×9; segments: Early Adopter / Trend-Seeker, Convenience-Driven Busy Buyer, Promotion-Driven Trial Buyer). Appears 9 times across 3 segments — lean into this in creative and at the touchpoints above to pull consumers down the funnel.\n- **would try under promotion** (×8; segments: Value-Seeking Practical Buyer, Skeptical Reviewer-Dependent Buyer). Appears 8 times across 2 segments — lean into this in creative and at the touchpoints above to pull consumers down the funnel.\n\n## 5. Adoption Barrier Analysis\n- **Premium price vs mainstream alternatives** (×68, severity high; segments: Brand-Loyal Conservative Buyer, Value-Seeking Practical Buyer, Health/Safety-Conscious Buyer, Skeptical Reviewer-Dependent Buyer). _Fix:_ Clarify value-per-serve, or pair launch with a trial-driving promo/sample.\n- **satisfaction not high enough to commit to repeat** (×14, severity low; segments: Value-Seeking Practical Buyer, Family Decision Maker, Convenience-Driven Busy Buyer, Promotion-Driven Trial Buyer). _Fix:_ Improve post-trial experience (taste/value) to convert trial into repeat.\n- **needs review validation before trial** (×13, severity low; segments: Health/Safety-Conscious Buyer, Brand-Loyal Conservative Buyer, Skeptical Reviewer-Dependent Buyer). _Fix:_ Seed credible third-party reviews before asking for trial.\n- **wants trusted reviews before trusting the claim** (×11, severity low; segments: Health/Safety-Conscious Buyer, Skeptical Reviewer-Dependent Buyer). _Fix:_ Seed credible third-party reviews before asking for trial.\n\n## 6. Claim Clarity & Credibility\n- **50% less sugar than leading RTD teas** — clarity: clear — reads clearly to most segments. credibility: believable — broadly accepted.\n- **Contains chrysanthemum** — clarity: clear — reads clearly to most segments. credibility: believable — broadly accepted.\n- **A calm reset** — clarity: clear — reads clearly to most segments. credibility: believable — broadly accepted.\n\n## 7. Packaging & Price Perception\n- **Packaging:** Packaging is a secondary driver in the simulation; appeal is moderate and matters most for novelty-seeking and packaging-sensitive segments.\n- **Price/value:** Premium positioning depresses perceived value for price-sensitive segments.\n- **Premium price risk:** HIGH — premium price is a top barrier and the main reason value-seekers defer or reject.\n- **Pack size:** Family segments may want a larger/multipack format beyond the 450ml pack.\n- **Promotion dependency:** ≈ 40.0% of consumers waited for a promotion/sample before trialling.\n- **Recommended action:** Hold premium price but anchor trial on the sampling + BOGO mechanic; revisit price only if repeat stays weak.\n\n## 8. Channel & Touchpoint Analysis\n| Touchpoint | Positive | Negative | Trial contribution | Recommended role |\n|---|---|---|---|---|\n| TikTok short video | 10/100 interactions were positive (sentiment ≥ 0.55). | 46/100 interactions were negative (sentiment < 0.4). | 0 trial/cart actions occurred at this touchpoint. | awareness & consideration |\n| KOL review | 2/50 interactions were positive (sentiment ≥ 0.55). | 14/50 interactions were negative (sentiment < 0.4). | 0 trial/cart actions occurred at this touchpoint. | awareness & consideration |\n| TikTok Shop / e-commerce product page | 0/50 interactions were positive (sentiment ≥ 0.55). | 45/50 interactions were negative (sentiment < 0.4). | 23 trial/cart actions occurred at this touchpoint. | trial conversion |\n| Supermarket shelf | 5/33 interactions were positive (sentiment ≥ 0.55). | 4/33 interactions were negative (sentiment < 0.4). | 4 trial/cart actions occurred at this touchpoint. | trial conversion |\n| Word-of-mouth conversation | 0/25 interactions were positive (sentiment ≥ 0.55). | 22/25 interactions were negative (sentiment < 0.4). | 0 trial/cart actions occurred at this touchpoint. | support |\n| Consumer review section | 0/25 interactions were positive (sentiment ≥ 0.55). | 25/25 interactions were negative (sentiment < 0.4). | 0 trial/cart actions occurred at this touchpoint. | support |\n| Convenience store display | 2/17 interactions were positive (sentiment ≥ 0.55). | 2/17 interactions were negative (sentiment < 0.4). | 1 trial/cart actions occurred at this touchpoint. | trial conversion |\n\n## 9. Trial & Repeat Forecast\n- **Likely triers:** ≈ 46.0% of simulated consumers (23/50) chose to trial, concentrated in Family Decision Maker, Promotion-Driven Trial Buyer.\n- **Likely repeaters:** ≈ 8.7% of triers (2/23) signalled repeat intent; repeat is the funnel's tightest constraint.\n- **One-time trial risk:** 0 consumers complained post-trial and 0 rejected before trial — one-and-done risk is real where taste/credibility expectations are unmet.\n- **Switch potential:** 2 consumers signalled switching toward FreshPlus; 50 showed positive awareness in Round 1.\n- **Promo dependency:** 20 consumers deferred to a promotion/sample before trialling — promo dependency is HIGH.\n\n## 10. Social Diffusion & Word-of-Mouth\n- **Likely advocates:** 13 consumers recommended or shared — advocacy skews to satisfied triers and social-leaning segments.\n- **Likely complainers:** 0 consumers complained or posted negatively, mostly around taste/credibility.\n- **Share drivers:** positive trial → advocacy, trial met expectations\n- **Complaint drivers:** unmet taste/value expectations\n- **Questions likely to spread:** TikTok creator content has high social-diffusion potential among 22–35 urban segment.\n- **Recommended response:** Pre-empt taste and claim doubts with proof-of-taste KOC content and a clear, substantiated RTB; monitor comment sections and respond to recurring objections quickly.\n\n## 11. Competitor & Retail Response\n- **Competitor risks:** R1: seed_doubt_content — Seeding comparison content to question their cooling claim.; R2: seed_doubt_content — Seeding comparison content to question their cooling claim.; R3: launch_defensive_promo — New entrant is gaining attention — countering with a defensive promo.\n- **Retailer opportunities:** R1: maintain_listing_watch — Keeping it on shelf but watching rotation closely.; R2: maintain_listing_watch — Keeping it on shelf but watching rotation closely.; R3: maintain_listing_watch — Keeping it on shelf but watching rotation closely.\n- **Retailer objections:** De-listing risk if rotation is weak within 8 weeks.\n- **Influencer review risks:** R1: preview_teaser — Teasing this to my audience — looks review-worthy.; R2: preview_teaser — Teasing this to my audience — looks review-worthy.; R3: post_critical_review — Honest take: the taste/claim didn't land for me.\n- **Community discussion risks:** R1: amplify_complaints — Complaints are recurring and getting amplified.; R2: amplify_complaints — Complaints are recurring and getting amplified.; R3: amplify_complaints — Complaints are recurring and getting amplified.\n- **Category expert concerns:** R1: validate_claim — The reason-to-believe holds up against category benchmarks.; R2: validate_claim — The reason-to-believe holds up against category benchmarks.; R3: validate_claim — The reason-to-believe holds up against category benchmarks.\n\n## 12. Innovation Risk Matrix\n| Risk | Severity | Evidence | Mitigation |\n|---|---|---|---|\n| claim risk | medium | Skeptical segments request reviews; top barrier is 'Premium price vs mainstream alternatives'. | Add a concrete, substantiated reason-to-believe and seed credible reviews. |\n| price risk | high | 20 consumers waited for promo before trialling. | Make value-per-serve explicit; anchor trial on sampling/BOGO. |\n| sensory risk | high | 0 post-trial complaints; herbal taste flagged as a launch risk. | De-risk taste through sampling and proof-of-taste content before scaling. |\n| trust risk | medium | 0 consumers rejected before trial citing low relevance/trust. | Borrow trust via familiar endorsements and transparent labelling. |\n| channel risk | medium | Findability drives the shelf/e-commerce round; weak visibility caps trial. | Secure visible facings and a strong e-commerce product page. |\n| competitor risk | medium | Incumbent runs defensive promos / doubt-seeding in later rounds. | Lock trade visibility early and pre-empt comparison claims. |\n| social backlash risk | medium | 0 negative reactions could amplify in comment sections. | Monitor social, respond to recurring objections, avoid over-claiming. |\n\n## 13. Strategic Recommendations\n- **[P0] Lead the launch with a clearer, substantiated reason-to-believe for the core claim.** (Brand) — 'Premium price vs mainstream alternatives' is the most frequent barrier and the main repeat constraint. _Evidence:_ Top barrier appears 68 times across segments. _Impact:_ Higher credibility → improved trial-to-repeat conversion.\n- **[P0] Use sampling to de-risk taste before scaling paid media.** (Trade Marketing) — Sensory uncertainty (herbal taste) suppresses repeat and drives complaints. _Evidence:_ Post-trial complaints concentrate where taste importance is high. _Impact:_ Lower one-and-done risk; stronger word-of-mouth.\n- **[P1] Focus initial targeting on the beachhead segments: Family Decision Maker, Promotion-Driven Trial Buyer.** (Media) — These segments show the highest simulated trial probability. _Evidence:_ Lead segment avg trial 0.538. _Impact:_ Efficient early trial and advocacy seeding.\n- **[P1] Anchor trial on the sampling + BOGO mechanic rather than a price cut.** (Sales) — 20 consumers deferred to a promotion/sample before trialling — promo dependency is HIGH. _Evidence:_ A meaningful share of consumers deferred to a promo/sample. _Impact:_ Protects premium positioning while driving trial.\n- **[P2] Secure visible facings and a strong e-commerce product page in convenience + TikTok Shop.** (E-commerce) — Findability gates the shelf/e-commerce round. _Evidence:_ 7 touchpoints analysed; trial concentrates where visibility is high. _Impact:_ Converts consideration into trial at the point of purchase.\n- **[P2] Brief creators on a proof-of-taste, honest-review format.** (Creative) — Skeptical and review-dependent segments need credible third-party validation. _Evidence:_ request_review actions cluster in the comms round. _Impact:_ Builds credibility ahead of broad trial.\n\n## 14. Recommended A/B Tests\n- **Claim reason-to-believe** (target: Health/Safety-Conscious Buyer) — A substantiated RTB increases claim credibility and trial intent vs the current claim.\n    - A: Current claim wording. | B: Claim + concrete substantiation (ingredient/mechanism + proof point). | Metric: Trial intent + credibility rating uplift.\n- **Sampling vs media-first trial** (target: Convenience-Driven Busy Buyer) — Sampling-led trial converts to repeat better than media-led trial for a taste-risk product.\n    - A: Media-first (paid social) trial push. | B: Sampling-first at convenience stores, media as support. | Metric: Trial-to-repeat conversion rate.\n- **Price/promo elasticity** (target: Value-Seeking Practical Buyer) — A sharper entry promo lifts trial without permanently resetting price reference.\n    - A: Premium price, BOGO launch promo. | B: Premium price, single-serve discount + bundle. | Metric: Trial rate and post-promo repeat.\n- **TikTok KOC proof-of-taste** (target: Early Adopter / Trend-Seeker) — Honest proof-of-taste creator content drives more trial than aspirational lifestyle content.\n    - A: Lifestyle / aesthetic creator content. | B: Honest proof-of-taste reaction content. | Metric: Click-to-trial and positive comment ratio.\n\n## 15. Human Validation Questions\n- [Survey] Do target consumers find the core claim believable, and does 'Premium price vs mainstream alternatives' suppress purchase as simulated?\n- [Focus group] How do consumers describe the herbal taste, and does it match or break the cooling claim expectation?\n- [Sensory test] What share of triers rate taste acceptable enough to repurchase?\n- [Social listening] Is 'Launch-month promotion lowers trial risk.' actually the dominant positive driver in real conversation?\n- [Retail test] Does shelf visibility in convenience stores move trial as the findability round suggests?\n- [E-commerce A/B test] Does the substantiated-RTB product page outperform the current page on add-to-cart?\n- [Sampling booth] Does sampling convert taste-skeptics into triers at the simulated rate?\n- [Survey] Is the premium price acceptable once value-per-serve is made explicit?\n\n## 16. Limitations\n- This simulation is exploratory decision support, NOT a guaranteed forecast.\n- Scores are produced by a deterministic, segment-weighted rule engine, not fitted to historical launch outcomes.\n- No real sales, scan, or POS data informs these numbers yet.\n- No real social-listening data is used; diffusion signals are simulated.\n- Findings must be validated with real consumer research before any launch decision.\n",
+  "summary": {
+    "overall_market_reaction": "Across 6 simulated launch rounds, consumer reaction to FreshPlus Herbal Cool is cautious (avg sentiment 0.389). Trial reaches ≈ 46.0% but repeat intent is the binding constraint at ≈ 8.7% of triers.",
+    "top_opportunity": "Family Decision Maker is the strongest beachhead (avg trial 0.538), driven by 'Launch-month promotion lowers trial risk.'.",
+    "top_risk": "'Premium price vs mainstream alternatives' is the most frequent adoption barrier and suppresses repeat across segments.",
+    "top_segments": [
+      {
+        "segment_name": "Family Decision Maker",
+        "average_trial_probability": 0.538,
+        "average_repeat_probability": 0.112,
+        "dominant_actions": [
+          "like",
+          "purchase_trial",
+          "no_repeat_intent"
+        ]
+      },
+      {
+        "segment_name": "Promotion-Driven Trial Buyer",
+        "average_trial_probability": 0.535,
+        "average_repeat_probability": 0.149,
+        "dominant_actions": [
+          "like",
+          "wait_for_promotion",
+          "purchase_trial"
+        ]
+      },
+      {
+        "segment_name": "Convenience-Driven Busy Buyer",
+        "average_trial_probability": 0.497,
+        "average_repeat_probability": 0.128,
+        "dominant_actions": [
+          "save_for_later",
+          "like",
+          "purchase_trial"
+        ]
+      }
+    ],
+    "top_triggers": [
+      {
+        "trigger": "Launch-month promotion lowers trial risk.",
+        "frequency": 112,
+        "affected_segments": [
+          "Value-Seeking Practical Buyer",
+          "Convenience-Driven Busy Buyer",
+          "Early Adopter / Trend-Seeker",
+          "Brand-Loyal Conservative Buyer"
+        ]
+      },
+      {
+        "trigger": "wants to find it in a preferred channel",
+        "frequency": 25,
+        "affected_segments": [
+          "Brand-Loyal Conservative Buyer",
+          "Health/Safety-Conscious Buyer",
+          "Early Adopter / Trend-Seeker",
+          "Convenience-Driven Busy Buyer"
+        ]
+      },
+      {
+        "trigger": "promotion-driven trial intent",
+        "frequency": 20,
+        "affected_segments": [
+          "Value-Seeking Practical Buyer",
+          "Promotion-Driven Trial Buyer",
+          "Family Decision Maker",
+          "Skeptical Reviewer-Dependent Buyer"
+        ]
+      }
+    ],
+    "top_barriers": [
+      {
+        "barrier": "Premium price vs mainstream alternatives",
+        "frequency": 68,
+        "severity_level": "high"
+      },
+      {
+        "barrier": "satisfaction not high enough to commit to repeat",
+        "frequency": 14,
+        "severity_level": "low"
+      },
+      {
+        "barrier": "needs review validation before trial",
+        "frequency": 13,
+        "severity_level": "low"
+      }
+    ],
+    "key_recommendations": [
+      "Lead the launch with a clearer, substantiated reason-to-believe for the core claim.",
+      "Use sampling to de-risk taste before scaling paid media.",
+      "Focus initial targeting on the beachhead segments: Family Decision Maker, Promotion-Driven Trial Buyer.",
+      "Anchor trial on the sampling + BOGO mechanic rather than a price cut.",
+      "Secure visible facings and a strong e-commerce product page in convenience + TikTok Shop."
+    ]
+  }
+}

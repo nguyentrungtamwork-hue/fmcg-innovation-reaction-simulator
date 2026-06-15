@@ -1,0 +1,20 @@
+# Render Blueprint — FastAPI backend (Docker).
+# Frontend is deployed separately on Vercel.
+# Deploy: push this repo to GitHub, then Render → New → Blueprint → pick this repo.
+services:
+  - type: web
+    name: mirofish-api
+    runtime: docker
+    plan: free
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: ./backend
+    healthCheckPath: /healthz
+    autoDeploy: true
+    envVars:
+      - key: ENVIRONMENT
+        value: render
+      - key: DEMO_MODE
+        value: "true"
+      # Set to the Vercel frontend URL after it is deployed (enables CORS).
+      - key: FRONTEND_ORIGIN
+        sync: false

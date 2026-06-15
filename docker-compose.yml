@@ -1,0 +1,38 @@
+# Local shareable demo — `docker compose up --build`
+# Frontend:  http://localhost:3000
+# Backend:   http://localhost:8000  (health: /healthz, status: /api/v1/system/status)
+services:
+  backend:
+    build:
+      context: ./backend
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=sqlite:////data/fmcg_sim.db
+      - ENVIRONMENT=docker
+      - DEMO_MODE=true
+      # Extra CORS origin for a deployed frontend (local 3000/5173 already allowed).
+      - FRONTEND_ORIGIN=${FRONTEND_ORIGIN:-}
+      # Optional: enable the LLM paths by passing a key through your shell env.
+      - OPENAI_API_KEY=${OPENAI_API_KEY:-}
+    volumes:
+      - backend_data:/data
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request,sys; sys.exit(0 if urllib.request.urlopen('http://localhost:8000/healthz').status==200 else 1)"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        # Browser-side calls hit the host-mapped backend port.
+        VITE_API_BASE_URL: http://localhost:8000/api/v1
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+
+volumes:
+  backend_data:

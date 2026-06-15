@@ -1,0 +1,29 @@
+# --- Node / frontend ---
+node_modules/
+frontend/dist/
+frontend/vite.log
+**/*.tsbuildinfo
+frontend/playwright-report/
+frontend/test-results/
+
+# --- Python / backend ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# --- Local data & secrets (seeded at deploy time instead) ---
+*.db
+backend/uvicorn*.log
+.env
+.env.local
+*.local
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

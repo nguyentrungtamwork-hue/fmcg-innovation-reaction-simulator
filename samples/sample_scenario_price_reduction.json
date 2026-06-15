@@ -1,0 +1,297 @@
+{
+  "scenario_id": "ce535dce-fdab-4fda-8de3-88b79a80c3a7",
+  "project_id": "4207c415-c3bb-4783-84ec-711b7dce93ff",
+  "scenario_name": "10% price reduction",
+  "description": "Lower shelf price by 10% to test trial uplift vs baseline.",
+  "overrides": {
+    "price_change_pct": -10.0,
+    "claim_credibility_boost": 0.0,
+    "sampling_boost": 0.0,
+    "promotion_boost": 0.0,
+    "channel_focus": null,
+    "competitor_pressure_boost": 0.0,
+    "packaging_appeal_boost": 0.0,
+    "social_proof_boost": 0.0,
+    "sensory_risk_reduction": 0.0,
+    "retailer_support_boost": 0.0
+  },
+  "baseline_summary": {
+    "trial_probability": 0.462,
+    "purchase_intent": 0.456,
+    "repeat_probability": 0.086,
+    "sentiment": 0.388,
+    "trial_count": 24,
+    "complaint_count": 2,
+    "recommend_count": 16,
+    "switch_count": 5,
+    "action_distribution": {
+      "like": 43,
+      "save_for_later": 45,
+      "view": 1,
+      "request_review": 24,
+      "wait_for_promotion": 24,
+      "ask_where_to_buy": 25,
+      "add_to_cart": 4,
+      "purchase_trial": 24,
+      "compare_with_current_brand": 10,
+      "no_repeat_intent": 16,
+      "stay_with_current_brand": 59,
+      "recommend": 9,
+      "repeat_purchase_intent": 2,
+      "complain": 2,
+      "share_with_friend": 7,
+      "switch_brand": 5
+    },
+    "triggers": {
+      "Launch-month promotion lowers trial risk.": 113,
+      "promotion-driven trial intent": 21,
+      "wants to find it in a preferred channel": 25,
+      "good visibility + intent to buy online": 4,
+      "would try under promotion": 3,
+      "trial met expectations": 7,
+      "positive trial → advocacy": 11,
+      "curiosity may still convert later": 5
+    },
+    "barriers": {
+      "wants trusted reviews before trusting the claim": 11,
+      "Premium price vs mainstream alternatives": 69,
+      "needs review validation before trial": 13,
+      "satisfaction not high enough to commit to repeat": 16,
+      "taste / value disappointment after trial": 1,
+      "negative post-trial experience spreads": 1
+    },
+    "segments": {
+      "Family Decision Maker": {
+        "n": 24,
+        "avg_trial_probability": 0.535,
+        "avg_sentiment": 0.427
+      },
+      "Convenience-Driven Busy Buyer": {
+        "n": 42,
+        "avg_trial_probability": 0.498,
+        "avg_sentiment": 0.426
+      },
+      "Brand-Loyal Conservative Buyer": {
+        "n": 42,
+        "avg_trial_probability": 0.402,
+        "avg_sentiment": 0.35
+      },
+      "Value-Seeking Practical Buyer": {
+        "n": 60,
+        "avg_trial_probability": 0.484,
+        "avg_sentiment": 0.361
+      },
+      "Early Adopter / Trend-Seeker": {
+        "n": 42,
+        "avg_trial_probability": 0.467,
+        "avg_sentiment": 0.429
+      },
+      "Health/Safety-Conscious Buyer": {
+        "n": 42,
+        "avg_trial_probability": 0.408,
+        "avg_sentiment": 0.353
+      },
+      "Promotion-Driven Trial Buyer": {
+        "n": 24,
+        "avg_trial_probability": 0.545,
+        "avg_sentiment": 0.458
+      },
+      "Skeptical Reviewer-Dependent Buyer": {
+        "n": 24,
+        "avg_trial_probability": 0.379,
+        "avg_sentiment": 0.339
+      }
+    }
+  },
+  "scenario_summary": {
+    "trial_probability": 0.471,
+    "purchase_intent": 0.465,
+    "repeat_probability": 0.096,
+    "sentiment": 0.392,
+    "trial_count": 28,
+    "complaint_count": 2,
+    "recommend_count": 22,
+    "switch_count": 3,
+    "action_distribution": {
+      "like": 43,
+      "save_for_later": 45,
+      "view": 1,
+      "request_review": 24,
+      "wait_for_promotion": 23,
+      "ask_where_to_buy": 25,
+      "add_to_cart": 5,
+      "purchase_trial": 28,
+      "compare_with_current_brand": 6,
+      "no_repeat_intent": 16,
+      "stay_with_current_brand": 53,
+      "recommend": 12,
+      "repeat_purchase_intent": 4,
+      "complain": 2,
+      "share_with_friend": 10,
+      "switch_brand": 3
+    },
+    "triggers": {
+      "Launch-month promotion lowers trial risk.": 117,
+      "promotion-driven trial intent": 20,
+      "wants to find it in a preferred channel": 25,
+      "good visibility + intent to buy online": 5,
+      "would try under promotion": 3,
+      "trial met expectations": 11,
+      "positive trial → advocacy": 15,
+      "curiosity may still convert later": 3
+    },
+    "barriers": {
+      "wants trusted reviews before trusting the claim": 11,
+      "Premium price vs mainstream alternatives": 59,
+      "needs review validation before trial": 13,
+      "satisfaction not high enough to commit to repeat": 16,
+      "taste / value disappointment after trial": 1,
+      "negative post-trial experience spreads": 1
+    },
+    "segments": {
+      "Family Decision Maker": {
+        "n": 24,
+        "avg_trial_probability": 0.545,
+        "avg_sentiment": 0.429
+      },
+      "Convenience-Driven Busy Buyer": {
+        "n": 42,
+        "avg_trial_probability": 0.509,
+        "avg_sentiment": 0.436
+      },
+      "Brand-Loyal Conservative Buyer": {
+        "n": 42,
+        "avg_trial_probability": 0.408,
+        "avg_sentiment": 0.351
+      },
+      "Value-Seeking Practical Buyer": {
+        "n": 60,
+        "avg_trial_probability": 0.496,
+        "avg_sentiment": 0.363
+      },
+      "Early Adopter / Trend-Seeker": {
+        "n": 42,
+        "avg_trial_probability": 0.475,
+        "avg_sentiment": 0.438
+      },
+      "Health/Safety-Conscious Buyer": {
+        "n": 42,
+        "avg_trial_probability": 0.413,
+        "avg_sentiment": 0.353
+      },
+      "Promotion-Driven Trial Buyer": {
+        "n": 24,
+        "avg_trial_probability": 0.559,
+        "avg_sentiment": 0.461
+      },
+      "Skeptical Reviewer-Dependent Buyer": {
+        "n": 24,
+        "avg_trial_probability": 0.385,
+        "avg_sentiment": 0.34
+      }
+    }
+  },
+  "delta_summary": "Trial probability +0.009, repeat +0.010, sentiment +0.004, trials +4, recommends +6, complaints +0.",
+  "key_metric_changes": {
+    "trial_probability_delta": 0.009,
+    "purchase_intent_delta": 0.009,
+    "repeat_probability_delta": 0.01,
+    "sentiment_delta": 0.004,
+    "complaint_delta": 0,
+    "recommend_delta": 6,
+    "switch_delta": -2,
+    "trial_count_delta": 4,
+    "top_segments_improved": [
+      "Promotion-Driven Trial Buyer",
+      "Value-Seeking Practical Buyer",
+      "Convenience-Driven Busy Buyer"
+    ],
+    "top_segments_declined": []
+  },
+  "segment_changes": [
+    {
+      "segment_name": "Promotion-Driven Trial Buyer",
+      "baseline_trial_probability": 0.545,
+      "scenario_trial_probability": 0.559,
+      "trial_probability_delta": 0.014,
+      "sentiment_delta": 0.003
+    },
+    {
+      "segment_name": "Value-Seeking Practical Buyer",
+      "baseline_trial_probability": 0.484,
+      "scenario_trial_probability": 0.496,
+      "trial_probability_delta": 0.012,
+      "sentiment_delta": 0.002
+    },
+    {
+      "segment_name": "Convenience-Driven Busy Buyer",
+      "baseline_trial_probability": 0.498,
+      "scenario_trial_probability": 0.509,
+      "trial_probability_delta": 0.011,
+      "sentiment_delta": 0.01
+    },
+    {
+      "segment_name": "Family Decision Maker",
+      "baseline_trial_probability": 0.535,
+      "scenario_trial_probability": 0.545,
+      "trial_probability_delta": 0.01,
+      "sentiment_delta": 0.002
+    },
+    {
+      "segment_name": "Early Adopter / Trend-Seeker",
+      "baseline_trial_probability": 0.467,
+      "scenario_trial_probability": 0.475,
+      "trial_probability_delta": 0.008,
+      "sentiment_delta": 0.009
+    },
+    {
+      "segment_name": "Brand-Loyal Conservative Buyer",
+      "baseline_trial_probability": 0.402,
+      "scenario_trial_probability": 0.408,
+      "trial_probability_delta": 0.006,
+      "sentiment_delta": 0.001
+    },
+    {
+      "segment_name": "Skeptical Reviewer-Dependent Buyer",
+      "baseline_trial_probability": 0.379,
+      "scenario_trial_probability": 0.385,
+      "trial_probability_delta": 0.006,
+      "sentiment_delta": 0.001
+    },
+    {
+      "segment_name": "Health/Safety-Conscious Buyer",
+      "baseline_trial_probability": 0.408,
+      "scenario_trial_probability": 0.413,
+      "trial_probability_delta": 0.005,
+      "sentiment_delta": 0.0
+    }
+  ],
+  "action_distribution_changes": {
+    "stay_with_current_brand": -6,
+    "purchase_trial": 4,
+    "compare_with_current_brand": -4,
+    "share_with_friend": 3,
+    "recommend": 3,
+    "switch_brand": -2,
+    "repeat_purchase_intent": 2,
+    "wait_for_promotion": -1,
+    "add_to_cart": 1
+  },
+  "trigger_changes": {
+    "trial met expectations": 4,
+    "positive trial → advocacy": 4,
+    "Launch-month promotion lowers trial risk.": 4,
+    "curiosity may still convert later": -2,
+    "promotion-driven trial intent": -1,
+    "good visibility + intent to buy online": 1
+  },
+  "barrier_changes": {
+    "Premium price vs mainstream alternatives": -10
+  },
+  "recommendation_changes": [
+    "Trial improves by 4 consumers under this scenario, strongest in Promotion-Driven Trial Buyer, Value-Seeking Practical Buyer, Convenience-Driven Busy Buyer — worth pursuing if the lever is affordable.",
+    "A price cut lifts trial but resets the price reference — prefer a temporary promo/sample mechanic."
+  ],
+  "conclusion": "'10% price reduction' improves trial (Δ trial probability +0.009, Δ trials +4) but repeat remains constrained. Gains concentrate in Promotion-Driven Trial Buyer, Value-Seeking Practical Buyer, Convenience-Driven Busy Buyer. It should be combined with sampling or sensory proof rather than used as a standalone launch fix. Scenario outputs are exploratory decision-support hypotheses, not guaranteed market results.",
+  "created_at": "2026-06-01T05:09:55.504769"
+}

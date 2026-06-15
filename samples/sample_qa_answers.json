@@ -1,0 +1,220 @@
+[
+  {
+    "project_id": "4207c415-c3bb-4783-84ec-711b7dce93ff",
+    "question": "Why is repeat purchase probability so low?",
+    "intent": "repeat_purchase",
+    "answer": {
+      "direct_answer": "Repeat is the funnel's tightest constraint. ≈ 8.3% of triers (2/24) signalled repeat intent; repeat is the funnel's tightest constraint. The main drag is 'Premium price vs mainstream alternatives', which keeps post-trial satisfaction below the repeat threshold — especially for Brand-Loyal Conservative Buyer, Health/Safety-Conscious Buyer, Skeptical Reviewer-Dependent Buyer.",
+      "evidence_summary": "1 consumers complained post-trial and 0 rejected before trial — one-and-done risk is real where taste/credibility expectations are unmet. Repeat probability is lowest in Brand-Loyal Conservative Buyer, Health/Safety-Conscious Buyer, Skeptical Reviewer-Dependent Buyer per the segment reaction map; post-trial events show no_repeat_intent / complain where taste-value expectations are unmet.",
+      "supporting_events": [
+        {
+          "event_id": "7e3b9922-48a3-4e42-a760-fda2a55b35ac",
+          "round_number": 6,
+          "agent_id": "96845ae0-160c-4569-a9b6-4197735c1200",
+          "segment_name": "Value-Seeking Practical Buyer",
+          "action_type": "complain",
+          "short_reaction_excerpt": "Disappointed — the taste/value didn't match the claim."
+        },
+        {
+          "event_id": "b463cd2a-5ad9-4c5d-845f-5dd600ae11a3",
+          "round_number": 5,
+          "agent_id": "9fe03967-f906-46d5-bff6-6a4c7e95066c",
+          "segment_name": "Promotion-Driven Trial Buyer",
+          "action_type": "no_repeat_intent",
+          "short_reaction_excerpt": "It was okay, but I won't repurchase."
+        },
+        {
+          "event_id": "a09eeab6-7abb-41cb-ad78-26e1fb0804d7",
+          "round_number": 5,
+          "agent_id": "e9d06473-1f6c-4304-8615-46e63b3abf4e",
+          "segment_name": "Promotion-Driven Trial Buyer",
+          "action_type": "no_repeat_intent",
+          "short_reaction_excerpt": "It was okay, but I won't repurchase."
+        }
+      ],
+      "supporting_segments": [
+        "Brand-Loyal Conservative Buyer",
+        "Health/Safety-Conscious Buyer",
+        "Skeptical Reviewer-Dependent Buyer"
+      ],
+      "confidence_score": 0.66,
+      "limitations": [
+        "Simulation output is exploratory decision support, not a guaranteed market forecast.",
+        "Repeat depends on real sensory acceptance, which is not measured here."
+      ],
+      "recommended_next_action": [
+        "De-risk taste via sampling and proof-of-taste content before scaling media.",
+        "Run a sensory test to confirm the share of triers who rate taste repeat-worthy."
+      ],
+      "selected_agents": [],
+      "simulated_interview_answers": []
+    },
+    "source_mode": "deterministic"
+  },
+  {
+    "project_id": "4207c415-c3bb-4783-84ec-711b7dce93ff",
+    "question": "Which segment should we target first?",
+    "intent": "target_segment",
+    "answer": {
+      "direct_answer": "Target Promotion-Driven Trial Buyer first — it shows the highest simulated trial probability (0.545) and purchase intent (0.538). Anchor trial on a clear promo/sample mechanic. Address the recurring barrier: satisfaction not high enough to commit to repeat.",
+      "evidence_summary": "Across the segment reaction map, Promotion-Driven Trial Buyer leads on trial probability; its strongest trigger is 'Launch-month promotion lowers trial risk.'. Representative reaction: \"Sharing this with friends who'd like it.\"",
+      "supporting_events": [
+        {
+          "event_id": "fd6a3e88-a356-4c5f-9278-35511c40aaa4",
+          "round_number": 6,
+          "agent_id": "8bacd10e-d5ed-4137-9667-b830ca62fbf7",
+          "segment_name": "Promotion-Driven Trial Buyer",
+          "action_type": "recommend",
+          "short_reaction_excerpt": "I'd recommend this to a friend."
+        },
+        {
+          "event_id": "5bcc8f23-4812-40e4-bcd2-080d11e8c3ad",
+          "round_number": 5,
+          "agent_id": "e461c4aa-b532-4d02-99ea-9d092166ed39",
+          "segment_name": "Promotion-Driven Trial Buyer",
+          "action_type": "recommend",
+          "short_reaction_excerpt": "I'd recommend this to a friend."
+        },
+        {
+          "event_id": "c2d8674f-9e2d-4299-85ff-5f8c9ab399b9",
+          "round_number": 5,
+          "agent_id": "8bacd10e-d5ed-4137-9667-b830ca62fbf7",
+          "segment_name": "Promotion-Driven Trial Buyer",
+          "action_type": "recommend",
+          "short_reaction_excerpt": "I'd recommend this to a friend."
+        }
+      ],
+      "supporting_segments": [
+        "Promotion-Driven Trial Buyer",
+        "Family Decision Maker",
+        "Convenience-Driven Busy Buyer"
+      ],
+      "confidence_score": 0.79,
+      "limitations": [
+        "Simulation output is exploratory decision support, not a guaranteed market forecast.",
+        "Segment ranking reflects modelled archetypes, not panel data."
+      ],
+      "recommended_next_action": [
+        "Lead launch targeting with Promotion-Driven Trial Buyer.",
+        "Validate the beachhead with a quick concept test in that segment."
+      ],
+      "selected_agents": [],
+      "simulated_interview_answers": []
+    },
+    "source_mode": "deterministic"
+  },
+  {
+    "project_id": "4207c415-c3bb-4783-84ec-711b7dce93ff",
+    "question": "Which claim is the riskiest and least believable?",
+    "intent": "claim_risk",
+    "answer": {
+      "direct_answer": "The riskiest claim is '50% less sugar than leading RTD teas'. Credibility: believable — broadly accepted. Clarity: clear — reads clearly to most segments.",
+      "evidence_summary": "Skeptical and review-dependent agents request third-party validation or comment negatively in the communication round, signalling the claim needs a stronger reason-to-believe.",
+      "supporting_events": [
+        {
+          "event_id": "6bad8106-5a04-43b3-ad41-7db5261021ee",
+          "round_number": 4,
+          "agent_id": "f133e9d3-cac8-43e1-a9c0-6ee8206ff6f1",
+          "segment_name": "Skeptical Reviewer-Dependent Buyer",
+          "action_type": "request_review",
+          "short_reaction_excerpt": "The '50% less sugar than leading RTD teas' claim is interesting, but I want reviews before I trust it."
+        },
+        {
+          "event_id": "f73fc792-a351-4f70-a8e1-e5fcdbf87a87",
+          "round_number": 4,
+          "agent_id": "3997b51f-9bc7-4d8a-96ac-4b758150cae5",
+          "segment_name": "Brand-Loyal Conservative Buyer",
+          "action_type": "request_review",
+          "short_reaction_excerpt": "The '50% less sugar than leading RTD teas' claim is interesting, but I want reviews before I trust it."
+        },
+        {
+          "event_id": "2e03697a-63bc-4530-b2e9-5c1e6dcd6912",
+          "round_number": 4,
+          "agent_id": "e883ee94-48f4-4d48-8d6f-e77af49f9c64",
+          "segment_name": "Skeptical Reviewer-Dependent Buyer",
+          "action_type": "request_review",
+          "short_reaction_excerpt": "The '50% less sugar than leading RTD teas' claim is interesting, but I want reviews before I trust it."
+        }
+      ],
+      "supporting_segments": [
+        "Skeptical Reviewer-Dependent Buyer",
+        "Health/Safety-Conscious Buyer"
+      ],
+      "confidence_score": 0.63,
+      "limitations": [
+        "Simulation output is exploratory decision support, not a guaranteed market forecast.",
+        "Believability is inferred from skepticism traits, not real claim testing."
+      ],
+      "recommended_next_action": [
+        "Add a concrete, substantiated reason-to-believe to the claim.",
+        "Seed credible KOC/expert reviews before asking for trial."
+      ],
+      "selected_agents": [],
+      "simulated_interview_answers": []
+    },
+    "source_mode": "deterministic"
+  },
+  {
+    "project_id": "4207c415-c3bb-4783-84ec-711b7dce93ff",
+    "question": "Interview 3 skeptical consumers about the claim.",
+    "intent": "interview_agents",
+    "answer": {
+      "direct_answer": "Interviewed 3 simulated skeptical consumers. Their reactions are summarised below.",
+      "evidence_summary": "Each interview is reconstructed from the agent's persisted simulation memory across the 6 rounds.",
+      "supporting_events": [],
+      "supporting_segments": [
+        "Skeptical Reviewer-Dependent Buyer",
+        "Value-Seeking Practical Buyer"
+      ],
+      "confidence_score": 0.6,
+      "limitations": [
+        "Simulation output is exploratory decision support, not a guaranteed market forecast.",
+        "These are SIMULATED personas reconstructed from modelled behaviour — not real interview transcripts."
+      ],
+      "recommended_next_action": [
+        "Validate these reconstructed reactions with real qualitative interviews."
+      ],
+      "selected_agents": [
+        "96845ae0-160c-4569-a9b6-4197735c1200",
+        "f133e9d3-cac8-43e1-a9c0-6ee8206ff6f1",
+        "c8ce1b87-c0fb-4c27-9e03-15eed6ef6d43"
+      ],
+      "simulated_interview_answers": [
+        {
+          "agent_id": "96845ae0-160c-4569-a9b6-4197735c1200",
+          "segment_name": "Value-Seeking Practical Buyer",
+          "persona_label": "skeptical consumer — Value-Seeking Practical Buyer",
+          "answer": "I'm not fully convinced yet — I'd want proof before paying for this. My read across the launch: R6 (Social diffusion and market feedback): complain — Disappointed — the taste/value didn't match the claim.",
+          "evidence_from_agent_memory": [
+            "R4 (Trial decision): purchase_trial — I'll try one bottle first, but I need to know if the herbal taste is too strong.",
+            "R5 (Post-trial reaction): complain — Disappointed — the taste/value didn't match the claim.",
+            "R6 (Social diffusion and market feedback): complain — Disappointed — the taste/value didn't match the claim."
+          ]
+        },
+        {
+          "agent_id": "f133e9d3-cac8-43e1-a9c0-6ee8206ff6f1",
+          "segment_name": "Skeptical Reviewer-Dependent Buyer",
+          "persona_label": "skeptical consumer — Skeptical Reviewer-Dependent Buyer",
+          "answer": "I'm not fully convinced yet — I'd want proof before paying for this. My read across the launch: R6 (Social diffusion and market feedback): stay_with_current_brand — Sticking with my current brand for now.",
+          "evidence_from_agent_memory": [
+            "R4 (Trial decision): request_review — The '50% less sugar than leading RTD teas' claim is interesting, but I want reviews before I trust it.",
+            "R5 (Post-trial reaction): stay_with_current_brand — Sticking with my current brand for now.",
+            "R6 (Social diffusion and market feedback): stay_with_current_brand — Sticking with my current brand for now."
+          ]
+        },
+        {
+          "agent_id": "c8ce1b87-c0fb-4c27-9e03-15eed6ef6d43",
+          "segment_name": "Skeptical Reviewer-Dependent Buyer",
+          "persona_label": "skeptical consumer — Skeptical Reviewer-Dependent Buyer",
+          "answer": "I'm not fully convinced yet — I'd want proof before paying for this. My read across the launch: R6 (Social diffusion and market feedback): stay_with_current_brand — Sticking with my current brand for now.",
+          "evidence_from_agent_memory": [
+            "R4 (Trial decision): wait_for_promotion — I'd try it if there were a promo or sample.",
+            "R5 (Post-trial reaction): stay_with_current_brand — Sticking with my current brand for now.",
+            "R6 (Social diffusion and market feedback): stay_with_current_brand — Sticking with my current brand for now."
+          ]
+        }
+      ]
+    },
+    "source_mode": "deterministic"
+  }
+]
