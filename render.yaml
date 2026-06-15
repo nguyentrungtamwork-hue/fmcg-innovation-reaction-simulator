@@ -15,6 +15,6 @@ services:
         value: render
       - key: DEMO_MODE
         value: "true"
-      # Set to the Vercel frontend URL after it is deployed (enables CORS).
+      # Vercel frontend origin (enables CORS).
       - key: FRONTEND_ORIGIN
-        sync: false
+        value: https://frontend-omega-fawn-79.vercel.app
