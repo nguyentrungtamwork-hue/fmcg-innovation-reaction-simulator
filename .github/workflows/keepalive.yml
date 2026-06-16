@@ -1,0 +1,23 @@
+name: keep-alive
+
+# Pings the Render free backend so it does not spin down (~15 min idle).
+# Runs every 10 minutes; can also be triggered manually from the Actions tab.
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch: {}
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping backend /healthz
+        run: |
+          for i in 1 2 3; do
+            code=$(curl -s -o /dev/null -w "%{http_code}" --max-time 90 https://mirofish-api-qcr5.onrender.com/healthz) || code="000"
+            echo "ping $i -> HTTP $code"
+            if [ "$code" = "200" ]; then exit 0; fi
+            sleep 20
+          done
+          echo "backend did not return 200 after retries"
+          exit 1
