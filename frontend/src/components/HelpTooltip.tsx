@@ -2,14 +2,14 @@ import { useEffect, useId, useRef, useState } from "react";
 
 /** Short, business-friendly help copy keyed by term (Phase 26). */
 export const HELP_TEXT: Record<string, string> = {
-  ontology: "The structured map of your concept — claims, benefits, segments, occasions and risks — extracted from the brief. It grounds everything downstream.",
+  ontology: "The structured map of your concept · claims, benefits, segments, occasions and risks · extracted from the brief. It grounds everything downstream.",
   agent: "A simulated consumer persona built from a market segment. Agents react to your concept round by round.",
   market_actor: "A simulated non-consumer (e.g. retailer, competitor) whose actions can shift the launch context.",
   simulation_event: "One simulated reaction: what an agent saw, did, and felt, with scores like sentiment and trial probability.",
   live_mode: "Streams the simulation as it runs, round by round, so you can watch reactions form in real time.",
-  replay_mode: "Plays back a completed run's saved events at your own pace — no re-computation.",
+  replay_mode: "Plays back a completed run's saved events at your own pace · no re-computation.",
   trial_probability: "Modelled likelihood an agent tries the product at least once. A first-purchase signal, not a sales forecast.",
-  repeat_probability: "Modelled likelihood an agent buys again after trying — the durability signal behind long-term success.",
+  repeat_probability: "Modelled likelihood an agent buys again after trying · the durability signal behind long-term success.",
   confidence: "How much trust to place in a result, based on evidence strength and agreement across agents. Not statistical significance.",
   assumptions: "The explicit modelling assumptions behind a result. Review them before acting on a number.",
   snapshot: "A frozen copy of a report + scorecard at a point in time, so you can compare how thinking changed.",

@@ -84,7 +84,7 @@ export default function DataToolsPage() {
       <div>
         <h1 className="text-xl font-semibold text-slate-900">Data Tools</h1>
         <p className="text-sm text-slate-500">
-          Local/demo data management — export, import, back up, and reset project data. These tools
+          Local/demo data management · export, import, back up, and reset project data. These tools
           operate on this local instance only; no cloud storage is involved.
         </p>
       </div>

@@ -72,7 +72,7 @@ export default function AgentDrawer({ projectId, agentId, onClose }: Props) {
           <div>
             <h2 className="text-lg font-semibold text-slate-900">{agent?.name ?? "Agent"}</h2>
             <p className="text-xs text-slate-500">
-              {agent ? `${titleCase(agent.agent_type)} · ${agent.segment_name ?? agent.role ?? "—"}` : ""}
+              {agent ? `${titleCase(agent.agent_type)} · ${agent.segment_name ?? agent.role ?? "·"}` : ""}
             </p>
           </div>
           <button className="btn-secondary" onClick={onClose} aria-label="Close">

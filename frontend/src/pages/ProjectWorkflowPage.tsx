@@ -197,7 +197,7 @@ export default function ProjectWorkflowPage() {
           {ontology && (
             <div className="grid gap-3 md:grid-cols-2">
               <ListBlock title="Entities" items={ontology.entities.map((x) => `${titleCase(x.type)}: ${x.name}`)} />
-              <ListBlock title="Relationships" items={ontology.relationships.map((r) => `${r.from} —${r.type}→ ${r.to}`)} />
+              <ListBlock title="Relationships" items={ontology.relationships.map((r) => `${r.from} ·${r.type}→ ${r.to}`)} />
               <ListBlock title="Purchase triggers" items={ontology.purchase_triggers} tone="emerald" />
               <ListBlock title="Adoption barriers" items={ontology.adoption_barriers} tone="red" />
               <ListBlock title="Risk signals" items={ontology.risk_signals} tone="amber" />

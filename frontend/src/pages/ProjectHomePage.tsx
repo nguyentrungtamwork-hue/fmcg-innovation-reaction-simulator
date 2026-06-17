@@ -65,7 +65,7 @@ export default function ProjectHomePage() {
       <div className="flex flex-wrap items-start justify-between gap-3">
         <div>
           <h1 className="text-xl font-semibold text-slate-900">{data.project.name}</h1>
-          <p className="text-sm text-slate-500">Project home — status, next step, and quick links. {[data.project.category, data.project.market].filter(Boolean).join(" · ")}</p>
+          <p className="text-sm text-slate-500">Project home · status, next step, and quick links. {[data.project.category, data.project.market].filter(Boolean).join(" · ")}</p>
         </div>
         <div className="flex items-center gap-2">
           <button
@@ -151,7 +151,7 @@ export default function ProjectHomePage() {
             {sc && <InfoCard label="Top risk" value={sc.top_risk} />}
           </div>
         ) : (
-          <p className="text-sm text-slate-500">No scorecard yet — generate the report to see the recommendation.</p>
+          <p className="text-sm text-slate-500">No scorecard yet · generate the report to see the recommendation.</p>
         )}
       </div>
 
@@ -207,7 +207,7 @@ export default function ProjectHomePage() {
                 <li key={it.id} className="border-b border-slate-100 pb-1 text-sm last:border-b-0">
                   <div className="flex flex-wrap items-center justify-between gap-2">
                     <span className="font-medium text-slate-800">{it.title}</span>
-                    <span className="text-xs text-slate-400">{it.timestamp ? new Date(it.timestamp).toLocaleString() : "—"}</span>
+                    <span className="text-xs text-slate-400">{it.timestamp ? new Date(it.timestamp).toLocaleString() : "·"}</span>
                   </div>
                   {it.description && <p className="text-xs text-slate-500">{it.description}</p>}
                   {it.stage && <span className="chip border-brand-200 bg-brand-50 text-brand-700">{STAGE_LABELS[it.stage] ?? it.stage}</span>}

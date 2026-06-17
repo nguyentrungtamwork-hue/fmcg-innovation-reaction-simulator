@@ -80,7 +80,7 @@ export default function ProjectListPage() {
           <LoadingState label="Loading projects…" />
         ) : projects.length === 0 ? (
           <div className="card space-y-3 text-sm text-slate-500">
-            <p>No projects yet — pick a way to start:</p>
+            <p>No projects yet · pick a way to start:</p>
             <div className="flex flex-wrap gap-2">
               <Link className="btn-primary" to="/samples">Load a sample concept</Link>
               <Link className="btn-secondary" to="/data-tools">Import a project bundle</Link>

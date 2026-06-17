@@ -54,7 +54,7 @@ export default function SampleLibraryPage() {
         <h1 className="text-xl font-semibold text-slate-900">Sample Library</h1>
         <p className="text-sm text-slate-500">
           Ready-made (fictional) FMCG innovation concepts. Load one as a new project to explore the
-          full workflow. These are illustrative concepts — not real products or market validation.
+          full workflow. These are illustrative concepts · not real products or market validation.
         </p>
       </div>
 

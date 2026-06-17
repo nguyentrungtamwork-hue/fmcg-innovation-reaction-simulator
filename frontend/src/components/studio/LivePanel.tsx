@@ -58,13 +58,13 @@ export default function LivePanel({ projectId, graph, onCompleted, onInspect }: 
 
         {(live.status === "disconnected" || live.status === "failed") && (
           <div className="rounded-lg border border-amber-200 bg-amber-50 p-2 text-xs text-amber-800">
-            Stream interrupted. Persisted events (if any) are still saved — switch to <strong>Replay Mode</strong> to view them, or start again.
+            Stream interrupted. Persisted events (if any) are still saved · switch to <strong>Replay Mode</strong> to view them, or start again.
           </div>
         )}
 
         {live.status === "completed" && (
           <div className="flex flex-wrap items-center gap-2 rounded-lg border border-emerald-200 bg-emerald-50 p-2 text-sm text-emerald-800">
-            <span>Live run complete — {m.trial} trials, {m.recommend} recommends.</span>
+            <span>Live run complete · {m.trial} trials, {m.recommend} recommends.</span>
             <button className="btn-secondary" onClick={onCompleted}>Replay saved events</button>
             <Link className="btn-secondary" to={`/projects/${projectId}/report`}>Generate Report</Link>
             <Link className="btn-secondary" to={`/projects/${projectId}/events`}>Event Explorer</Link>
@@ -77,7 +77,7 @@ export default function LivePanel({ projectId, graph, onCompleted, onInspect }: 
         <MetricCard label="Repeats" value={String(m.repeat)} tone="up" />
         <MetricCard label="Recommends" value={String(m.recommend)} tone="up" />
         <MetricCard label="Complaints" value={String(m.complaint)} tone="down" />
-        <MetricCard label="Avg sentiment" value={m.sentN ? num(m.sentSum / m.sentN, 2) : "—"} />
+        <MetricCard label="Avg sentiment" value={m.sentN ? num(m.sentSum / m.sentN, 2) : "·"} />
       </div>
 
       <div className="grid gap-4 lg:grid-cols-3">

@@ -25,7 +25,7 @@ const LABEL_TONE: Record<string, string> = {
 };
 
 function num(v: unknown) {
-  return v == null ? "—" : typeof v === "number" ? Math.round(v) : String(v);
+  return v == null ? "·" : typeof v === "number" ? Math.round(v) : String(v);
 }
 
 export default function PortfolioDecisionBoardPage() {
@@ -75,8 +75,8 @@ export default function PortfolioDecisionBoardPage() {
           ))}
         </div>
         <div className="mt-2 grid gap-2 sm:grid-cols-2">
-          <MetricCard label="Top concept" value={s.top_project ?? "—"} />
-          <MetricCard label="Highest risk" value={s.highest_risk_project ?? "—"} />
+          <MetricCard label="Top concept" value={s.top_project ?? "·"} />
+          <MetricCard label="Highest risk" value={s.highest_risk_project ?? "·"} />
         </div>
         <p className="mt-3 rounded-lg border border-brand-200 bg-brand-50 p-3 text-sm text-slate-700">
           {board.portfolio_recommendation}
@@ -117,19 +117,19 @@ export default function PortfolioDecisionBoardPage() {
                   <td className="px-2 py-1 font-medium text-slate-800">{it.project_name}</td>
                   <td className="px-2"><span className={`chip ${LABEL_TONE[it.decision_label]}`}>{titleCase(it.decision_label)}</span></td>
                   <td className="px-2">{num(it.overall_score)}</td>
-                  <td className="px-2">{it.confidence_label ?? "—"}</td>
+                  <td className="px-2">{it.confidence_label ?? "·"}</td>
                   <td className="px-2">{num(it.trial_potential_score)}</td>
                   <td className="px-2">{num(it.repeat_potential_score)}</td>
                   <td className="px-2">{num(it.risk_score)}</td>
-                  <td className="px-2 text-xs text-slate-600">{it.top_opportunity ?? "—"}</td>
-                  <td className="px-2 text-xs text-slate-600">{it.top_risk ?? "—"}</td>
+                  <td className="px-2 text-xs text-slate-600">{it.top_opportunity ?? "·"}</td>
+                  <td className="px-2 text-xs text-slate-600">{it.top_risk ?? "·"}</td>
                   <td className="px-2 text-xs text-slate-600">{it.recommended_next_step}</td>
                   <td className="px-2 text-xs text-slate-500">{it.owner_team}</td>
                   <td className="px-2 print-hide">
                     {it.has_decision_pack ? (
                       <Link className="text-xs font-medium text-brand-700 hover:underline" to={it.decision_pack_url}>Decision Pack →</Link>
                     ) : (
-                      <span className="text-xs text-slate-400">—</span>
+                      <span className="text-xs text-slate-400">·</span>
                     )}
                   </td>
                 </tr>

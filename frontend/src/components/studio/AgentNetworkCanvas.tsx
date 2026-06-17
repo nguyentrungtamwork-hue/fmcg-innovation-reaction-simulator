@@ -1,6 +1,6 @@
 import { useMemo } from "react";
 import type { StudioGraph, StudioNode } from "../../types/api";
-import { stanceMeta } from "../../utils/formatters";
+import { stanceMeta, nodeFill, type ColorBy } from "../../utils/formatters";
 
 interface Pos {
   x: number;
@@ -42,12 +42,6 @@ function layout(nodes: StudioNode[]): Map<string, Pos> {
   return pos;
 }
 
-// Fill encodes stance (sentiment); active state overrides to amber.
-function nodeColor(n: StudioNode, active: boolean): string {
-  if (active) return "#f59e0b";
-  return stanceMeta(n.avg_sentiment).fill;
-}
-
 const AGGREGATE_THRESHOLD = 150;
 
 function edgeLabel(reason: string): string {
@@ -65,6 +59,7 @@ export default function AgentNetworkCanvas({
   reducedMotion = false,
   showEdgeLabels = false,
   heightClass = "h-[480px]",
+  colorBy = "stance",
 }: {
   graph: StudioGraph;
   activeAgentId: string | null;
@@ -73,6 +68,7 @@ export default function AgentNetworkCanvas({
   reducedMotion?: boolean;
   showEdgeLabels?: boolean;
   heightClass?: string;
+  colorBy?: ColorBy;
 }) {
   const aggregated = graph.nodes.length > AGGREGATE_THRESHOLD;
   const pos = useMemo(() => layout(graph.nodes), [graph.nodes]);
@@ -165,14 +161,16 @@ export default function AgentNetworkCanvas({
           const dim = highlightAgentIds.size > 0 && !highlightAgentIds.has(n.id) && !active;
           const isActor = n.type === "market_actor";
           const radius = isActor ? 11 : 7;
-          // Market actors get a distinct purple ring so type stays legible while
-          // fill encodes stance/sentiment.
-          const stroke = active ? "#fff" : isActor ? "#7c3aed" : "#fff";
-          const sw = isActor ? 2.5 : 1.5;
+          // Market actors keep a distinct purple ring so agent type stays legible,
+          // except when the fill itself already encodes type.
+          const ringActor = isActor && colorBy !== "type";
+          const stroke = active ? "#fff" : ringActor ? "#7c3aed" : "#fff";
+          const sw = ringActor ? 2.5 : 1.5;
+          const fill = active ? "#f59e0b" : nodeFill(colorBy, n);
           return (
             <g key={n.id} transform={`translate(${p.x},${p.y})`} className="cursor-pointer" onClick={() => onSelect(n.id)} opacity={dim ? 0.25 : 1}>
-              <circle r={active ? radius + 4 : radius} fill={nodeColor(n, active)} stroke={stroke} strokeWidth={sw} className={active && !reducedMotion ? "studio-pulse" : undefined}>
-                <title>{`${n.label} — ${n.group} · ${stanceMeta(n.avg_sentiment).label} (${n.event_count} events)`}</title>
+              <circle r={active ? radius + 4 : radius} fill={fill} stroke={stroke} strokeWidth={sw} className={active && !reducedMotion ? "studio-pulse" : undefined}>
+                <title>{`${n.label} · ${n.group} · ${stanceMeta(n.avg_sentiment).label} (${n.event_count} events)`}</title>
               </circle>
             </g>
           );

@@ -107,7 +107,7 @@ export default function ReportPage() {
       </div>
 
       <div className="rounded-lg border border-amber-200 bg-amber-50 p-2 text-xs text-amber-800">
-        Exploratory decision support — simulated reactions, not a guaranteed forecast. Validate findings with real consumer research.
+        Exploratory decision support · simulated reactions, not a guaranteed forecast. Validate findings with real consumer research.
       </div>
 
       <DriftIndicator projectId={projectId} />
@@ -155,8 +155,8 @@ export default function ReportPage() {
                   <td className="px-3">{pct(s.average_trial_probability)}</td>
                   <td className="px-3">{pct(s.average_purchase_intent_score)}</td>
                   <td className="px-3">{pct(s.average_repeat_probability)}</td>
-                  <td className="px-3 text-emerald-700">{s.strongest_trigger ?? "—"}</td>
-                  <td className="px-3 text-red-700">{s.strongest_barrier ?? "—"}</td>
+                  <td className="px-3 text-emerald-700">{s.strongest_trigger ?? "·"}</td>
+                  <td className="px-3 text-red-700">{s.strongest_barrier ?? "·"}</td>
                 </tr>
               ))}
             </tbody>

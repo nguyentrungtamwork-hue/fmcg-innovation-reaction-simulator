@@ -3,7 +3,7 @@ import type { AppLogList, Diagnostics, ReadyZ, SystemStatus } from "../types/api
 
 export const getSystemStatus = () => api.get<SystemStatus>("/system/status");
 
-// /readyz lives at the server root, not under /api/v1 — strip the api prefix.
+// /readyz lives at the server root, not under /api/v1 · strip the api prefix.
 export const getReadyz = () => {
   const root = api.baseUrl.replace(/\/api\/v1$/, "");
   return fetch(`${root}/readyz`).then((r) => r.json() as Promise<ReadyZ>);

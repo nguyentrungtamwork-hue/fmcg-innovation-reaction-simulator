@@ -26,7 +26,7 @@ export default function ScorecardCard({ sc, exportable }: { sc: Scorecard; expor
         <div>
           <div className="text-sm font-semibold text-slate-900">
             {sc.project_name}
-            {sc.snapshot_name ? ` — ${sc.snapshot_name}` : ""}
+            {sc.snapshot_name ? ` · ${sc.snapshot_name}` : ""}
           </div>
           <div className="text-xs text-slate-500">
             Confidence {sc.confidence_score.toFixed(2)} ({sc.confidence_label})
@@ -97,9 +97,9 @@ export function scorecardMarkdown(sc: Scorecard): string {
     ["Sensitivity risk", `${sc.sensitivity_risk_score}/100`],
   ];
   const table = rows.map(([k, v]) => `| ${k} | ${v} |`).join("\n");
-  const title = sc.project_name + (sc.snapshot_name ? ` — ${sc.snapshot_name}` : "");
+  const title = sc.project_name + (sc.snapshot_name ? ` · ${sc.snapshot_name}` : "");
   return (
-    `# Concept Scorecard — ${title}\n\n| Metric | Score |\n| --- | --- |\n${table}\n\n` +
+    `# Concept Scorecard · ${title}\n\n| Metric | Score |\n| --- | --- |\n${table}\n\n` +
     `**Top opportunity:** ${sc.top_opportunity}\n\n**Top risk:** ${sc.top_risk}\n\n` +
     `**Recommended next step:** ${sc.recommended_next_step}\n\n` +
     `**Ranking:** ${sc.ranking_explanation}\n\n> ${sc.disclaimer}\n`

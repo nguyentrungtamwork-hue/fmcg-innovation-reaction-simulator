@@ -36,7 +36,7 @@ export default function DemoControlPanel({ compact = false }: { compact?: boolea
         <button className="btn-primary" disabled={busy != null} onClick={() => playDemo(false)}>
           {busy === "quick" ? "Loading…" : "Play Demo (Quick)"}
         </button>
-        <button className="btn-secondary" disabled={busy != null} onClick={() => playDemo(true)} title="Loads a sample and runs the full deterministic pipeline — may take a little time.">
+        <button className="btn-secondary" disabled={busy != null} onClick={() => playDemo(true)} title="Loads a sample and runs the full deterministic pipeline · may take a little time.">
           {busy === "full" ? "Running…" : "Play Demo (Full)"}
         </button>
         <button className="btn-secondary" onClick={resetTourState}>Reset onboarding/tour state</button>

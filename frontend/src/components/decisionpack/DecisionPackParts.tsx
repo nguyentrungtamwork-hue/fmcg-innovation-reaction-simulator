@@ -72,7 +72,7 @@ export function CopyLinkButton() {
           setCopied(true);
           setTimeout(() => setCopied(false), 1500);
         } catch {
-          /* clipboard unavailable — ignore */
+          /* clipboard unavailable · ignore */
         }
       }}
     >

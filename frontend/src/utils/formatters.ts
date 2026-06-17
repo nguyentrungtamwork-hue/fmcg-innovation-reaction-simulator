@@ -1,15 +1,15 @@
 export function pct(value: number | null | undefined, digits = 0): string {
-  if (value === null || value === undefined || Number.isNaN(value)) return "—";
+  if (value === null || value === undefined || Number.isNaN(value)) return "·";
   return `${(value * 100).toFixed(digits)}%`;
 }
 
 export function num(value: number | null | undefined, digits = 3): string {
-  if (value === null || value === undefined || Number.isNaN(value)) return "—";
+  if (value === null || value === undefined || Number.isNaN(value)) return "·";
   return value.toFixed(digits);
 }
 
 export function signed(value: number | null | undefined, digits = 3): string {
-  if (value === null || value === undefined || Number.isNaN(value)) return "—";
+  if (value === null || value === undefined || Number.isNaN(value)) return "·";
   const s = value.toFixed(digits);
   return value > 0 ? `+${s}` : s;
 }
@@ -57,8 +57,68 @@ export function stanceMeta(value: number | null | undefined): StanceMeta {
   return STANCE_META[sentimentStance(value)];
 }
 
+// --- graph node taxonomy (color-by selector) -------------------------------
+export type ColorBy = "stance" | "type" | "action";
+
+export interface GraphNodeLike {
+  type: string;
+  avg_sentiment: number;
+  dominant_action: string | null;
+}
+
+const TYPE_FILL: Record<string, string> = {
+  consumer: "#2f5bea",
+  market_actor: "#7c3aed",
+};
+
+interface ColorItem {
+  label: string;
+  fill: string;
+}
+
+export function actionMeta(action: string | null | undefined): ColorItem {
+  const a = (action ?? "").toLowerCase();
+  if (a.includes("trial")) return { label: "Trial", fill: "#10b981" };
+  if (a.includes("repeat")) return { label: "Repeat", fill: "#2f5bea" };
+  if (a.includes("recommend") || a.includes("share")) return { label: "Advocacy", fill: "#8b5cf6" };
+  if (a.includes("complain") || a.includes("negative")) return { label: "Complaint", fill: "#f43f5e" };
+  if (!a) return { label: "Idle", fill: "#94a3b8" };
+  return { label: "Other", fill: "#64748b" };
+}
+
+/** Fill color for a node under the chosen taxonomy. Active state is handled by the caller. */
+export function nodeFill(colorBy: ColorBy, n: GraphNodeLike): string {
+  if (colorBy === "type") return TYPE_FILL[n.type] ?? "#64748b";
+  if (colorBy === "action") return actionMeta(n.dominant_action).fill;
+  return stanceMeta(n.avg_sentiment).fill;
+}
+
+/** Legend entries for the chosen taxonomy. */
+export function legendItems(colorBy: ColorBy): ColorItem[] {
+  if (colorBy === "type") {
+    return [
+      { label: "Consumer", fill: TYPE_FILL.consumer },
+      { label: "Market actor", fill: TYPE_FILL.market_actor },
+    ];
+  }
+  if (colorBy === "action") {
+    return [
+      { label: "Trial", fill: "#10b981" },
+      { label: "Repeat", fill: "#2f5bea" },
+      { label: "Advocacy", fill: "#8b5cf6" },
+      { label: "Complaint", fill: "#f43f5e" },
+      { label: "Idle", fill: "#94a3b8" },
+    ];
+  }
+  return [
+    { label: "Advocate", fill: STANCE_META.advocate.fill },
+    { label: "Neutral", fill: STANCE_META.neutral.fill },
+    { label: "Skeptic", fill: STANCE_META.skeptic.fill },
+  ];
+}
+
 export function shortDate(iso: string | null | undefined): string {
-  if (!iso) return "—";
+  if (!iso) return "·";
   const d = new Date(iso);
   if (Number.isNaN(d.getTime())) return iso;
   return d.toLocaleString();

@@ -36,7 +36,7 @@ export default function OnboardingPanel() {
     <section className="card border-brand-200 bg-brand-50" aria-labelledby="onboarding-h">
       <div className="mb-2 flex items-start justify-between gap-3">
         <div>
-          <h2 id="onboarding-h" className="text-base font-semibold text-slate-900">Welcome — get to your first insight in minutes</h2>
+          <h2 id="onboarding-h" className="text-base font-semibold text-slate-900">Welcome · get to your first insight in minutes</h2>
           <p className="text-sm text-slate-600">A quick guided path. You can dismiss this anytime; power users can ignore it.</p>
         </div>
         <button className="btn-secondary" onClick={dismiss} aria-label="Dismiss onboarding">Dismiss</button>

@@ -7,7 +7,7 @@ import LoadingState from "../components/LoadingState";
 const ACTIVITY_TYPES = ["stage_change", "decision", "snapshot", "scenario", "report", "briefing"];
 
 function shortDate(ts: string | null): string {
-  if (!ts) return "—";
+  if (!ts) return "·";
   try {
     return new Date(ts).toLocaleString();
   } catch {
@@ -74,7 +74,7 @@ export default function PortfolioActivityPage() {
     if (!items) return [];
     const by: Record<string, ActivityItem[]> = {};
     for (const it of items) {
-      const day = (it.timestamp ?? "—").slice(0, 10);
+      const day = (it.timestamp ?? "·").slice(0, 10);
       (by[day] ||= []).push(it);
     }
     return Object.entries(by).sort(([a], [b]) => (a < b ? 1 : -1));

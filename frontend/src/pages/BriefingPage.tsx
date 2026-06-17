@@ -54,7 +54,7 @@ export default function BriefingPage() {
     getBriefing(projectId)
       .then(setBriefing)
       .catch(() => {
-        /* none yet — leave empty */
+        /* none yet · leave empty */
       })
       .finally(() => setLoading(false));
   }, [projectId]);
@@ -143,7 +143,7 @@ export default function BriefingPage() {
               <div className="text-lg font-semibold">{titleCase(h.recommendation_status)}</div>
               <div className="text-sm">Overall {h.overall_score}/100 · confidence {h.confidence_label} · {briefing?.source_mode}</div>
             </div>
-            <p className="mt-1 text-sm">{p.decision_recommendation.recommended_decision} — {p.decision_recommendation.rationale}</p>
+            <p className="mt-1 text-sm">{p.decision_recommendation.recommended_decision} · {p.decision_recommendation.rationale}</p>
           </div>
 
           <div className="flex flex-wrap gap-2 print:hidden">

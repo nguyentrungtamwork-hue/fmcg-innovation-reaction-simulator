@@ -114,7 +114,7 @@ export default function DecisionHistoryPage() {
                       </div>
                       <div className="text-xs text-slate-500">
                         {isDecision ? titleCase(t.type.split(":")[1]) : titleCase(t.type)}
-                        {t.description ? ` — ${t.description}` : ""}
+                        {t.description ? ` · ${t.description}` : ""}
                       </div>
                     </div>
                   </li>

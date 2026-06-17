@@ -5,20 +5,20 @@ type Cat = "Simulation" | "Research" | "Reporting" | "Operations";
 
 // [term, definition, category, optional link]
 const TERMS: [string, string, Cat, string?][] = [
-  ["Ontology", "The structured FMCG map extracted from the brief — entities (brand, claims, segments, channels…) + relationships, triggers, barriers, and risks.", "Simulation"],
+  ["Ontology", "The structured FMCG map extracted from the brief · entities (brand, claims, segments, channels…) + relationships, triggers, barriers, and risks.", "Simulation"],
   ["Agent", "A simulated consumer persona with traits, memory, and reactions across the 6 launch rounds.", "Simulation"],
   ["Market actor", "A non-consumer actor (Retailer, Competitor, Influencer, Community, Category Expert) that reacts to the launch each round.", "Simulation"],
   ["Simulation event", "One agent's action + reasoning in a round (e.g. purchase_trial, complain), with scores like sentiment and trial probability.", "Simulation"],
   ["Live Simulation", "Watching the simulation generate events in real time over SSE (Live Mode).", "Simulation"],
   ["Replay vs Live Mode", "Replay animates already-saved events client-side; Live Mode streams a new run as the backend generates + persists it.", "Simulation"],
   ["Trial probability", "Modelled likelihood an agent tries the product. Higher is better.", "Research"],
-  ["Repeat probability", "Modelled likelihood an agent buys again after trial — the tightest part of the funnel.", "Research"],
+  ["Repeat probability", "Modelled likelihood an agent buys again after trial · the tightest part of the funnel.", "Research"],
   ["Evidence chip", "A clickable reference to a specific simulated event that backs a finding; opens the Event Explorer / Agent Drawer.", "Research"],
   ["Scenario", "A what-if re-run under lever overrides (price, sampling, claim credibility…). The baseline is always preserved.", "Research"],
-  ["Sensitivity sweep", "Running a lever across several values to see the trial/repeat response curve — how responsive the launch is.", "Research"],
-  ["Confidence", "A heuristic 0–1 score of internal data coverage/grounding — NOT validation against the real market.", "Research"],
+  ["Sensitivity sweep", "Running a lever across several values to see the trial/repeat response curve · how responsive the launch is.", "Research"],
+  ["Confidence", "A heuristic 0·1 score of internal data coverage/grounding · NOT validation against the real market.", "Research"],
   ["Assumptions ledger", "Everything the simulation assumes (data gaps, modelling caveats, simulated personas) with impact + how to validate.", "Research"],
-  ["Scorecard", "A transparent 0–100 concept heuristic combining trial, repeat, sentiment, risk, confidence, etc. (see SCORING_LOGIC).", "Reporting"],
+  ["Scorecard", "A transparent 0·100 concept heuristic combining trial, repeat, sentiment, risk, confidence, etc. (see SCORING_LOGIC).", "Reporting"],
   ["Snapshot", "An immutable, named freeze of a report + scorecard so a decision is preserved when the project changes.", "Reporting"],
   ["Diff", "A comparison of two report versions (or active vs snapshot) showing per-dimension deltas and what changed.", "Reporting"],
   ["Briefing", "An evidence-grounded executive narrative: recommendation, findings, risks, next actions, validation plan.", "Reporting"],
@@ -97,7 +97,7 @@ export default function GlossaryModal({ open, onClose }: { open: boolean; onClos
             ))
           )}
         </dl>
-        <p className="mt-4 text-[11px] text-slate-400">Exploratory decision support — simulated reactions, not a guaranteed forecast.</p>
+        <p className="mt-4 text-[11px] text-slate-400">Exploratory decision support · simulated reactions, not a guaranteed forecast.</p>
       </aside>
     </div>
   );

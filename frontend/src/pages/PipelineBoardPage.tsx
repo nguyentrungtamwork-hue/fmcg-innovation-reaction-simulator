@@ -211,7 +211,7 @@ export default function PipelineBoardPage() {
       </div>
 
       <p className="text-center text-[11px] text-slate-400">
-        Stages are a local tracking view — simulated outputs are exploratory decision support, not validated market forecasts.
+        Stages are a local tracking view · simulated outputs are exploratory decision support, not validated market forecasts.
       </p>
 
       {updateOpen && (

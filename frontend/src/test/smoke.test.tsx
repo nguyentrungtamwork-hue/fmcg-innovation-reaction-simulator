@@ -1,6 +1,6 @@
 import { describe, it, expect, vi, beforeEach } from "vitest";
 import { useState } from "react";
-import { act, fireEvent, render, screen, waitFor } from "@testing-library/react";
+import { act, fireEvent, render, screen, waitFor, within } from "@testing-library/react";
 import { MemoryRouter, Route, Routes } from "react-router-dom";
 
 // --- module mocks (no backend required) ------------------------------------
@@ -405,7 +405,7 @@ describe("Phase 9 frontend smoke tests", () => {
         <App />
       </MemoryRouter>
     );
-    expect(screen.getByText(/FMCG Innovation Reaction Simulator/i)).toBeInTheDocument();
+    expect(screen.getByText(/FMCG Reaction Simulator/i)).toBeInTheDocument();
   });
 
   it("2. Layout renders navigation", () => {
@@ -737,6 +737,27 @@ describe("Phase 9 frontend smoke tests", () => {
   it("33k. System console shows a live line counter", async () => {
     renderAt("/projects/p1/studio", <AgentStudioPage />, "/projects/:projectId/studio");
     expect(await screen.findByText(/\d+ lines/i)).toBeInTheDocument();
+  });
+
+  it("33l. Graph color-by selector switches node taxonomy + legend", async () => {
+    renderAt("/projects/p1/studio", <AgentStudioPage />, "/projects/:projectId/studio");
+    const group = await screen.findByRole("group", { name: /Color nodes by/i });
+    // default = Stance
+    expect(within(group).getByRole("button", { name: /^Stance$/i })).toHaveAttribute("aria-pressed", "true");
+    // switch to Type → legend shows agent-type entries
+    const typeBtn = within(group).getByRole("button", { name: /^Type$/i });
+    fireEvent.click(typeBtn);
+    expect(typeBtn).toHaveAttribute("aria-pressed", "true");
+    expect(await screen.findByText("Consumer")).toBeInTheDocument();
+    // switch to Action → legend shows action entries
+    fireEvent.click(within(group).getByRole("button", { name: /^Action$/i }));
+    expect(await screen.findByText("Trial")).toBeInTheDocument();
+    expect(screen.getByText("Complaint")).toBeInTheDocument();
+  });
+
+  it("33m. Graph map shows node/edge counts", async () => {
+    renderAt("/projects/p1/studio", <AgentStudioPage />, "/projects/:projectId/studio");
+    expect(await screen.findByText(/2 nodes · 1 edges/i)).toBeInTheDocument();
   });
 
   // --- Phase 18 ---

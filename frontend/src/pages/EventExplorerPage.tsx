@@ -127,7 +127,7 @@ export default function EventExplorerPage() {
         <div className="card overflow-x-auto">
           <div className="mb-2 flex flex-wrap items-center justify-between gap-2 text-xs text-slate-500">
             <span>
-              {events.length === 0 ? "0 events" : `Showing ${page * pageSize + 1}–${Math.min((page + 1) * pageSize, events.length)} of ${events.length}`}
+              {events.length === 0 ? "0 events" : `Showing ${page * pageSize + 1}·${Math.min((page + 1) * pageSize, events.length)} of ${events.length}`}
             </span>
             <div className="flex items-center gap-2">
               <label htmlFor="pg-size">Page size</label>
@@ -171,7 +171,7 @@ export default function EventExplorerPage() {
                         {ev.segment_name ?? titleCase(ev.agent_type)}
                       </button>
                     </td>
-                    <td className="px-2 text-slate-600">{ev.touchpoint ?? "—"}</td>
+                    <td className="px-2 text-slate-600">{ev.touchpoint ?? "·"}</td>
                     <td className="px-2">{titleCase(ev.action_type)}</td>
                     <td className="px-2">{num(ev.sentiment_score, 2)}</td>
                     <td className="px-2">{pct(ev.trial_probability)}</td>
@@ -181,7 +181,7 @@ export default function EventExplorerPage() {
                       {ev.barrier_detected && <span className="text-red-600">{ev.barrier_detected}</span>}
                       {ev.barrier_detected && ev.trigger_detected && " · "}
                       {ev.trigger_detected && <span className="text-emerald-600">{ev.trigger_detected}</span>}
-                      {!ev.barrier_detected && !ev.trigger_detected && "—"}
+                      {!ev.barrier_detected && !ev.trigger_detected && "·"}
                     </td>
                   </tr>
                   {expanded === ev.id && (
@@ -189,11 +189,11 @@ export default function EventExplorerPage() {
                       <td colSpan={9} className="px-2 py-3">
                         <div className="grid gap-2 text-xs text-slate-600 md:grid-cols-2">
                           <Field label="Stage" value={ev.stage_name} />
-                          <Field label="Emotional tone" value={ev.emotional_tone ?? "—"} />
+                          <Field label="Emotional tone" value={ev.emotional_tone ?? "·"} />
                           <Field label="Confidence" value={num(ev.confidence_score, 2)} />
                           <Field label="Event ID" value={ev.id} mono />
-                          <Field label="Reasoning" value={ev.reasoning ?? "—"} full />
-                          <Field label="Generated reaction" value={ev.generated_reaction ?? "—"} full />
+                          <Field label="Reasoning" value={ev.reasoning ?? "·"} full />
+                          <Field label="Generated reaction" value={ev.generated_reaction ?? "·"} full />
                         </div>
                       </td>
                     </tr>

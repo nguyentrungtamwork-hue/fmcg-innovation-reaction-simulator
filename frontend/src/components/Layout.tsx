@@ -80,17 +80,17 @@ export default function Layout() {
       )}
 
       <header className="border-b border-slate-200 bg-white print:hidden">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
-          <NavLink to="/" className="flex items-center gap-2">
-            <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-brand-600 text-sm font-bold text-white">
+        <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-x-6 gap-y-2 px-4 py-3">
+          <NavLink to="/" className="flex shrink-0 items-center gap-2.5 whitespace-nowrap">
+            <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-ink-900 font-mono text-xs font-bold tracking-tight text-white">
               FM
             </span>
             <div className="leading-tight">
-              <div className="text-sm font-semibold text-slate-900">FMCG Innovation Reaction Simulator</div>
-              <div className="text-xs text-slate-500">Internal launch decision-support dashboard</div>
+              <div className="text-sm font-semibold tracking-tightest text-slate-900">FMCG Reaction Simulator</div>
+              <div className="mono-label hidden sm:block">Launch decision console</div>
             </div>
           </NavLink>
-          <nav className="flex items-center gap-1" aria-label="Primary">
+          <nav className="flex flex-1 flex-wrap items-center justify-end gap-1" aria-label="Primary">
             <NavLink to="/" end className={navClass} data-tour="nav-projects">
               Projects
             </NavLink>
@@ -195,7 +195,7 @@ export default function Layout() {
           </div>
         )}
         <span className="w-full pt-2">
-          Exploratory decision support — simulated reactions, not a guaranteed market forecast. Validate with real research.
+          Exploratory decision support. Simulated reactions, not a guaranteed market forecast. Validate with real research.
         </span>
       </footer>
 

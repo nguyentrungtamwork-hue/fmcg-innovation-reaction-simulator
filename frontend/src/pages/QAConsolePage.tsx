@@ -119,7 +119,7 @@ export default function QAConsolePage() {
             <div className="card space-y-2">
               <div className="flex items-center justify-between">
                 <div className="label mb-0">Simulated interviews</div>
-                <span className="chip border-amber-200 bg-amber-50 text-amber-700">Simulated personas — not real interviews</span>
+                <span className="chip border-amber-200 bg-amber-50 text-amber-700">Simulated personas · not real interviews</span>
               </div>
               {a.simulated_interview_answers.map((iv) => (
                 <div key={iv.agent_id} className="rounded-lg border border-slate-200 p-3">

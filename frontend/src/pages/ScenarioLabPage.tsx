@@ -138,7 +138,7 @@ export default function ScenarioLabPage() {
       </div>
 
       <div className="rounded-lg border border-amber-200 bg-amber-50 p-2 text-xs text-amber-800">
-        Exploratory decision support. Scenario deltas show the modelled <em>direction and magnitude</em> of change vs the baseline run — not a guaranteed market result. Baseline data is never modified.
+        Exploratory decision support. Scenario deltas show the modelled <em>direction and magnitude</em> of change vs the baseline run · not a guaranteed market result. Baseline data is never modified.
       </div>
 
       {error ? <ErrorState error={error} /> : null}
@@ -235,7 +235,7 @@ export default function ScenarioLabPage() {
                         value={compareId}
                         onChange={(e) => onCompare(e.target.value)}
                       >
-                        <option value="">— none —</option>
+                        <option value="">· none ·</option>
                         {list
                           .filter((s) => s.scenario_id !== selected.scenario_id)
                           .map((s) => (
@@ -360,7 +360,7 @@ interface CompareColumn {
 function ComparisonTable({ baseline, columns }: { baseline: Record<string, unknown>; columns: CompareColumn[] }) {
   const val = (rec: Record<string, unknown>, key: string): number | null =>
     typeof rec[key] === "number" ? (rec[key] as number) : null;
-  const fmt = (v: number | null, kind: "prob" | "count") => (v === null ? "—" : kind === "count" ? String(v) : num(v, 3));
+  const fmt = (v: number | null, kind: "prob" | "count") => (v === null ? "·" : kind === "count" ? String(v) : num(v, 3));
 
   return (
     <div className="overflow-x-auto">
@@ -394,7 +394,7 @@ function ComparisonTable({ baseline, columns }: { baseline: Record<string, unkno
                   const toneVal = d === null ? 0 : m.key === "complaint_count" || m.key === "switch_count" ? -d : d;
                   return (
                     <td key={`${c.name}-d`} className={`py-1 text-right ${tone(toneVal)}`}>
-                      {d === null ? "—" : signed(d, m.kind === "count" ? 0 : 3)}
+                      {d === null ? "·" : signed(d, m.kind === "count" ? 0 : 3)}
                     </td>
                   );
                 })}

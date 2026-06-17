@@ -110,19 +110,19 @@ export default function SensitivityPage() {
           <div className="grid gap-3 sm:grid-cols-3">
             <MetricCard
               label="Best trial lift"
-              value={bestTrial ? signed(trialLift(bestTrial)) : "—"}
+              value={bestTrial ? signed(trialLift(bestTrial)) : "·"}
               hint={bestTrial ? titleCase(bestTrial.lever) : undefined}
               tone="up"
             />
             <MetricCard
               label="Best repeat lift"
-              value={bestRepeat ? signed(repeatLift(bestRepeat)) : "—"}
+              value={bestRepeat ? signed(repeatLift(bestRepeat)) : "·"}
               hint={bestRepeat ? titleCase(bestRepeat.lever) : undefined}
               tone="up"
             />
             <MetricCard
               label="Highest-risk lever"
-              value={riskiest && worstTrial(riskiest) < -0.005 ? signed(worstTrial(riskiest)) : "—"}
+              value={riskiest && worstTrial(riskiest) < -0.005 ? signed(worstTrial(riskiest)) : "·"}
               hint={riskiest ? titleCase(riskiest.lever) : undefined}
               tone="down"
             />

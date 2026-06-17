@@ -59,7 +59,7 @@ export default function ComparePage() {
       <div className="flex flex-wrap items-center justify-between gap-3">
         <div>
           <h1 className="text-xl font-semibold text-slate-900">Compare concepts</h1>
-          <p className="text-sm text-slate-500">Select 2–5 report-ready concepts to compare side by side.</p>
+          <p className="text-sm text-slate-500">Select 2·5 report-ready concepts to compare side by side.</p>
         </div>
         <div className="flex gap-2">
           <Link className="btn-secondary" to="/portfolio/decision-board">Decision Board</Link>

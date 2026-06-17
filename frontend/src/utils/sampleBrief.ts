@@ -1,9 +1,9 @@
 import type { BriefIn } from "../types/api";
 
-// FreshPlus sample brief — mirrors samples/sample_innovation_brief.md so the
+// FreshPlus sample brief · mirrors samples/sample_innovation_brief.md so the
 // dashboard demo flow exercises the real backend pipeline (not fake results).
 export const SAMPLE_BRIEF_TEXT = `Brand: FreshPlus
-Product: FreshPlus Herbal Cool — a ready-to-drink herbal tea with 50% less sugar.
+Product: FreshPlus Herbal Cool · a ready-to-drink herbal tea with 50% less sugar.
 Benefit: Refreshes naturally with less sugar; a calm reset in the afternoon.
 Claims: 50% less sugar than leading RTD teas; contains chrysanthemum.
 Packaging: 450ml frosted PET bottle. Price: slightly premium.

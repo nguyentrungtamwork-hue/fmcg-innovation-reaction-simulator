@@ -20,7 +20,7 @@ import StudioProcessPanel from "../components/studio/StudioProcessPanel";
 import StudioConsole, { type ConsoleLine } from "../components/studio/StudioConsole";
 import { usePrefersReducedMotion } from "../hooks/usePrefersReducedMotion";
 import { useTour } from "../tours/TourProvider";
-import { num, titleCase } from "../utils/formatters";
+import { num, titleCase, type ColorBy } from "../utils/formatters";
 
 type Engine = "replay" | "live";
 type Layout = "graph" | "split" | "workbench";
@@ -74,6 +74,7 @@ export default function AgentStudioPage() {
   const [engine, setEngine] = useState<Engine>("replay");
   const [layout, setLayout] = useState<Layout>("split");
   const [showEdgeLabels, setShowEdgeLabels] = useState(false);
+  const [colorBy, setColorBy] = useState<ColorBy>("stance");
   const [sysLines, setSysLines] = useState<ConsoleLine[]>([]);
 
   const initialized = useRef(false);
@@ -217,7 +218,7 @@ export default function AgentStudioPage() {
   async function runSim() {
     setRunning(true);
     setError(null);
-    pushSys(logLine("POST /api/v1/projects/{id}/simulate — running simulation…", "warn"));
+    pushSys(logLine("POST /api/v1/projects/{id}/simulate · running simulation…", "warn"));
     try {
       await runSimulation(projectId, { rounds: 6, seed: 42, deterministic: true });
       pushSys(logLine("✓ Simulation completed", "success"));
@@ -233,7 +234,7 @@ export default function AgentStudioPage() {
   async function runStep(key: string, label: string, fn: () => Promise<unknown>) {
     setStepBusy(key);
     setError(null);
-    pushSys(logLine(`${label} — processing…`, "warn"));
+    pushSys(logLine(`${label} · processing…`, "warn"));
     try {
       await fn();
       pushSys(logLine(`✓ ${label} complete`, "success"));
@@ -293,6 +294,8 @@ export default function AgentStudioPage() {
       expanded={layout === "graph"}
       onToggleExpand={() => setLayout((l) => (l === "graph" ? "split" : "graph"))}
       live={playing || (engine === "live")}
+      colorBy={colorBy}
+      onColorBy={setColorBy}
     />
   ) : null;
 
@@ -315,14 +318,15 @@ export default function AgentStudioPage() {
       {/* Top bar */}
       <div className="card flex flex-wrap items-center justify-between gap-3">
         <div>
-          <div className="flex items-center gap-2">
-            <h1 className="text-xl font-semibold text-slate-900">Agent Studio</h1>
+          <div className="mono-label">Agent Studio</div>
+          <div className="mt-0.5 flex items-center gap-2.5">
+            <h1 className="text-2xl font-bold tracking-tightest text-slate-900">{state?.project.name ?? "Reaction Simulation"}</h1>
             <span className={`chip ${events.length > 0 ? "border-emerald-200 bg-emerald-50 text-emerald-700" : "border-slate-200 bg-slate-50 text-slate-500"}`}>
               <span className={`h-1.5 w-1.5 rounded-full ${events.length > 0 ? "bg-emerald-500" : "bg-slate-400"}`} /> {events.length > 0 ? "Ready" : "No simulation yet"}
             </span>
           </div>
-          <p className="text-sm text-slate-500">Watch FMCG consumer agents & market actors react — {state?.project.name}</p>
-          <div className="mt-2 flex flex-wrap items-center gap-2 text-xs">
+          <p className="mt-1 text-sm text-slate-500">Watch FMCG consumer agents and market actors react across the launch funnel.</p>
+          <div className="mt-2 flex flex-wrap items-center gap-2 font-mono text-[11px]">
             <span className="chip border-slate-200 bg-slate-50 text-slate-600">Agents: {state?.agents.length ?? 0}</span>
             <span className="chip border-slate-200 bg-slate-50 text-slate-600">Events: {events.length}</span>
             <span className="chip border-slate-200 bg-slate-50 text-slate-600">
@@ -350,7 +354,7 @@ export default function AgentStudioPage() {
         </div>
 
         <div className="flex flex-wrap gap-2">
-          {events.length > 0 && <button className="btn-secondary" onClick={() => { reset(); setPlaying(true); }}>▶ Replay</button>}
+          {events.length > 0 && <button className="btn-primary" onClick={() => { reset(); setPlaying(true); }}>Replay</button>}
           <Link className="btn-secondary" to={`/projects/${projectId}/report`}>Report</Link>
           <Link className="btn-secondary" to={`/projects/${projectId}/briefing`}>Briefing</Link>
           <Link className="btn-secondary" to={`/projects/${projectId}/events`}>Events</Link>
@@ -385,7 +389,7 @@ export default function AgentStudioPage() {
           <LivePanel
             projectId={projectId}
             graph={state.graph}
-            onCompleted={() => { setEngine("replay"); reset(); pushSys(logLine("✓ Live run completed — switched to Replay", "success")); void load(); }}
+            onCompleted={() => { setEngine("replay"); reset(); pushSys(logLine("✓ Live run completed · switched to Replay", "success")); void load(); }}
             onInspect={setInspect}
           />
           <StudioConsole lines={sysLines} projectId={projectId} />
@@ -393,7 +397,7 @@ export default function AgentStudioPage() {
       ) : events.length === 0 ? (
         <div className="card space-y-3">
           <h2 className="font-semibold text-slate-900">Get this simulation ready</h2>
-          <p className="text-sm text-slate-600">Run the remaining pipeline steps, then watch the playback here. This is a quick path — the full Workflow page still works.</p>
+          <p className="text-sm text-slate-600">Run the remaining pipeline steps, then watch the playback here. This is a quick path · the full Workflow page still works.</p>
           <ol className="space-y-2">
             <GuidedStep n={1} label="Submit a brief" done={!!pipeline.has_brief}
               action={!pipeline.has_brief ? <Link className="btn-secondary" to={`/projects/${projectId}/workflow`}>Open Workflow →</Link> : null} />
@@ -435,7 +439,7 @@ export default function AgentStudioPage() {
                 <MetricCard label="Repeats" value={String(counters.repeat)} tone="up" />
                 <MetricCard label="Recommends" value={String(counters.recommend)} tone="up" />
                 <MetricCard label="Complaints" value={String(counters.complaint)} tone="down" />
-                <MetricCard label="Avg sentiment" value={counters.n ? num(counters.sent / counters.n, 2) : "—"} />
+                <MetricCard label="Avg sentiment" value={counters.n ? num(counters.sent / counters.n, 2) : "·"} />
               </div>
 
               <div className="card space-y-3">

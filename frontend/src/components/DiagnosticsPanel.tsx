@@ -39,7 +39,7 @@ export default function DiagnosticsPanel({ open, onClose }: { open: boolean; onC
       setCopied(id);
       setTimeout(() => setCopied(null), 1500);
     } catch {
-      /* clipboard unavailable — ignore */
+      /* clipboard unavailable · ignore */
     }
   }, []);
 
@@ -58,18 +58,18 @@ export default function DiagnosticsPanel({ open, onClose }: { open: boolean; onC
 
   const rows: [string, string][] = [
     ["Backend", offline ? "offline" : "connected"],
-    ["Readiness", ready ? ready.status : "—"],
-    ["Version", status?.version ?? "—"],
-    ["Environment", status?.environment ?? "—"],
-    ["Demo mode", status ? String(status.demo_mode) : "—"],
-    ["LLM", status ? (status.llm_configured ? "configured" : "deterministic fallback") : "—"],
-    ["Database", status?.database_type ?? status?.database ?? "—"],
-    ["Live streaming", status?.live_streaming_supported ? "supported" : "—"],
-    ["Projects", diag ? String(diag.database.project_count) : "—"],
-    ["Baseline events", diag ? String(diag.database.event_count) : "—"],
-    ["Live runs", diag ? String(diag.database.live_run_count) : "—"],
-    ["App log entries", diag?.database.app_log_count != null ? String(diag.database.app_log_count) : "—"],
-    ["Last request ID", diag?.request_id ?? "—"],
+    ["Readiness", ready ? ready.status : "·"],
+    ["Version", status?.version ?? "·"],
+    ["Environment", status?.environment ?? "·"],
+    ["Demo mode", status ? String(status.demo_mode) : "·"],
+    ["LLM", status ? (status.llm_configured ? "configured" : "deterministic fallback") : "·"],
+    ["Database", status?.database_type ?? status?.database ?? "·"],
+    ["Live streaming", status?.live_streaming_supported ? "supported" : "·"],
+    ["Projects", diag ? String(diag.database.project_count) : "·"],
+    ["Baseline events", diag ? String(diag.database.event_count) : "·"],
+    ["Live runs", diag ? String(diag.database.live_run_count) : "·"],
+    ["App log entries", diag?.database.app_log_count != null ? String(diag.database.app_log_count) : "·"],
+    ["Last request ID", diag?.request_id ?? "·"],
   ];
 
   function downloadSnapshot() {
@@ -154,7 +154,7 @@ export default function DiagnosticsPanel({ open, onClose }: { open: boolean; onC
           <button className="btn-secondary" onClick={downloadSnapshot}>Download diagnostics snapshot</button>
           <Link className="btn-secondary" to="/data-tools" onClick={onClose}>Data Tools</Link>
         </div>
-        <p className="mt-3 text-[11px] text-slate-400">Read-only operational info — no secrets exposed.</p>
+        <p className="mt-3 text-[11px] text-slate-400">Read-only operational info · no secrets exposed.</p>
       </aside>
     </div>
   );

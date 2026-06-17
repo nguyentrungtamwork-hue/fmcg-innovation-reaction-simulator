@@ -23,7 +23,7 @@ export default function DriftIndicator({ projectId }: { projectId: string }) {
         if (!cancelled && d) setDiff(d);
       })
       .catch(() => {
-        /* no snapshots / not ready — stay silent */
+        /* no snapshots / not ready · stay silent */
       });
     return () => {
       cancelled = true;

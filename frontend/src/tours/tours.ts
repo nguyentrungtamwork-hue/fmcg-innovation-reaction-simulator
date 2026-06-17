@@ -28,7 +28,7 @@ export const FIRST_TIME_TOUR: Tour = {
       route: "/",
       placement: "center",
       title: "Welcome to the FMCG Innovation Reaction Simulator",
-      body: "This tool simulates how consumers and market actors might react to a new product concept across a launch funnel. Everything is exploratory decision support — not a market forecast.",
+      body: "This tool simulates how consumers and market actors might react to a new product concept across a launch funnel. Everything is exploratory decision support · not a market forecast.",
     },
     {
       id: "samples",
@@ -75,7 +75,7 @@ export const FIRST_TIME_TOUR: Tour = {
       target_selector: "[data-tour='data-tools-root']",
       placement: "top",
       title: "Save or share your work",
-      body: "Export a project as a single no-secret JSON bundle, import one back, or back up / reset the local database. That's the whole tour — enjoy exploring!",
+      body: "Export a project as a single no-secret JSON bundle, import one back, or back up / reset the local database. That's the whole tour · enjoy exploring!",
     },
   ],
 };
@@ -96,7 +96,7 @@ export const STUDIO_TOUR: Tour = {
       target_selector: "[data-tour='studio-live']",
       placement: "bottom",
       title: "Live Mode vs Replay Mode",
-      body: "Live Mode streams a fresh run as the backend generates and persists it. Replay Mode animates already-saved events client-side — no recomputation.",
+      body: "Live Mode streams a fresh run as the backend generates and persists it. Replay Mode animates already-saved events client-side · no recomputation.",
     },
     {
       id: "studio-canvas",
@@ -116,7 +116,7 @@ export const STUDIO_TOUR: Tour = {
       id: "studio-disclaimer",
       placement: "center",
       title: "About the network edges",
-      body: "Edges between agents are heuristic visual groupings (e.g. shared segment), not a measured social graph. Treat the whole view as exploratory decision support — simulated reactions, not a real-world forecast.",
+      body: "Edges between agents are heuristic visual groupings (e.g. shared segment), not a measured social graph. Treat the whole view as exploratory decision support · simulated reactions, not a real-world forecast.",
     },
   ],
 };

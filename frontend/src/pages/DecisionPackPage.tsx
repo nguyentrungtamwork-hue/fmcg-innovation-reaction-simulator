@@ -63,13 +63,13 @@ export default function DecisionPackPage() {
         <div className="mt-3 grid gap-3 sm:grid-cols-3">
           <MetricCard label="Overall score" value={`${h.overall_score}/100`} tone="up" />
           <MetricCard label="Recommendation" value={titleCase(String(h.recommendation_status ?? ""))} />
-          <MetricCard label="Confidence" value={String(h.confidence_label ?? "—")} />
+          <MetricCard label="Confidence" value={String(h.confidence_label ?? "·")} />
         </div>
       </div>
 
       <DecisionPackSection title="Recommendation">
         <p className="text-sm text-slate-700">
-          <strong>{titleCase(String(h.recommendation_status ?? ""))}</strong> — {es.recommended_decision}
+          <strong>{titleCase(String(h.recommendation_status ?? ""))}</strong> · {es.recommended_decision}
         </p>
         <p className="mt-1 text-sm text-slate-600">{es.rationale}</p>
         {Array.isArray(es.conditions_before_launch) && es.conditions_before_launch.length > 0 && (
@@ -84,10 +84,10 @@ export default function DecisionPackPage() {
 
       <DecisionPackSection title="Scorecard">
         <div className="grid gap-2 sm:grid-cols-4">
-          <MetricCard label="Overall" value={`${sc.overall_score ?? "—"}`} />
-          <MetricCard label="Trial potential" value={`${sc.trial_potential_score ?? "—"}`} />
-          <MetricCard label="Repeat potential" value={`${sc.repeat_potential_score ?? "—"}`} />
-          <MetricCard label="Risk" value={`${sc.risk_score ?? "—"}`} />
+          <MetricCard label="Overall" value={`${sc.overall_score ?? "·"}`} />
+          <MetricCard label="Trial potential" value={`${sc.trial_potential_score ?? "·"}`} />
+          <MetricCard label="Repeat potential" value={`${sc.repeat_potential_score ?? "·"}`} />
+          <MetricCard label="Risk" value={`${sc.risk_score ?? "·"}`} />
         </div>
         {sc.disclaimer && <p className="mt-2 text-xs text-slate-400">{sc.disclaimer}</p>}
       </DecisionPackSection>
@@ -96,7 +96,7 @@ export default function DecisionPackPage() {
         <ul className="space-y-2 text-sm">
           {(pack.top_findings ?? []).map((f: any, i: number) => (
             <li key={i}>
-              <span className="font-medium text-slate-800">{f.finding_title}</span> — {f.explanation}
+              <span className="font-medium text-slate-800">{f.finding_title}</span> · {f.explanation}
               {f.supporting_metric && <span className="text-slate-500"> ({f.supporting_metric})</span>}
             </li>
           ))}
@@ -108,7 +108,7 @@ export default function DecisionPackPage() {
           {(pack.biggest_risks ?? []).map((r: any, i: number) => (
             <li key={i}>
               <span className="font-medium text-rose-700">{r.risk_title}</span>{" "}
-              <span className="text-xs text-slate-400">({r.severity})</span> — {r.why_it_matters}
+              <span className="text-xs text-slate-400">({r.severity})</span> · {r.why_it_matters}
               {r.mitigation && <span className="block text-xs text-slate-500">Mitigation: {r.mitigation}</span>}
             </li>
           ))}
@@ -120,7 +120,7 @@ export default function DecisionPackPage() {
           {(pack.next_best_actions ?? []).map((a: any, i: number) => (
             <li key={i}>
               <span className="chip border-slate-200 bg-slate-50 text-slate-600">{a.priority}</span> {a.action}
-              {a.owner_team && <span className="text-xs text-slate-400"> — {a.owner_team}</span>}
+              {a.owner_team && <span className="text-xs text-slate-400"> · {a.owner_team}</span>}
             </li>
           ))}
         </ul>
@@ -132,7 +132,7 @@ export default function DecisionPackPage() {
           {(pack.scenario_summary?.scenarios ?? []).map((s: any, i: number) => (
             <li key={i}>
               <span className="font-medium text-slate-800">{s.scenario_name}</span>
-              {s.delta_summary && <span className="text-slate-600"> — {s.delta_summary}</span>}
+              {s.delta_summary && <span className="text-slate-600"> · {s.delta_summary}</span>}
             </li>
           ))}
         </ul>
@@ -141,7 +141,7 @@ export default function DecisionPackPage() {
 
       <DecisionPackSection title="Assumptions & Limitations">
         <p className="text-sm text-slate-700">
-          Assumptions — high: {pack.assumptions_summary?.high_impact_count ?? 0}, medium:{" "}
+          Assumptions · high: {pack.assumptions_summary?.high_impact_count ?? 0}, medium:{" "}
           {pack.assumptions_summary?.medium_impact_count ?? 0}, low: {pack.assumptions_summary?.low_impact_count ?? 0}.
         </p>
         <ul className="mt-1 list-inside list-disc text-sm text-slate-600">

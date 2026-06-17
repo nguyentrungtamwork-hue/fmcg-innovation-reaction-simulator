@@ -15,7 +15,7 @@ const FRIENDLY: Record<string, string> = {
   board_summary_required: "Generate the board summary first.",
   snapshot_not_found: "That snapshot could not be found.",
   scorecard_required: "Generate the report/scorecard first.",
-  ontology_not_found: "No ontology yet — analyze the brief first.",
+  ontology_not_found: "No ontology yet · analyze the brief first.",
   network_error: "Cannot reach the backend. Start it with `uvicorn app.main:app --reload`.",
 };
 
@@ -38,7 +38,7 @@ export default function ErrorState({ error, onRetry }: { error: unknown; onRetry
       setCopied(true);
       setTimeout(() => setCopied(false), 1500);
     } catch {
-      /* clipboard unavailable — ignore */
+      /* clipboard unavailable · ignore */
     }
   };
   return (

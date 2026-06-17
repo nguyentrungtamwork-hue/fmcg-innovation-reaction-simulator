@@ -116,7 +116,7 @@ export default function StudioProcessPanel({
         n="02"
         title="Ontology Extraction"
         endpoint="POST /api/v1/projects/{id}/analyze"
-        description="Extract claims, segments, triggers and barriers — the structured map the agents react to."
+        description="Extract claims, segments, triggers and barriers · the structured map the agents react to."
         state={stateOf("has_ontology", busyStep === "ont")}
         cta={p.has_brief && !p.has_ontology ? <button className="btn-secondary" disabled={busyStep === "ont"} onClick={onAnalyze}>{busyStep === "ont" ? "Analyzing…" : "Analyze"}</button> : null}
       />

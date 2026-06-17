@@ -58,8 +58,8 @@ export default function PortfolioPage() {
       <div className="grid gap-3 sm:grid-cols-4">
         <MetricCard label="Projects" value={String(s.total_projects)} />
         <MetricCard label="Report-ready" value={String(s.report_ready_projects)} />
-        <MetricCard label="Top concept" value={s.highest_score_project ?? "—"} tone="up" />
-        <MetricCard label="Highest risk" value={s.highest_risk_project ?? "—"} tone="down" />
+        <MetricCard label="Top concept" value={s.highest_score_project ?? "·"} tone="up" />
+        <MetricCard label="Highest risk" value={s.highest_risk_project ?? "·"} tone="down" />
       </div>
 
       <div className="card">
@@ -108,13 +108,13 @@ export default function PortfolioPage() {
                 {rows.map((p) => (
                   <tr key={p.project_id} className="cursor-pointer border-b border-slate-100 hover:bg-slate-50" onClick={() => navigate(`/projects/${p.project_id}/workflow`)}>
                     <td className="py-2 pr-2 font-medium text-slate-800">{p.project_name}</td>
-                    <td className="px-2 font-semibold text-brand-700">{p.overall_score ?? "—"}</td>
-                    <td className="px-2">{p.confidence_score != null ? num(p.confidence_score, 2) : "—"}</td>
-                    <td className="px-2">{p.trial_potential_score ?? "—"}</td>
-                    <td className="px-2">{p.repeat_potential_score ?? "—"}</td>
-                    <td className="px-2">{p.risk_score ?? "—"}</td>
-                    <td className="px-2 text-xs text-slate-600">{p.top_opportunity ?? (p.has_report ? "—" : "No report yet")}</td>
-                    <td className="px-2 text-xs text-slate-600">{p.recommended_next_step ?? "—"}</td>
+                    <td className="px-2 font-semibold text-brand-700">{p.overall_score ?? "·"}</td>
+                    <td className="px-2">{p.confidence_score != null ? num(p.confidence_score, 2) : "·"}</td>
+                    <td className="px-2">{p.trial_potential_score ?? "·"}</td>
+                    <td className="px-2">{p.repeat_potential_score ?? "·"}</td>
+                    <td className="px-2">{p.risk_score ?? "·"}</td>
+                    <td className="px-2 text-xs text-slate-600">{p.top_opportunity ?? (p.has_report ? "·" : "No report yet")}</td>
+                    <td className="px-2 text-xs text-slate-600">{p.recommended_next_step ?? "·"}</td>
                     <td className="px-2 text-right">
                       {p.has_report && (
                         <span className="flex justify-end gap-2">
